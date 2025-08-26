@@ -1,0 +1,6932 @@
+[
+  {
+    "time": 0.0,
+    "distance": 0.0,
+    "heartRate": 70.0,
+    "latitude": 53.8928297907114,
+    "longitude": 27.744117183610797
+  },
+  {
+    "time": 3.0,
+    "distance": 16.299999237060547,
+    "heartRate": 73.0,
+    "latitude": 53.89290036633611,
+    "longitude": 27.743900259956717
+  },
+  {
+    "time": 9.0,
+    "distance": 42.61000061035156,
+    "heartRate": 69.0,
+    "latitude": 53.89297421090305,
+    "longitude": 27.743530198931694
+  },
+  {
+    "time": 11.0,
+    "distance": 55.220001220703125,
+    "heartRate": 64.0,
+    "latitude": 53.89302701689303,
+    "longitude": 27.743360633030534
+  },
+  {
+    "time": 12.0,
+    "distance": 61.63999938964844,
+    "heartRate": 64.0,
+    "latitude": 53.89305685646832,
+    "longitude": 27.743277149274945
+  },
+  {
+    "time": 17.0,
+    "distance": 95.87000274658203,
+    "heartRate": 63.0,
+    "latitude": 53.89322021976113,
+    "longitude": 27.742836512625217
+  },
+  {
+    "time": 18.0,
+    "distance": 102.43000030517578,
+    "heartRate": 63.0,
+    "latitude": 53.89326254837215,
+    "longitude": 27.74276677519083
+  },
+  {
+    "time": 19.0,
+    "distance": 108.62000274658203,
+    "heartRate": 69.0,
+    "latitude": 53.89331636019051,
+    "longitude": 27.742743473500013
+  },
+  {
+    "time": 20.0,
+    "distance": 115.19999694824219,
+    "heartRate": 76.0,
+    "latitude": 53.893375201150775,
+    "longitude": 27.74275495670736
+  },
+  {
+    "time": 21.0,
+    "distance": 122.08000183105469,
+    "heartRate": 80.0,
+    "latitude": 53.893430856987834,
+    "longitude": 27.742801057174802
+  },
+  {
+    "time": 22.0,
+    "distance": 128.82000732421875,
+    "heartRate": 84.0,
+    "latitude": 53.89348994940519,
+    "longitude": 27.74282486177981
+  },
+  {
+    "time": 23.0,
+    "distance": 136.57000732421875,
+    "heartRate": 89.0,
+    "latitude": 53.89356002211571,
+    "longitude": 27.742819413542747
+  },
+  {
+    "time": 24.0,
+    "distance": 143.8800048828125,
+    "heartRate": 94.0,
+    "latitude": 53.89362129382789,
+    "longitude": 27.74277800694108
+  },
+  {
+    "time": 25.0,
+    "distance": 150.9499969482422,
+    "heartRate": 99.0,
+    "latitude": 53.893673261627555,
+    "longitude": 27.742715561762452
+  },
+  {
+    "time": 26.0,
+    "distance": 157.94000244140625,
+    "heartRate": 104.0,
+    "latitude": 53.89371760189533,
+    "longitude": 27.742640040814877
+  },
+  {
+    "time": 27.0,
+    "distance": 164.8300018310547,
+    "heartRate": 109.0,
+    "latitude": 53.89375615864992,
+    "longitude": 27.74255814962089
+  },
+  {
+    "time": 28.0,
+    "distance": 171.86000061035156,
+    "heartRate": 114.0,
+    "latitude": 53.893795469775796,
+    "longitude": 27.742474414408207
+  },
+  {
+    "time": 29.0,
+    "distance": 178.97999572753906,
+    "heartRate": 119.0,
+    "latitude": 53.89383092522621,
+    "longitude": 27.742384308949113
+  },
+  {
+    "time": 30.0,
+    "distance": 186.5800018310547,
+    "heartRate": 122.0,
+    "latitude": 53.8938644528389,
+    "longitude": 27.742283307015896
+  },
+  {
+    "time": 32.0,
+    "distance": 202.08999633789062,
+    "heartRate": 121.0,
+    "latitude": 53.89393117278814,
+    "longitude": 27.742075938731432
+  },
+  {
+    "time": 35.0,
+    "distance": 223.9199981689453,
+    "heartRate": 120.0,
+    "latitude": 53.894024631008506,
+    "longitude": 27.741784080863
+  },
+  {
+    "time": 40.0,
+    "distance": 260.9200134277344,
+    "heartRate": 120.0,
+    "latitude": 53.89418866485357,
+    "longitude": 27.74129549972713
+  },
+  {
+    "time": 43.0,
+    "distance": 281.9800109863281,
+    "heartRate": 120.0,
+    "latitude": 53.894291343167424,
+    "longitude": 27.74102627299726
+  },
+  {
+    "time": 45.0,
+    "distance": 294.6700134277344,
+    "heartRate": 120.0,
+    "latitude": 53.89432185329497,
+    "longitude": 27.740841284394264
+  },
+  {
+    "time": 47.0,
+    "distance": 307.8699951171875,
+    "heartRate": 121.0,
+    "latitude": 53.89434549026191,
+    "longitude": 27.74064464494586
+  },
+  {
+    "time": 49.0,
+    "distance": 320.8999938964844,
+    "heartRate": 121.0,
+    "latitude": 53.894396955147386,
+    "longitude": 27.740466445684433
+  },
+  {
+    "time": 53.0,
+    "distance": 348.95001220703125,
+    "heartRate": 121.0,
+    "latitude": 53.89447255991399,
+    "longitude": 27.740060845389962
+  },
+  {
+    "time": 54.0,
+    "distance": 356.6199951171875,
+    "heartRate": 121.0,
+    "latitude": 53.89448136091232,
+    "longitude": 27.739945175126195
+  },
+  {
+    "time": 57.0,
+    "distance": 380.25,
+    "heartRate": 121.0,
+    "latitude": 53.89447356574237,
+    "longitude": 27.73958718404174
+  },
+  {
+    "time": 58.0,
+    "distance": 388.5400085449219,
+    "heartRate": 121.0,
+    "latitude": 53.89445872977376,
+    "longitude": 27.73946355096996
+  },
+  {
+    "time": 61.0,
+    "distance": 414.0899963378906,
+    "heartRate": 121.0,
+    "latitude": 53.89439066872001,
+    "longitude": 27.739092651754618
+  },
+  {
+    "time": 63.0,
+    "distance": 431.6099853515625,
+    "heartRate": 120.0,
+    "latitude": 53.894332498312,
+    "longitude": 27.7388449665159
+  },
+  {
+    "time": 69.0,
+    "distance": 484.5899963378906,
+    "heartRate": 119.0,
+    "latitude": 53.89415027573705,
+    "longitude": 27.738100569695234
+  },
+  {
+    "time": 70.0,
+    "distance": 493.05999755859375,
+    "heartRate": 125.0,
+    "latitude": 53.89412077143788,
+    "longitude": 27.737981714308262
+  },
+  {
+    "time": 72.0,
+    "distance": 509.6300048828125,
+    "heartRate": 122.0,
+    "latitude": 53.89406528323889,
+    "longitude": 27.737747775390744
+  },
+  {
+    "time": 73.0,
+    "distance": 517.7100219726562,
+    "heartRate": 121.0,
+    "latitude": 53.89403737150133,
+    "longitude": 27.737634368240833
+  },
+  {
+    "time": 78.0,
+    "distance": 554.5999755859375,
+    "heartRate": 120.0,
+    "latitude": 53.89394525438547,
+    "longitude": 27.73709675297141
+  },
+  {
+    "time": 79.0,
+    "distance": 561.3200073242188,
+    "heartRate": 120.0,
+    "latitude": 53.893938716501,
+    "longitude": 27.736995248124003
+  },
+  {
+    "time": 80.0,
+    "distance": 567.8400268554688,
+    "heartRate": 120.0,
+    "latitude": 53.89393636956811,
+    "longitude": 27.736896006390452
+  },
+  {
+    "time": 82.0,
+    "distance": 579.6599731445312,
+    "heartRate": 120.0,
+    "latitude": 53.893943494185805,
+    "longitude": 27.736716801300645
+  },
+  {
+    "time": 83.0,
+    "distance": 584.989990234375,
+    "heartRate": 121.0,
+    "latitude": 53.89395212754607,
+    "longitude": 27.736637005582452
+  },
+  {
+    "time": 86.0,
+    "distance": 594.9500122070312,
+    "heartRate": 120.0,
+    "latitude": 53.893983559682965,
+    "longitude": 27.73649711161852
+  },
+  {
+    "time": 88.0,
+    "distance": 596.8699951171875,
+    "heartRate": 120.0,
+    "latitude": 53.89400049112737,
+    "longitude": 27.736489232629538
+  },
+  {
+    "time": 89.0,
+    "distance": 597.0900268554688,
+    "heartRate": 120.0,
+    "latitude": 53.89400275424123,
+    "longitude": 27.736488729715347
+  },
+  {
+    "time": 89.0,
+    "distance": 597.0900268554688,
+    "heartRate": 109.0,
+    "latitude": 53.8940058555454,
+    "longitude": 27.7364444732666
+  },
+  {
+    "time": 90.0,
+    "distance": 598.3400268554688,
+    "heartRate": 113.0,
+    "latitude": 53.894008453935385,
+    "longitude": 27.736425949260592
+  },
+  {
+    "time": 91.0,
+    "distance": 599.4299926757812,
+    "heartRate": 118.0,
+    "latitude": 53.89401180669665,
+    "longitude": 27.736410358920693
+  },
+  {
+    "time": 92.0,
+    "distance": 600.8300170898438,
+    "heartRate": 121.0,
+    "latitude": 53.89401700347662,
+    "longitude": 27.736390829086304
+  },
+  {
+    "time": 95.0,
+    "distance": 607.2999877929688,
+    "heartRate": 120.0,
+    "latitude": 53.894038796424866,
+    "longitude": 27.736299466341734
+  },
+  {
+    "time": 100.0,
+    "distance": 627.9299926757812,
+    "heartRate": 120.0,
+    "latitude": 53.89410090632737,
+    "longitude": 27.736003836616874
+  },
+  {
+    "time": 101.0,
+    "distance": 632.9000244140625,
+    "heartRate": 120.0,
+    "latitude": 53.894114065915346,
+    "longitude": 27.735931668430567
+  },
+  {
+    "time": 104.0,
+    "distance": 648.6699829101562,
+    "heartRate": 120.0,
+    "latitude": 53.89415564015508,
+    "longitude": 27.735702423378825
+  },
+  {
+    "time": 107.0,
+    "distance": 665.25,
+    "heartRate": 120.0,
+    "latitude": 53.894198052585125,
+    "longitude": 27.735460605472326
+  },
+  {
+    "time": 110.0,
+    "distance": 681.280029296875,
+    "heartRate": 120.0,
+    "latitude": 53.89423258602619,
+    "longitude": 27.7352237328887
+  },
+  {
+    "time": 113.0,
+    "distance": 696.3300170898438,
+    "heartRate": 120.0,
+    "latitude": 53.8942667003721,
+    "longitude": 27.735002199187875
+  },
+  {
+    "time": 115.0,
+    "distance": 706.25,
+    "heartRate": 120.0,
+    "latitude": 53.894289918243885,
+    "longitude": 27.73485635407269
+  },
+  {
+    "time": 121.0,
+    "distance": 735.8699951171875,
+    "heartRate": 120.0,
+    "latitude": 53.89435320161283,
+    "longitude": 27.734418818727136
+  },
+  {
+    "time": 123.0,
+    "distance": 745.6799926757812,
+    "heartRate": 120.0,
+    "latitude": 53.89437801204622,
+    "longitude": 27.734275655820966
+  },
+  {
+    "time": 124.0,
+    "distance": 750.5,
+    "heartRate": 120.0,
+    "latitude": 53.894389579072595,
+    "longitude": 27.73420499637723
+  },
+  {
+    "time": 126.0,
+    "distance": 759.97998046875,
+    "heartRate": 120.0,
+    "latitude": 53.89441313222051,
+    "longitude": 27.734066359698772
+  },
+  {
+    "time": 127.0,
+    "distance": 764.77001953125,
+    "heartRate": 124.0,
+    "latitude": 53.894424783065915,
+    "longitude": 27.733996203169227
+  },
+  {
+    "time": 128.0,
+    "distance": 769.5999755859375,
+    "heartRate": 124.0,
+    "latitude": 53.894438445568085,
+    "longitude": 27.73392654955387
+  },
+  {
+    "time": 130.0,
+    "distance": 778.6599731445312,
+    "heartRate": 121.0,
+    "latitude": 53.894457556307316,
+    "longitude": 27.73379260674119
+  },
+  {
+    "time": 131.0,
+    "distance": 783.3900146484375,
+    "heartRate": 121.0,
+    "latitude": 53.89446853660047,
+    "longitude": 27.733722953125834
+  },
+  {
+    "time": 133.0,
+    "distance": 793.1199951171875,
+    "heartRate": 120.0,
+    "latitude": 53.894489742815495,
+    "longitude": 27.73357911966741
+  },
+  {
+    "time": 137.0,
+    "distance": 811.780029296875,
+    "heartRate": 120.0,
+    "latitude": 53.89453634619713,
+    "longitude": 27.733306623995304
+  },
+  {
+    "time": 143.0,
+    "distance": 839.0999755859375,
+    "heartRate": 120.0,
+    "latitude": 53.8945930916816,
+    "longitude": 27.732902700081468
+  },
+  {
+    "time": 145.0,
+    "distance": 848.0399780273438,
+    "heartRate": 120.0,
+    "latitude": 53.8946137111634,
+    "longitude": 27.73277135565877
+  },
+  {
+    "time": 147.0,
+    "distance": 857.6500244140625,
+    "heartRate": 120.0,
+    "latitude": 53.89464204199612,
+    "longitude": 27.732633473351598
+  },
+  {
+    "time": 150.0,
+    "distance": 872.25,
+    "heartRate": 120.0,
+    "latitude": 53.894685208797455,
+    "longitude": 27.732423674315214
+  },
+  {
+    "time": 152.0,
+    "distance": 882.1199951171875,
+    "heartRate": 120.0,
+    "latitude": 53.89471270143986,
+    "longitude": 27.732281014323235
+  },
+  {
+    "time": 158.0,
+    "distance": 911.72998046875,
+    "heartRate": 120.0,
+    "latitude": 53.894799537956715,
+    "longitude": 27.73185521364212
+  },
+  {
+    "time": 159.0,
+    "distance": 916.6599731445312,
+    "heartRate": 120.0,
+    "latitude": 53.89481345191598,
+    "longitude": 27.731783967465162
+  },
+  {
+    "time": 163.0,
+    "distance": 936.239990234375,
+    "heartRate": 120.0,
+    "latitude": 53.89486910775304,
+    "longitude": 27.731501581147313
+  },
+  {
+    "time": 165.0,
+    "distance": 945.6300048828125,
+    "heartRate": 120.0,
+    "latitude": 53.894892409443855,
+    "longitude": 27.73136420175433
+  },
+  {
+    "time": 167.0,
+    "distance": 955.2100219726562,
+    "heartRate": 120.0,
+    "latitude": 53.89492090791464,
+    "longitude": 27.73122673854232
+  },
+  {
+    "time": 173.0,
+    "distance": 986.4000244140625,
+    "heartRate": 120.0,
+    "latitude": 53.89501084573567,
+    "longitude": 27.73077730089426
+  },
+  {
+    "time": 175.0,
+    "distance": 996.989990234375,
+    "heartRate": 120.0,
+    "latitude": 53.89503641054034,
+    "longitude": 27.730622235685587
+  },
+  {
+    "time": 181.0,
+    "distance": 1029.68994140625,
+    "heartRate": 120.0,
+    "latitude": 53.89513045549393,
+    "longitude": 27.73015092127025
+  },
+  {
+    "time": 184.0,
+    "distance": 1046.9599609375,
+    "heartRate": 120.0,
+    "latitude": 53.895183512941,
+    "longitude": 27.72990415804088
+  },
+  {
+    "time": 190.0,
+    "distance": 1080.4300537109375,
+    "heartRate": 121.0,
+    "latitude": 53.89527973718941,
+    "longitude": 27.729421947151423
+  },
+  {
+    "time": 191.0,
+    "distance": 1086.3900146484375,
+    "heartRate": 120.0,
+    "latitude": 53.895296500995755,
+    "longitude": 27.72933578118682
+  },
+  {
+    "time": 192.0,
+    "distance": 1092.489990234375,
+    "heartRate": 120.0,
+    "latitude": 53.89531586319208,
+    "longitude": 27.729249028488994
+  },
+  {
+    "time": 195.0,
+    "distance": 1111.52001953125,
+    "heartRate": 120.0,
+    "latitude": 53.89536749571562,
+    "longitude": 27.728973012417555
+  },
+  {
+    "time": 197.0,
+    "distance": 1124.7099609375,
+    "heartRate": 120.0,
+    "latitude": 53.89540730975568,
+    "longitude": 27.728784000501037
+  },
+  {
+    "time": 198.0,
+    "distance": 1131.0899658203125,
+    "heartRate": 120.0,
+    "latitude": 53.895423486828804,
+    "longitude": 27.7286908775568
+  },
+  {
+    "time": 204.0,
+    "distance": 1167.3800048828125,
+    "heartRate": 120.0,
+    "latitude": 53.89551920816302,
+    "longitude": 27.728163320571184
+  },
+  {
+    "time": 205.0,
+    "distance": 1173.1700439453125,
+    "heartRate": 120.0,
+    "latitude": 53.89553479850292,
+    "longitude": 27.728079250082374
+  },
+  {
+    "time": 207.0,
+    "distance": 1184.3599853515625,
+    "heartRate": 120.0,
+    "latitude": 53.89556606300175,
+    "longitude": 27.727917479351163
+  },
+  {
+    "time": 211.0,
+    "distance": 1206.1199951171875,
+    "heartRate": 121.0,
+    "latitude": 53.895624903962016,
+    "longitude": 27.72760164923966
+  },
+  {
+    "time": 214.0,
+    "distance": 1222.27001953125,
+    "heartRate": 119.0,
+    "latitude": 53.89567301608622,
+    "longitude": 27.72737005725503
+  },
+  {
+    "time": 218.0,
+    "distance": 1246.1600341796875,
+    "heartRate": 120.0,
+    "latitude": 53.895746441558,
+    "longitude": 27.727028829976916
+  },
+  {
+    "time": 223.0,
+    "distance": 1277.8900146484375,
+    "heartRate": 117.0,
+    "latitude": 53.89579916372895,
+    "longitude": 27.72655500099063
+  },
+  {
+    "time": 225.0,
+    "distance": 1290.550048828125,
+    "heartRate": 117.0,
+    "latitude": 53.895807545632124,
+    "longitude": 27.726362887769938
+  },
+  {
+    "time": 229.0,
+    "distance": 1314.1700439453125,
+    "heartRate": 117.0,
+    "latitude": 53.895827578380704,
+    "longitude": 27.726005064323545
+  },
+  {
+    "time": 233.0,
+    "distance": 1337.8599853515625,
+    "heartRate": 117.0,
+    "latitude": 53.89585138298571,
+    "longitude": 27.725647073239088
+  },
+  {
+    "time": 236.0,
+    "distance": 1355.3900146484375,
+    "heartRate": 120.0,
+    "latitude": 53.89587040990591,
+    "longitude": 27.72538237273693
+  },
+  {
+    "time": 239.0,
+    "distance": 1372.6300048828125,
+    "heartRate": 126.0,
+    "latitude": 53.89590376988053,
+    "longitude": 27.72512630559504
+  },
+  {
+    "time": 241.0,
+    "distance": 1383.93994140625,
+    "heartRate": 122.0,
+    "latitude": 53.8959348667413,
+    "longitude": 27.7249626070261
+  },
+  {
+    "time": 247.0,
+    "distance": 1418.1700439453125,
+    "heartRate": 120.0,
+    "latitude": 53.896027989685535,
+    "longitude": 27.724466733634472
+  },
+  {
+    "time": 249.0,
+    "distance": 1429.5999755859375,
+    "heartRate": 120.0,
+    "latitude": 53.89605254866183,
+    "longitude": 27.724297838285565
+  },
+  {
+    "time": 255.0,
+    "distance": 1463.1800537109375,
+    "heartRate": 120.0,
+    "latitude": 53.8961161673069,
+    "longitude": 27.72379861213267
+  },
+  {
+    "time": 258.0,
+    "distance": 1478.9599609375,
+    "heartRate": 118.0,
+    "latitude": 53.89613854698837,
+    "longitude": 27.723561571910977
+  },
+  {
+    "time": 260.0,
+    "distance": 1489.739990234375,
+    "heartRate": 120.0,
+    "latitude": 53.89615019783378,
+    "longitude": 27.72339896298945
+  },
+  {
+    "time": 262.0,
+    "distance": 1500.6700439453125,
+    "heartRate": 120.0,
+    "latitude": 53.89612538740039,
+    "longitude": 27.72323928773403
+  },
+  {
+    "time": 263.0,
+    "distance": 1506.56005859375,
+    "heartRate": 120.0,
+    "latitude": 53.89610644429922,
+    "longitude": 27.723155552521348
+  },
+  {
+    "time": 264.0,
+    "distance": 1512.6800537109375,
+    "heartRate": 120.0,
+    "latitude": 53.8960833940655,
+    "longitude": 27.723070979118347
+  },
+  {
+    "time": 266.0,
+    "distance": 1524.9000244140625,
+    "heartRate": 120.0,
+    "latitude": 53.89601700939238,
+    "longitude": 27.72292354144156
+  },
+  {
+    "time": 268.0,
+    "distance": 1537.5,
+    "heartRate": 121.0,
+    "latitude": 53.895929334685206,
+    "longitude": 27.722802255302668
+  },
+  {
+    "time": 270.0,
+    "distance": 1549.8900146484375,
+    "heartRate": 120.0,
+    "latitude": 53.89584006741643,
+    "longitude": 27.722689686343074
+  },
+  {
+    "time": 271.0,
+    "distance": 1555.8299560546875,
+    "heartRate": 120.0,
+    "latitude": 53.89579597860575,
+    "longitude": 27.722638808190823
+  },
+  {
+    "time": 274.0,
+    "distance": 1574.6099853515625,
+    "heartRate": 120.0,
+    "latitude": 53.89565641991794,
+    "longitude": 27.72248131223023
+  },
+  {
+    "time": 275.0,
+    "distance": 1581.780029296875,
+    "heartRate": 121.0,
+    "latitude": 53.895597914233804,
+    "longitude": 27.72243588231504
+  },
+  {
+    "time": 276.0,
+    "distance": 1588.719970703125,
+    "heartRate": 120.0,
+    "latitude": 53.89553898945451,
+    "longitude": 27.722401013597846
+  },
+  {
+    "time": 278.0,
+    "distance": 1601.7099609375,
+    "heartRate": 120.0,
+    "latitude": 53.89542767778039,
+    "longitude": 27.722340328618884
+  },
+  {
+    "time": 280.0,
+    "distance": 1612.8599853515625,
+    "heartRate": 120.0,
+    "latitude": 53.89534201472998,
+    "longitude": 27.722251564264297
+  },
+  {
+    "time": 281.0,
+    "distance": 1617.6300048828125,
+    "heartRate": 120.0,
+    "latitude": 53.89530781656504,
+    "longitude": 27.72220764309168
+  },
+  {
+    "time": 285.0,
+    "distance": 1637.5699462890625,
+    "heartRate": 120.0,
+    "latitude": 53.89514319598675,
+    "longitude": 27.722103539854288
+  },
+  {
+    "time": 291.0,
+    "distance": 1666.8800048828125,
+    "heartRate": 121.0,
+    "latitude": 53.89491914771497,
+    "longitude": 27.721872283145785
+  },
+  {
+    "time": 293.0,
+    "distance": 1677.1700439453125,
+    "heartRate": 120.0,
+    "latitude": 53.89483432285488,
+    "longitude": 27.72181000560522
+  },
+  {
+    "time": 296.0,
+    "distance": 1693.1700439453125,
+    "heartRate": 119.0,
+    "latitude": 53.8947001285851,
+    "longitude": 27.72172098979354
+  },
+  {
+    "time": 297.0,
+    "distance": 1698.93994140625,
+    "heartRate": 118.0,
+    "latitude": 53.89465277083218,
+    "longitude": 27.72168536670506
+  },
+  {
+    "time": 300.0,
+    "distance": 1714.489990234375,
+    "heartRate": 119.0,
+    "latitude": 53.894532741978765,
+    "longitude": 27.721564080566168
+  },
+  {
+    "time": 301.0,
+    "distance": 1719.2900390625,
+    "heartRate": 121.0,
+    "latitude": 53.89450122602284,
+    "longitude": 27.72151429206133
+  },
+  {
+    "time": 303.0,
+    "distance": 1729.52001953125,
+    "heartRate": 120.0,
+    "latitude": 53.89443048276007,
+    "longitude": 27.721415637061
+  },
+  {
+    "time": 304.0,
+    "distance": 1734.3699951171875,
+    "heartRate": 119.0,
+    "latitude": 53.8943980447948,
+    "longitude": 27.721366183832288
+  },
+  {
+    "time": 306.0,
+    "distance": 1744.800048828125,
+    "heartRate": 120.0,
+    "latitude": 53.89435479417443,
+    "longitude": 27.7212256193161
+  },
+  {
+    "time": 307.0,
+    "distance": 1750.1600341796875,
+    "heartRate": 121.0,
+    "latitude": 53.89434817247093,
+    "longitude": 27.721144817769527
+  },
+  {
+    "time": 308.0,
+    "distance": 1755.8499755859375,
+    "heartRate": 120.0,
+    "latitude": 53.894348088651896,
+    "longitude": 27.72105840034783
+  },
+  {
+    "time": 310.0,
+    "distance": 1765.760009765625,
+    "heartRate": 120.0,
+    "latitude": 53.89434574171901,
+    "longitude": 27.720908112823963
+  },
+  {
+    "time": 312.0,
+    "distance": 1772.97998046875,
+    "heartRate": 115.0,
+    "latitude": 53.894332498312,
+    "longitude": 27.72080048918724
+  },
+  {
+    "time": 313.0,
+    "distance": 1775.72998046875,
+    "heartRate": 112.0,
+    "latitude": 53.8943269662559,
+    "longitude": 27.720759669318795
+  },
+  {
+    "time": 315.0,
+    "distance": 1782.489990234375,
+    "heartRate": 108.0,
+    "latitude": 53.894324619323015,
+    "longitude": 27.720657074823976
+  },
+  {
+    "time": 317.0,
+    "distance": 1789.1300048828125,
+    "heartRate": null,
+    "latitude": 53.89433903619647,
+    "longitude": 27.720559258013964
+  },
+  {
+    "time": 321.0,
+    "distance": 1802.0,
+    "heartRate": null,
+    "latitude": 53.89437750913203,
+    "longitude": 27.720376448705792
+  },
+  {
+    "time": 322.0,
+    "distance": 1805.3900146484375,
+    "heartRate": null,
+    "latitude": 53.89438899233937,
+    "longitude": 27.72032791748643
+  },
+  {
+    "time": 324.0,
+    "distance": 1811.93994140625,
+    "heartRate": 81.0,
+    "latitude": 53.894408689811826,
+    "longitude": 27.7202345430851
+  },
+  {
+    "time": 326.0,
+    "distance": 1821.280029296875,
+    "heartRate": 79.0,
+    "latitude": 53.89441371895373,
+    "longitude": 27.720092805102468
+  },
+  {
+    "time": 329.0,
+    "distance": 1836.949951171875,
+    "heartRate": 79.0,
+    "latitude": 53.89439661987126,
+    "longitude": 27.719856351614
+  },
+  {
+    "time": 331.0,
+    "distance": 1849.06005859375,
+    "heartRate": 79.0,
+    "latitude": 53.894379353150725,
+    "longitude": 27.719674967229366
+  },
+  {
+    "time": 334.0,
+    "distance": 1864.56005859375,
+    "heartRate": 82.0,
+    "latitude": 53.89435378834605,
+    "longitude": 27.719443207606673
+  },
+  {
+    "time": 336.0,
+    "distance": 1873.0799560546875,
+    "heartRate": 82.0,
+    "latitude": 53.89434389770031,
+    "longitude": 27.71931496448815
+  },
+  {
+    "time": 342.0,
+    "distance": 1899.43994140625,
+    "heartRate": 81.0,
+    "latitude": 53.894346160814166,
+    "longitude": 27.71892160177231
+  },
+  {
+    "time": 346.0,
+    "distance": 1915.300048828125,
+    "heartRate": 81.0,
+    "latitude": 53.8943428080529,
+    "longitude": 27.718680957332253
+  },
+  {
+    "time": 350.0,
+    "distance": 1935.3199462890625,
+    "heartRate": 80.0,
+    "latitude": 53.894328977912664,
+    "longitude": 27.7183797955513
+  },
+  {
+    "time": 351.0,
+    "distance": 1940.469970703125,
+    "heartRate": 80.0,
+    "latitude": 53.89431883580983,
+    "longitude": 27.718303268775344
+  },
+  {
+    "time": 352.0,
+    "distance": 1945.0,
+    "heartRate": 80.0,
+    "latitude": 53.89431020244956,
+    "longitude": 27.718235878273845
+  },
+  {
+    "time": 357.0,
+    "distance": 1968.1400146484375,
+    "heartRate": 80.0,
+    "latitude": 53.894314812496305,
+    "longitude": 27.7178858499974
+  },
+  {
+    "time": 358.0,
+    "distance": 1974.3599853515625,
+    "heartRate": 81.0,
+    "latitude": 53.89431246556342,
+    "longitude": 27.71778903901577
+  },
+  {
+    "time": 362.0,
+    "distance": 1992.8499755859375,
+    "heartRate": 81.0,
+    "latitude": 53.89434146694839,
+    "longitude": 27.717513274401426
+  },
+  {
+    "time": 368.0,
+    "distance": 2020.280029296875,
+    "heartRate": 81.0,
+    "latitude": 53.89438823796809,
+    "longitude": 27.717104824259877
+  },
+  {
+    "time": 370.0,
+    "distance": 2027.8499755859375,
+    "heartRate": 81.0,
+    "latitude": 53.89440064318478,
+    "longitude": 27.716991500928998
+  },
+  {
+    "time": 375.0,
+    "distance": 2051.639892578125,
+    "heartRate": 80.0,
+    "latitude": 53.89439041726291,
+    "longitude": 27.71663007326424
+  },
+  {
+    "time": 377.0,
+    "distance": 2059.070068359375,
+    "heartRate": 80.0,
+    "latitude": 53.89437080360949,
+    "longitude": 27.716523371636868
+  },
+  {
+    "time": 379.0,
+    "distance": 2061.6201171875,
+    "heartRate": 80.0,
+    "latitude": 53.8943703006953,
+    "longitude": 27.716490011662245
+  },
+  {
+    "time": 381.0,
+    "distance": 2067.860107421875,
+    "heartRate": 83.0,
+    "latitude": 53.89432495459914,
+    "longitude": 27.71643402054906
+  },
+  {
+    "time": 383.0,
+    "distance": 2077.989990234375,
+    "heartRate": null,
+    "latitude": 53.89425538480282,
+    "longitude": 27.716335952281952
+  },
+  {
+    "time": 386.0,
+    "distance": 2088.659912109375,
+    "heartRate": null,
+    "latitude": 53.894168213009834,
+    "longitude": 27.716268729418516
+  },
+  {
+    "time": 391.0,
+    "distance": 2110.0400390625,
+    "heartRate": 82.0,
+    "latitude": 53.894003592431545,
+    "longitude": 27.716107293963432
+  },
+  {
+    "time": 397.0,
+    "distance": 2129.0400390625,
+    "heartRate": null,
+    "latitude": 53.89385565184057,
+    "longitude": 27.715963879600167
+  },
+  {
+    "time": 398.0,
+    "distance": 2132.679931640625,
+    "heartRate": null,
+    "latitude": 53.89383419416845,
+    "longitude": 27.715921886265278
+  },
+  {
+    "time": 401.0,
+    "distance": 2145.739990234375,
+    "heartRate": 81.0,
+    "latitude": 53.89375322498381,
+    "longitude": 27.715778974816203
+  },
+  {
+    "time": 403.0,
+    "distance": 2155.22998046875,
+    "heartRate": 80.0,
+    "latitude": 53.893734281882644,
+    "longitude": 27.715638242661953
+  },
+  {
+    "time": 404.0,
+    "distance": 2160.510009765625,
+    "heartRate": 81.0,
+    "latitude": 53.893732856959105,
+    "longitude": 27.715557692572474
+  },
+  {
+    "time": 408.0,
+    "distance": 2175.570068359375,
+    "heartRate": 80.0,
+    "latitude": 53.89373914338648,
+    "longitude": 27.715328028425574
+  },
+  {
+    "time": 409.0,
+    "distance": 2182.090087890625,
+    "heartRate": 78.0,
+    "latitude": 53.893725480884314,
+    "longitude": 27.71523012779653
+  },
+  {
+    "time": 411.0,
+    "distance": 2192.0400390625,
+    "heartRate": 80.0,
+    "latitude": 53.893711315467954,
+    "longitude": 27.715081181377172
+  },
+  {
+    "time": 412.0,
+    "distance": 2197.320068359375,
+    "heartRate": 80.0,
+    "latitude": 53.89370444230735,
+    "longitude": 27.715001637116075
+  },
+  {
+    "time": 416.0,
+    "distance": 2212.929931640625,
+    "heartRate": null,
+    "latitude": 53.89369924552739,
+    "longitude": 27.71476392634213
+  },
+  {
+    "time": 421.0,
+    "distance": 2234.85009765625,
+    "heartRate": null,
+    "latitude": 53.89369371347129,
+    "longitude": 27.714431835338473
+  },
+  {
+    "time": 426.0,
+    "distance": 2253.60009765625,
+    "heartRate": null,
+    "latitude": 53.89367636293173,
+    "longitude": 27.714146934449673
+  },
+  {
+    "time": 431.0,
+    "distance": 2278.919921875,
+    "heartRate": null,
+    "latitude": 53.89367007650435,
+    "longitude": 27.713761534541845
+  },
+  {
+    "time": 436.0,
+    "distance": 2298.3798828125,
+    "heartRate": null,
+    "latitude": 53.89370184391737,
+    "longitude": 27.713470682501793
+  },
+  {
+    "time": 438.0,
+    "distance": 2306.260009765625,
+    "heartRate": null,
+    "latitude": 53.8936897739768,
+    "longitude": 27.71335383877158
+  },
+  {
+    "time": 441.0,
+    "distance": 2315.030029296875,
+    "heartRate": null,
+    "latitude": 53.89368616975844,
+    "longitude": 27.713221656158566
+  },
+  {
+    "time": 446.0,
+    "distance": 2330.68994140625,
+    "heartRate": null,
+    "latitude": 53.893716260790825,
+    "longitude": 27.712990315631032
+  },
+  {
+    "time": 449.0,
+    "distance": 2346.030029296875,
+    "heartRate": null,
+    "latitude": 53.89372983947396,
+    "longitude": 27.71275863982737
+  },
+  {
+    "time": 450.0,
+    "distance": 2351.590087890625,
+    "heartRate": null,
+    "latitude": 53.893719362095,
+    "longitude": 27.712675323709846
+  },
+  {
+    "time": 454.0,
+    "distance": 2363.080078125,
+    "heartRate": null,
+    "latitude": 53.89370637014508,
+    "longitude": 27.712502824142575
+  },
+  {
+    "time": 457.0,
+    "distance": 2364.949951171875,
+    "heartRate": null,
+    "latitude": 53.893701173365116,
+    "longitude": 27.7124635130167
+  },
+  {
+    "time": 458.0,
+    "distance": 2365.429931640625,
+    "heartRate": null,
+    "latitude": 53.89369932934642,
+    "longitude": 27.712456723675132
+  },
+  {
+    "time": 458.0,
+    "distance": 2365.429931640625,
+    "heartRate": null,
+    "latitude": 53.893651301041245,
+    "longitude": 27.712148521095514
+  },
+  {
+    "time": 463.0,
+    "distance": 2378.070068359375,
+    "heartRate": null,
+    "latitude": 53.893668903037906,
+    "longitude": 27.711959341540933
+  },
+  {
+    "time": 467.0,
+    "distance": 2388.1298828125,
+    "heartRate": null,
+    "latitude": 53.8936760276556,
+    "longitude": 27.711806539446115
+  },
+  {
+    "time": 473.0,
+    "distance": 2413.47998046875,
+    "heartRate": null,
+    "latitude": 53.89369153417647,
+    "longitude": 27.711422313004732
+  },
+  {
+    "time": 474.0,
+    "distance": 2417.7099609375,
+    "heartRate": null,
+    "latitude": 53.89368440955877,
+    "longitude": 27.711358778178692
+  },
+  {
+    "time": 477.0,
+    "distance": 2429.300048828125,
+    "heartRate": null,
+    "latitude": 53.89370712451637,
+    "longitude": 27.71118619479239
+  },
+  {
+    "time": 478.0,
+    "distance": 2433.800048828125,
+    "heartRate": null,
+    "latitude": 53.8937225472182,
+    "longitude": 27.711122492328286
+  },
+  {
+    "time": 480.0,
+    "distance": 2442.070068359375,
+    "heartRate": null,
+    "latitude": 53.8937658816576,
+    "longitude": 27.711020736023784
+  },
+  {
+    "time": 481.0,
+    "distance": 2446.080078125,
+    "heartRate": null,
+    "latitude": 53.893775939941406,
+    "longitude": 27.710962146520615
+  },
+  {
+    "time": 487.0,
+    "distance": 2475.090087890625,
+    "heartRate": null,
+    "latitude": 53.89383813366294,
+    "longitude": 27.71053391508758
+  },
+  {
+    "time": 489.0,
+    "distance": 2484.030029296875,
+    "heartRate": null,
+    "latitude": 53.893843246623874,
+    "longitude": 27.71039804443717
+  },
+  {
+    "time": 491.0,
+    "distance": 2492.969970703125,
+    "heartRate": null,
+    "latitude": 53.89387400820851,
+    "longitude": 27.710273237898946
+  },
+  {
+    "time": 495.0,
+    "distance": 2510.820068359375,
+    "heartRate": null,
+    "latitude": 53.89393636956811,
+    "longitude": 27.710027061402798
+  },
+  {
+    "time": 500.0,
+    "distance": 2532.27001953125,
+    "heartRate": null,
+    "latitude": 53.894035778939724,
+    "longitude": 27.70974819548428
+  },
+  {
+    "time": 504.0,
+    "distance": 2550.570068359375,
+    "heartRate": null,
+    "latitude": 53.894124794751406,
+    "longitude": 27.70951610058546
+  },
+  {
+    "time": 509.0,
+    "distance": 2576.860107421875,
+    "heartRate": null,
+    "latitude": 53.89418120495975,
+    "longitude": 27.709130281582475
+  },
+  {
+    "time": 510.0,
+    "distance": 2581.699951171875,
+    "heartRate": null,
+    "latitude": 53.894201489165425,
+    "longitude": 27.70906414836645
+  },
+  {
+    "time": 512.0,
+    "distance": 2592.510009765625,
+    "heartRate": null,
+    "latitude": 53.89420660212636,
+    "longitude": 27.708900282159448
+  },
+  {
+    "time": 513.0,
+    "distance": 2598.090087890625,
+    "heartRate": null,
+    "latitude": 53.89420031569898,
+    "longitude": 27.708816044032574
+  },
+  {
+    "time": 517.0,
+    "distance": 2611.47998046875,
+    "heartRate": null,
+    "latitude": 53.894204925745726,
+    "longitude": 27.708609765395522
+  },
+  {
+    "time": 522.0,
+    "distance": 2622.159912109375,
+    "heartRate": null,
+    "latitude": 53.89427550137043,
+    "longitude": 27.708520917221904
+  },
+  {
+    "time": 524.0,
+    "distance": 2627.800048828125,
+    "heartRate": null,
+    "latitude": 53.89427273534238,
+    "longitude": 27.708432152867317
+  },
+  {
+    "time": 526.0,
+    "distance": 2634.6298828125,
+    "heartRate": null,
+    "latitude": 53.89426460489631,
+    "longitude": 27.708327630534768
+  },
+  {
+    "time": 531.0,
+    "distance": 2647.9599609375,
+    "heartRate": null,
+    "latitude": 53.894264940172434,
+    "longitude": 27.708118837326765
+  },
+  {
+    "time": 536.0,
+    "distance": 2659.81005859375,
+    "heartRate": null,
+    "latitude": 53.89427784830332,
+    "longitude": 27.707938542589545
+  },
+  {
+    "time": 540.0,
+    "distance": 2679.610107421875,
+    "heartRate": null,
+    "latitude": 53.89430374838412,
+    "longitude": 27.70764417015016
+  },
+  {
+    "time": 546.0,
+    "distance": 2710.610107421875,
+    "heartRate": null,
+    "latitude": 53.89427692629397,
+    "longitude": 27.707176711410284
+  },
+  {
+    "time": 550.0,
+    "distance": 2718.159912109375,
+    "heartRate": null,
+    "latitude": 53.89424038119614,
+    "longitude": 27.70708216354251
+  },
+  {
+    "time": 554.0,
+    "distance": 2733.77001953125,
+    "heartRate": null,
+    "latitude": 53.894139882177114,
+    "longitude": 27.706918716430664
+  },
+  {
+    "time": 559.0,
+    "distance": 2749.0400390625,
+    "heartRate": null,
+    "latitude": 53.8940388802439,
+    "longitude": 27.70676365122199
+  },
+  {
+    "time": 560.0,
+    "distance": 2752.239990234375,
+    "heartRate": null,
+    "latitude": 53.89402127824724,
+    "longitude": 27.7067250944674
+  },
+  {
+    "time": 564.0,
+    "distance": 2763.2900390625,
+    "heartRate": null,
+    "latitude": 53.8939506188035,
+    "longitude": 27.70660037174821
+  },
+  {
+    "time": 565.0,
+    "distance": 2764.590087890625,
+    "heartRate": null,
+    "latitude": 53.89394852332771,
+    "longitude": 27.70657899789512
+  },
+  {
+    "time": 567.0,
+    "distance": 2769.22998046875,
+    "heartRate": null,
+    "latitude": 53.89392647892237,
+    "longitude": 27.706514708697796
+  },
+  {
+    "time": 570.0,
+    "distance": 2775.469970703125,
+    "heartRate": null,
+    "latitude": 53.89389454387128,
+    "longitude": 27.706435918807983
+  },
+  {
+    "time": 572.0,
+    "distance": 2780.6298828125,
+    "heartRate": null,
+    "latitude": 53.89384835958481,
+    "longitude": 27.706427704542875
+  },
+  {
+    "time": 574.0,
+    "distance": 2784.580078125,
+    "heartRate": null,
+    "latitude": 53.8938126526773,
+    "longitude": 27.706416053697467
+  },
+  {
+    "time": 578.0,
+    "distance": 2800.10009765625,
+    "heartRate": null,
+    "latitude": 53.89372766017914,
+    "longitude": 27.706228382885456
+  },
+  {
+    "time": 583.0,
+    "distance": 2819.18994140625,
+    "heartRate": null,
+    "latitude": 53.89362858608365,
+    "longitude": 27.70599410869181
+  },
+  {
+    "time": 588.0,
+    "distance": 2833.35009765625,
+    "heartRate": null,
+    "latitude": 53.89352741651237,
+    "longitude": 27.705864859744906
+  },
+  {
+    "time": 589.0,
+    "distance": 2833.659912109375,
+    "heartRate": null,
+    "latitude": 53.89352498576045,
+    "longitude": 27.70586251281202
+  },
+  {
+    "time": 593.0,
+    "distance": 2835.070068359375,
+    "heartRate": null,
+    "latitude": 53.893528589978814,
+    "longitude": 27.705843904986978
+  },
+  {
+    "time": 593.0,
+    "distance": 2835.070068359375,
+    "heartRate": null,
+    "latitude": 53.89338341541588,
+    "longitude": 27.705748518928885
+  },
+  {
+    "time": 595.0,
+    "distance": 2842.64990234375,
+    "heartRate": null,
+    "latitude": 53.89333203434944,
+    "longitude": 27.705672243610024
+  },
+  {
+    "time": 596.0,
+    "distance": 2846.43994140625,
+    "heartRate": null,
+    "latitude": 53.89330856502056,
+    "longitude": 27.70563050173223
+  },
+  {
+    "time": 602.0,
+    "distance": 2876.719970703125,
+    "heartRate": null,
+    "latitude": 53.893084013834596,
+    "longitude": 27.705369405448437
+  },
+  {
+    "time": 603.0,
+    "distance": 2883.239990234375,
+    "heartRate": null,
+    "latitude": 53.89303447678685,
+    "longitude": 27.70531634800136
+  },
+  {
+    "time": 606.0,
+    "distance": 2901.050048828125,
+    "heartRate": null,
+    "latitude": 53.892884189262986,
+    "longitude": 27.70522439852357
+  },
+  {
+    "time": 609.0,
+    "distance": 2910.219970703125,
+    "heartRate": null,
+    "latitude": 53.892816212028265,
+    "longitude": 27.705131778493524
+  },
+  {
+    "time": 610.0,
+    "distance": 2911.39990234375,
+    "heartRate": null,
+    "latitude": 53.89280707575381,
+    "longitude": 27.705122642219067
+  },
+  {
+    "time": 613.0,
+    "distance": 2913.4599609375,
+    "heartRate": null,
+    "latitude": 53.89277698472142,
+    "longitude": 27.705089282244444
+  },
+  {
+    "time": 613.0,
+    "distance": 2913.4599609375,
+    "heartRate": null,
+    "latitude": 53.892717557027936,
+    "longitude": 27.704893061891198
+  },
+  {
+    "time": 614.0,
+    "distance": 2917.10009765625,
+    "heartRate": null,
+    "latitude": 53.89269576407969,
+    "longitude": 27.704851822927594
+  },
+  {
+    "time": 615.0,
+    "distance": 2921.8798828125,
+    "heartRate": null,
+    "latitude": 53.89266584068537,
+    "longitude": 27.704799687489867
+  },
+  {
+    "time": 617.0,
+    "distance": 2937.860107421875,
+    "heartRate": null,
+    "latitude": 53.892574394121766,
+    "longitude": 27.70461260341108
+  },
+  {
+    "time": 618.0,
+    "distance": 2944.550048828125,
+    "heartRate": null,
+    "latitude": 53.89253843575716,
+    "longitude": 27.70453012548387
+  },
+  {
+    "time": 621.0,
+    "distance": 2961.360107421875,
+    "heartRate": null,
+    "latitude": 53.89245042577386,
+    "longitude": 27.704320158809423
+  },
+  {
+    "time": 622.0,
+    "distance": 2968.56005859375,
+    "heartRate": null,
+    "latitude": 53.892410695552826,
+    "longitude": 27.704231645911932
+  },
+  {
+    "time": 625.0,
+    "distance": 2985.090087890625,
+    "heartRate": null,
+    "latitude": 53.89233550988138,
+    "longitude": 27.704016901552677
+  },
+  {
+    "time": 627.0,
+    "distance": 2996.719970703125,
+    "heartRate": null,
+    "latitude": 53.8922771718353,
+    "longitude": 27.703870050609112
+  },
+  {
+    "time": 628.0,
+    "distance": 3002.43994140625,
+    "heartRate": null,
+    "latitude": 53.89225487597287,
+    "longitude": 27.703791679814458
+  },
+  {
+    "time": 631.0,
+    "distance": 3018.2900390625,
+    "heartRate": null,
+    "latitude": 53.89219058677554,
+    "longitude": 27.703577438369393
+  },
+  {
+    "time": 632.0,
+    "distance": 3023.909912109375,
+    "heartRate": null,
+    "latitude": 53.89217692427337,
+    "longitude": 27.703494960442185
+  },
+  {
+    "time": 635.0,
+    "distance": 3040.27001953125,
+    "heartRate": null,
+    "latitude": 53.892121436074376,
+    "longitude": 27.703269151970744
+  },
+  {
+    "time": 636.0,
+    "distance": 3045.02001953125,
+    "heartRate": null,
+    "latitude": 53.892094027251005,
+    "longitude": 27.703213496133685
+  },
+  {
+    "time": 639.0,
+    "distance": 3056.110107421875,
+    "heartRate": null,
+    "latitude": 53.892039712518454,
+    "longitude": 27.703073183074594
+  },
+  {
+    "time": 641.0,
+    "distance": 3067.010009765625,
+    "heartRate": null,
+    "latitude": 53.89199495315552,
+    "longitude": 27.702925242483616
+  },
+  {
+    "time": 642.0,
+    "distance": 3070.530029296875,
+    "heartRate": null,
+    "latitude": 53.891978189349174,
+    "longitude": 27.702879728749394
+  },
+  {
+    "time": 645.0,
+    "distance": 3089.75,
+    "heartRate": null,
+    "latitude": 53.89187685213983,
+    "longitude": 27.70264352671802
+  },
+  {
+    "time": 647.0,
+    "distance": 3101.860107421875,
+    "heartRate": null,
+    "latitude": 53.89180418103933,
+    "longitude": 27.7025081589818
+  },
+  {
+    "time": 649.0,
+    "distance": 3111.639892578125,
+    "heartRate": null,
+    "latitude": 53.8917594216764,
+    "longitude": 27.702381005510688
+  },
+  {
+    "time": 651.0,
+    "distance": 3127.1298828125,
+    "heartRate": null,
+    "latitude": 53.89169245027006,
+    "longitude": 27.70217447541654
+  },
+  {
+    "time": 652.0,
+    "distance": 3137.550048828125,
+    "heartRate": null,
+    "latitude": 53.891642075031996,
+    "longitude": 27.702039694413543
+  },
+  {
+    "time": 653.0,
+    "distance": 3143.56005859375,
+    "heartRate": null,
+    "latitude": 53.891619611531496,
+    "longitude": 27.70195654593408
+  },
+  {
+    "time": 654.0,
+    "distance": 3149.169921875,
+    "heartRate": null,
+    "latitude": 53.891595136374235,
+    "longitude": 27.701882030814886
+  },
+  {
+    "time": 655.0,
+    "distance": 3158.550048828125,
+    "heartRate": null,
+    "latitude": 53.891554567962885,
+    "longitude": 27.701756889000535
+  },
+  {
+    "time": 657.0,
+    "distance": 3173.47998046875,
+    "heartRate": null,
+    "latitude": 53.89148734509945,
+    "longitude": 27.70156066864729
+  },
+  {
+    "time": 660.0,
+    "distance": 3194.3798828125,
+    "heartRate": null,
+    "latitude": 53.89139204286039,
+    "longitude": 27.701286412775517
+  },
+  {
+    "time": 664.0,
+    "distance": 3212.610107421875,
+    "heartRate": null,
+    "latitude": 53.891285341233015,
+    "longitude": 27.70107694901526
+  },
+  {
+    "time": 665.0,
+    "distance": 3217.699951171875,
+    "heartRate": null,
+    "latitude": 53.89125642366707,
+    "longitude": 27.70101685076952
+  },
+  {
+    "time": 666.0,
+    "distance": 3223.489990234375,
+    "heartRate": null,
+    "latitude": 53.891222728416324,
+    "longitude": 27.700949711725116
+  },
+  {
+    "time": 668.0,
+    "distance": 3236.43994140625,
+    "heartRate": null,
+    "latitude": 53.89115852303803,
+    "longitude": 27.700785342603922
+  },
+  {
+    "time": 671.0,
+    "distance": 3256.35009765625,
+    "heartRate": null,
+    "latitude": 53.891065483912826,
+    "longitude": 27.700526677072048
+  },
+  {
+    "time": 673.0,
+    "distance": 3270.60009765625,
+    "heartRate": null,
+    "latitude": 53.89100085943937,
+    "longitude": 27.700339844450355
+  },
+  {
+    "time": 675.0,
+    "distance": 3283.60009765625,
+    "heartRate": null,
+    "latitude": 53.890942856669426,
+    "longitude": 27.7001681830734
+  },
+  {
+    "time": 680.0,
+    "distance": 3312.580078125,
+    "heartRate": null,
+    "latitude": 53.890793323516846,
+    "longitude": 27.699808096513152
+  },
+  {
+    "time": 683.0,
+    "distance": 3330.179931640625,
+    "heartRate": null,
+    "latitude": 53.89071595855057,
+    "longitude": 27.699574576690793
+  },
+  {
+    "time": 685.0,
+    "distance": 3344.35009765625,
+    "heartRate": null,
+    "latitude": 53.890660889446735,
+    "longitude": 27.699380535632372
+  },
+  {
+    "time": 686.0,
+    "distance": 3350.72998046875,
+    "heartRate": null,
+    "latitude": 53.89063901267946,
+    "longitude": 27.699290681630373
+  },
+  {
+    "time": 687.0,
+    "distance": 3357.340087890625,
+    "heartRate": null,
+    "latitude": 53.89061629772186,
+    "longitude": 27.699197893962264
+  },
+  {
+    "time": 690.0,
+    "distance": 3378.18994140625,
+    "heartRate": null,
+    "latitude": 53.89054664410651,
+    "longitude": 27.69890503026545
+  },
+  {
+    "time": 692.0,
+    "distance": 3393.330078125,
+    "heartRate": null,
+    "latitude": 53.89046533964574,
+    "longitude": 27.69872029311955
+  },
+  {
+    "time": 697.0,
+    "distance": 3433.6298828125,
+    "heartRate": null,
+    "latitude": 53.89027951285243,
+    "longitude": 27.69819407723844
+  },
+  {
+    "time": 703.0,
+    "distance": 3478.75,
+    "heartRate": null,
+    "latitude": 53.89006644487381,
+    "longitude": 27.69761111587286
+  },
+  {
+    "time": 708.0,
+    "distance": 3521.1298828125,
+    "heartRate": null,
+    "latitude": 53.889866787940264,
+    "longitude": 27.69706285558641
+  },
+  {
+    "time": 709.0,
+    "distance": 3528.85009765625,
+    "heartRate": null,
+    "latitude": 53.889837954193354,
+    "longitude": 27.696955986320972
+  },
+  {
+    "time": 710.0,
+    "distance": 3536.2099609375,
+    "heartRate": null,
+    "latitude": 53.88981398195028,
+    "longitude": 27.696851547807455
+  },
+  {
+    "time": 712.0,
+    "distance": 3549.110107421875,
+    "heartRate": null,
+    "latitude": 53.88977953232825,
+    "longitude": 27.69666421227157
+  },
+  {
+    "time": 713.0,
+    "distance": 3554.929931640625,
+    "heartRate": null,
+    "latitude": 53.88976897113025,
+    "longitude": 27.696577040478587
+  },
+  {
+    "time": 714.0,
+    "distance": 3560.60009765625,
+    "heartRate": null,
+    "latitude": 53.88977115042508,
+    "longitude": 27.696490790694952
+  },
+  {
+    "time": 715.0,
+    "distance": 3566.35009765625,
+    "heartRate": null,
+    "latitude": 53.8897714857012,
+    "longitude": 27.69640328362584
+  },
+  {
+    "time": 718.0,
+    "distance": 3586.860107421875,
+    "heartRate": null,
+    "latitude": 53.88971675187349,
+    "longitude": 27.696105893701315
+  },
+  {
+    "time": 722.0,
+    "distance": 3604.840087890625,
+    "heartRate": null,
+    "latitude": 53.889697724953294,
+    "longitude": 27.695834068581462
+  },
+  {
+    "time": 723.0,
+    "distance": 3607.81005859375,
+    "heartRate": null,
+    "latitude": 53.889695880934596,
+    "longitude": 27.6957889739424
+  },
+  {
+    "time": 727.0,
+    "distance": 3620.489990234375,
+    "heartRate": null,
+    "latitude": 53.88970786705613,
+    "longitude": 27.695596357807517
+  },
+  {
+    "time": 731.0,
+    "distance": 3639.239990234375,
+    "heartRate": null,
+    "latitude": 53.88972622342408,
+    "longitude": 27.695315396413207
+  },
+  {
+    "time": 732.0,
+    "distance": 3643.239990234375,
+    "heartRate": null,
+    "latitude": 53.88975338079035,
+    "longitude": 27.695275582373142
+  },
+  {
+    "time": 736.0,
+    "distance": 3657.550048828125,
+    "heartRate": null,
+    "latitude": 53.88987449929118,
+    "longitude": 27.695206934586167
+  },
+  {
+    "time": 738.0,
+    "distance": 3664.0400390625,
+    "heartRate": null,
+    "latitude": 53.889930825680494,
+    "longitude": 27.69518061541021
+  },
+  {
+    "time": 740.0,
+    "distance": 3669.179931640625,
+    "heartRate": null,
+    "latitude": 53.88997005298734,
+    "longitude": 27.695141974836588
+  },
+  {
+    "time": 741.0,
+    "distance": 3672.449951171875,
+    "heartRate": null,
+    "latitude": 53.889995366334915,
+    "longitude": 27.695115823298693
+  },
+  {
+    "time": 743.0,
+    "distance": 3678.449951171875,
+    "heartRate": null,
+    "latitude": 53.890049094334245,
+    "longitude": 27.695101825520396
+  },
+  {
+    "time": 748.0,
+    "distance": 3690.5,
+    "heartRate": null,
+    "latitude": 53.8901412114501,
+    "longitude": 27.695004427805543
+  },
+  {
+    "time": 752.0,
+    "distance": 3709.14990234375,
+    "heartRate": null,
+    "latitude": 53.89029032550752,
+    "longitude": 27.694875095039606
+  },
+  {
+    "time": 753.0,
+    "distance": 3715.199951171875,
+    "heartRate": null,
+    "latitude": 53.890334414318204,
+    "longitude": 27.694821367040277
+  },
+  {
+    "time": 757.0,
+    "distance": 3738.9599609375,
+    "heartRate": null,
+    "latitude": 53.89049702323973,
+    "longitude": 27.694587763398886
+  },
+  {
+    "time": 758.0,
+    "distance": 3744.860107421875,
+    "heartRate": null,
+    "latitude": 53.89054077677429,
+    "longitude": 27.694537052884698
+  },
+  {
+    "time": 762.0,
+    "distance": 3768.780029296875,
+    "heartRate": null,
+    "latitude": 53.89073523692787,
+    "longitude": 27.694387268275023
+  },
+  {
+    "time": 764.0,
+    "distance": 3781.010009765625,
+    "heartRate": null,
+    "latitude": 53.890840262174606,
+    "longitude": 27.694333204999566
+  },
+  {
+    "time": 766.0,
+    "distance": 3793.719970703125,
+    "heartRate": null,
+    "latitude": 53.89095073565841,
+    "longitude": 27.694285176694393
+  },
+  {
+    "time": 767.0,
+    "distance": 3800.340087890625,
+    "heartRate": null,
+    "latitude": 53.89100915752351,
+    "longitude": 27.694266568869352
+  },
+  {
+    "time": 773.0,
+    "distance": 3836.860107421875,
+    "heartRate": null,
+    "latitude": 53.891332866624,
+    "longitude": 27.694178223609924
+  },
+  {
+    "time": 775.0,
+    "distance": 3846.280029296875,
+    "heartRate": null,
+    "latitude": 53.89141702093184,
+    "longitude": 27.69416489638388
+  },
+  {
+    "time": 776.0,
+    "distance": 3850.840087890625,
+    "heartRate": null,
+    "latitude": 53.89145742170513,
+    "longitude": 27.69415265880525
+  },
+  {
+    "time": 780.0,
+    "distance": 3873.929931640625,
+    "heartRate": null,
+    "latitude": 53.89164811000228,
+    "longitude": 27.69401729106903
+  },
+  {
+    "time": 786.0,
+    "distance": 3907.449951171875,
+    "heartRate": null,
+    "latitude": 53.891911301761866,
+    "longitude": 27.69376952201128
+  },
+  {
+    "time": 788.0,
+    "distance": 3917.929931640625,
+    "heartRate": null,
+    "latitude": 53.8919975515455,
+    "longitude": 27.693705316632986
+  },
+  {
+    "time": 794.0,
+    "distance": 3949.510009765625,
+    "heartRate": null,
+    "latitude": 53.892262084409595,
+    "longitude": 27.693532230332494
+  },
+  {
+    "time": 795.0,
+    "distance": 3954.699951171875,
+    "heartRate": null,
+    "latitude": 53.892306592315435,
+    "longitude": 27.693508425727487
+  },
+  {
+    "time": 796.0,
+    "distance": 3959.590087890625,
+    "heartRate": null,
+    "latitude": 53.89234942384064,
+    "longitude": 27.69349241629243
+  },
+  {
+    "time": 801.0,
+    "distance": 3979.02001953125,
+    "heartRate": null,
+    "latitude": 53.89251932501793,
+    "longitude": 27.69342058338225
+  },
+  {
+    "time": 806.0,
+    "distance": 3999.679931640625,
+    "heartRate": null,
+    "latitude": 53.892702888697386,
+    "longitude": 27.693396946415305
+  },
+  {
+    "time": 812.0,
+    "distance": 4025.929931640625,
+    "heartRate": null,
+    "latitude": 53.892936408519745,
+    "longitude": 27.693353863433003
+  },
+  {
+    "time": 818.0,
+    "distance": 4052.89990234375,
+    "heartRate": null,
+    "latitude": 53.89317470602691,
+    "longitude": 27.69327691756189
+  },
+  {
+    "time": 824.0,
+    "distance": 4080.050048828125,
+    "heartRate": null,
+    "latitude": 53.893417194485664,
+    "longitude": 27.693233247846365
+  },
+  {
+    "time": 825.0,
+    "distance": 4083.97998046875,
+    "heartRate": null,
+    "latitude": 53.89344971626997,
+    "longitude": 27.693209694698453
+  },
+  {
+    "time": 830.0,
+    "distance": 4097.83984375,
+    "heartRate": null,
+    "latitude": 53.89355323277414,
+    "longitude": 27.693094946444035
+  },
+  {
+    "time": 835.0,
+    "distance": 4107.0498046875,
+    "heartRate": null,
+    "latitude": 53.893625820055604,
+    "longitude": 27.693032920360565
+  },
+  {
+    "time": 837.0,
+    "distance": 4111.18017578125,
+    "heartRate": null,
+    "latitude": 53.893662029877305,
+    "longitude": 27.693021101877093
+  },
+  {
+    "time": 840.0,
+    "distance": 4116.58984375,
+    "heartRate": null,
+    "latitude": 53.89368231408298,
+    "longitude": 27.693086313083768
+  },
+  {
+    "time": 845.0,
+    "distance": 4127.2099609375,
+    "heartRate": null,
+    "latitude": 53.89364945702255,
+    "longitude": 27.693237187340856
+  },
+  {
+    "time": 847.0,
+    "distance": 4131.97998046875,
+    "heartRate": null,
+    "latitude": 53.89365096576512,
+    "longitude": 27.693312289193273
+  },
+  {
+    "time": 850.0,
+    "distance": 4136.8798828125,
+    "heartRate": null,
+    "latitude": 53.89368239790201,
+    "longitude": 27.693364424631
+  },
+  {
+    "time": 855.0,
+    "distance": 4152.06005859375,
+    "heartRate": null,
+    "latitude": 53.89380435459316,
+    "longitude": 27.693466180935502
+  },
+  {
+    "time": 860.0,
+    "distance": 4170.509765625,
+    "heartRate": null,
+    "latitude": 53.89392161741853,
+    "longitude": 27.693659802898765
+  },
+  {
+    "time": 865.0,
+    "distance": 4193.06982421875,
+    "heartRate": null,
+    "latitude": 53.89411213807762,
+    "longitude": 27.693756697699428
+  },
+  {
+    "time": 870.0,
+    "distance": 4221.6201171875,
+    "heartRate": null,
+    "latitude": 53.894355883821845,
+    "longitude": 27.693872954696417
+  },
+  {
+    "time": 876.0,
+    "distance": 4249.47998046875,
+    "heartRate": null,
+    "latitude": 53.894601641222835,
+    "longitude": 27.69393900409341
+  },
+  {
+    "time": 881.0,
+    "distance": 4266.27978515625,
+    "heartRate": null,
+    "latitude": 53.894744301214814,
+    "longitude": 27.694022990763187
+  },
+  {
+    "time": 886.0,
+    "distance": 4285.58984375,
+    "heartRate": null,
+    "latitude": 53.89491311274469,
+    "longitude": 27.694071857258677
+  },
+  {
+    "time": 891.0,
+    "distance": 4308.3701171875,
+    "heartRate": null,
+    "latitude": 53.89511151239276,
+    "longitude": 27.693988541141152
+  },
+  {
+    "time": 896.0,
+    "distance": 4325.0498046875,
+    "heartRate": null,
+    "latitude": 53.89523170888424,
+    "longitude": 27.693839007988572
+  },
+  {
+    "time": 902.0,
+    "distance": 4340.27001953125,
+    "heartRate": null,
+    "latitude": 53.89533086679876,
+    "longitude": 27.693694168701768
+  },
+  {
+    "time": 908.0,
+    "distance": 4358.39990234375,
+    "heartRate": null,
+    "latitude": 53.895472353324294,
+    "longitude": 27.693558549508452
+  },
+  {
+    "time": 913.0,
+    "distance": 4372.5498046875,
+    "heartRate": null,
+    "latitude": 53.89557721093297,
+    "longitude": 27.693437347188592
+  },
+  {
+    "time": 918.0,
+    "distance": 4383.7998046875,
+    "heartRate": null,
+    "latitude": 53.89567259699106,
+    "longitude": 27.693383870646358
+  },
+  {
+    "time": 923.0,
+    "distance": 4396.919921875,
+    "heartRate": null,
+    "latitude": 53.89578969217837,
+    "longitude": 27.693351600319147
+  },
+  {
+    "time": 928.0,
+    "distance": 4413.33984375,
+    "heartRate": null,
+    "latitude": 53.895932184532285,
+    "longitude": 27.693288568407297
+  },
+  {
+    "time": 934.0,
+    "distance": 4450.18017578125,
+    "heartRate": null,
+    "latitude": 53.89625731855631,
+    "longitude": 27.693180441856384
+  },
+  {
+    "time": 939.0,
+    "distance": 4472.91015625,
+    "heartRate": null,
+    "latitude": 53.8964528683573,
+    "longitude": 27.693083798512816
+  },
+  {
+    "time": 945.0,
+    "distance": 4500.25,
+    "heartRate": null,
+    "latitude": 53.89666040427983,
+    "longitude": 27.692867210134864
+  },
+  {
+    "time": 951.0,
+    "distance": 4525.6201171875,
+    "heartRate": null,
+    "latitude": 53.89687699265778,
+    "longitude": 27.692754473537207
+  },
+  {
+    "time": 953.0,
+    "distance": 4533.419921875,
+    "heartRate": null,
+    "latitude": 53.89694580808282,
+    "longitude": 27.692732512950897
+  },
+  {
+    "time": 959.0,
+    "distance": 4556.35986328125,
+    "heartRate": null,
+    "latitude": 53.897146889939904,
+    "longitude": 27.69266378134489
+  },
+  {
+    "time": 960.0,
+    "distance": 4563.06005859375,
+    "heartRate": null,
+    "latitude": 53.89720589853823,
+    "longitude": 27.69263930618763
+  },
+  {
+    "time": 966.0,
+    "distance": 4593.06982421875,
+    "heartRate": null,
+    "latitude": 53.89745458960533,
+    "longitude": 27.692462783306837
+  },
+  {
+    "time": 967.0,
+    "distance": 4597.080078125,
+    "heartRate": null,
+    "latitude": 53.897488955408335,
+    "longitude": 27.692444091662765
+  },
+  {
+    "time": 969.0,
+    "distance": 4604.60009765625,
+    "heartRate": null,
+    "latitude": 53.89755525626242,
+    "longitude": 27.692421711981297
+  },
+  {
+    "time": 973.0,
+    "distance": 4627.31982421875,
+    "heartRate": null,
+    "latitude": 53.89775566756725,
+    "longitude": 27.692356249317527
+  },
+  {
+    "time": 978.0,
+    "distance": 4650.06005859375,
+    "heartRate": null,
+    "latitude": 53.89793889597058,
+    "longitude": 27.69220386631787
+  },
+  {
+    "time": 984.0,
+    "distance": 4683.97021484375,
+    "heartRate": null,
+    "latitude": 53.89823812991381,
+    "longitude": 27.692114850506186
+  },
+  {
+    "time": 989.0,
+    "distance": 4702.2001953125,
+    "heartRate": null,
+    "latitude": 53.898386573418975,
+    "longitude": 27.692007897421718
+  },
+  {
+    "time": 995.0,
+    "distance": 4731.56982421875,
+    "heartRate": null,
+    "latitude": 53.89863593503833,
+    "longitude": 27.691874289885163
+  },
+  {
+    "time": 1000.0,
+    "distance": 4750.9599609375,
+    "heartRate": null,
+    "latitude": 53.898794101551175,
+    "longitude": 27.69178418442607
+  },
+  {
+    "time": 1005.0,
+    "distance": 4775.35986328125,
+    "heartRate": null,
+    "latitude": 53.898995434865355,
+    "longitude": 27.691634902730584
+  },
+  {
+    "time": 1010.0,
+    "distance": 4801.83984375,
+    "heartRate": null,
+    "latitude": 53.89922694303095,
+    "longitude": 27.69154571928084
+  },
+  {
+    "time": 1014.0,
+    "distance": 4825.3798828125,
+    "heartRate": null,
+    "latitude": 53.89942207373679,
+    "longitude": 27.691411692649126
+  },
+  {
+    "time": 1016.0,
+    "distance": 4838.85986328125,
+    "heartRate": null,
+    "latitude": 53.89953640289605,
+    "longitude": 27.691340195015073
+  },
+  {
+    "time": 1019.0,
+    "distance": 4857.14013671875,
+    "heartRate": null,
+    "latitude": 53.89968551695347,
+    "longitude": 27.6912266202271
+  },
+  {
+    "time": 1022.0,
+    "distance": 4876.25,
+    "heartRate": null,
+    "latitude": 53.899851478636265,
+    "longitude": 27.69115386530757
+  },
+  {
+    "time": 1025.0,
+    "distance": 4897.43017578125,
+    "heartRate": null,
+    "latitude": 53.90002850443125,
+    "longitude": 27.691038195043802
+  },
+  {
+    "time": 1028.0,
+    "distance": 4914.02978515625,
+    "heartRate": null,
+    "latitude": 53.90017569065094,
+    "longitude": 27.690998716279864
+  },
+  {
+    "time": 1031.0,
+    "distance": 4940.68017578125,
+    "heartRate": null,
+    "latitude": 53.90040778554976,
+    "longitude": 27.69089972600341
+  },
+  {
+    "time": 1032.0,
+    "distance": 4948.41015625,
+    "heartRate": null,
+    "latitude": 53.90047282911837,
+    "longitude": 27.69085882231593
+  },
+  {
+    "time": 1033.0,
+    "distance": 4955.759765625,
+    "heartRate": null,
+    "latitude": 53.900535525754094,
+    "longitude": 27.69082353450358
+  },
+  {
+    "time": 1037.0,
+    "distance": 4984.009765625,
+    "heartRate": null,
+    "latitude": 53.90077675692737,
+    "longitude": 27.69069353118539
+  },
+  {
+    "time": 1042.0,
+    "distance": 5012.68017578125,
+    "heartRate": null,
+    "latitude": 53.901027124375105,
+    "longitude": 27.69059873186052
+  },
+  {
+    "time": 1044.0,
+    "distance": 5024.6298828125,
+    "heartRate": null,
+    "latitude": 53.90112997032702,
+    "longitude": 27.690549362450838
+  },
+  {
+    "time": 1046.0,
+    "distance": 5037.490234375,
+    "heartRate": null,
+    "latitude": 53.901235749945045,
+    "longitude": 27.690470656380057
+  },
+  {
+    "time": 1052.0,
+    "distance": 5072.5,
+    "heartRate": null,
+    "latitude": 53.9015334751457,
+    "longitude": 27.690310813486576
+  },
+  {
+    "time": 1053.0,
+    "distance": 5078.52001953125,
+    "heartRate": null,
+    "latitude": 53.90158670023084,
+    "longitude": 27.690294217318296
+  },
+  {
+    "time": 1057.0,
+    "distance": 5100.0498046875,
+    "heartRate": null,
+    "latitude": 53.90176774933934,
+    "longitude": 27.690181732177734
+  },
+  {
+    "time": 1058.0,
+    "distance": 5105.6298828125,
+    "heartRate": null,
+    "latitude": 53.90181753784418,
+    "longitude": 27.690171003341675
+  },
+  {
+    "time": 1060.0,
+    "distance": 5119.5,
+    "heartRate": null,
+    "latitude": 53.901933962479234,
+    "longitude": 27.69009497947991
+  },
+  {
+    "time": 1063.0,
+    "distance": 5136.52001953125,
+    "heartRate": null,
+    "latitude": 53.90208098106086,
+    "longitude": 27.69002608023584
+  },
+  {
+    "time": 1067.0,
+    "distance": 5161.97021484375,
+    "heartRate": null,
+    "latitude": 53.90230075456202,
+    "longitude": 27.689921390265226
+  },
+  {
+    "time": 1068.0,
+    "distance": 5169.89013671875,
+    "heartRate": null,
+    "latitude": 53.90236672013998,
+    "longitude": 27.6898761279881
+  },
+  {
+    "time": 1069.0,
+    "distance": 5177.0400390625,
+    "heartRate": null,
+    "latitude": 53.90242614783347,
+    "longitude": 27.68983455374837
+  },
+  {
+    "time": 1073.0,
+    "distance": 5211.5,
+    "heartRate": null,
+    "latitude": 53.902721274644136,
+    "longitude": 27.689676554873586
+  },
+  {
+    "time": 1078.0,
+    "distance": 5247.7900390625,
+    "heartRate": null,
+    "latitude": 53.903038781136274,
+    "longitude": 27.689556358382106
+  },
+  {
+    "time": 1083.0,
+    "distance": 5268.77978515625,
+    "heartRate": null,
+    "latitude": 53.90321731567383,
+    "longitude": 27.689459966495633
+  },
+  {
+    "time": 1088.0,
+    "distance": 5277.14013671875,
+    "heartRate": null,
+    "latitude": 53.903288478031754,
+    "longitude": 27.689409675076604
+  },
+  {
+    "time": 1094.0,
+    "distance": 5291.22021484375,
+    "heartRate": null,
+    "latitude": 53.90341093763709,
+    "longitude": 27.689358377829194
+  },
+  {
+    "time": 1096.0,
+    "distance": 5295.7998046875,
+    "heartRate": null,
+    "latitude": 53.903450248762965,
+    "longitude": 27.689337339252234
+  },
+  {
+    "time": 1102.0,
+    "distance": 5311.14013671875,
+    "heartRate": null,
+    "latitude": 53.90357606112957,
+    "longitude": 27.689243126660585
+  },
+  {
+    "time": 1108.0,
+    "distance": 5324.14013671875,
+    "heartRate": null,
+    "latitude": 53.903688630089164,
+    "longitude": 27.68919065594673
+  },
+  {
+    "time": 1114.0,
+    "distance": 5337.9501953125,
+    "heartRate": null,
+    "latitude": 53.90380756929517,
+    "longitude": 27.689132150262594
+  },
+  {
+    "time": 1119.0,
+    "distance": 5353.3701171875,
+    "heartRate": null,
+    "latitude": 53.90394452959299,
+    "longitude": 27.689097449183464
+  },
+  {
+    "time": 1125.0,
+    "distance": 5375.2099609375,
+    "heartRate": null,
+    "latitude": 53.90413857065141,
+    "longitude": 27.68904690630734
+  },
+  {
+    "time": 1130.0,
+    "distance": 5395.60986328125,
+    "heartRate": null,
+    "latitude": 53.90432012267411,
+    "longitude": 27.68901706673205
+  },
+  {
+    "time": 1134.0,
+    "distance": 5410.8701171875,
+    "heartRate": null,
+    "latitude": 53.90445590950549,
+    "longitude": 27.688991501927376
+  },
+  {
+    "time": 1140.0,
+    "distance": 5434.7998046875,
+    "heartRate": null,
+    "latitude": 53.90466470271349,
+    "longitude": 27.688907850533724
+  },
+  {
+    "time": 1142.0,
+    "distance": 5443.83984375,
+    "heartRate": null,
+    "latitude": 53.9047437440604,
+    "longitude": 27.688876502215862
+  },
+  {
+    "time": 1148.0,
+    "distance": 5466.35986328125,
+    "heartRate": null,
+    "latitude": 53.90494516119361,
+    "longitude": 27.68884850665927
+  },
+  {
+    "time": 1153.0,
+    "distance": 5484.10986328125,
+    "heartRate": null,
+    "latitude": 53.90510215424001,
+    "longitude": 27.68880458548665
+  },
+  {
+    "time": 1158.0,
+    "distance": 5502.43017578125,
+    "heartRate": null,
+    "latitude": 53.905263589695096,
+    "longitude": 27.68875278532505
+  },
+  {
+    "time": 1164.0,
+    "distance": 5528.02001953125,
+    "heartRate": null,
+    "latitude": 53.905491242185235,
+    "longitude": 27.688706181943417
+  },
+  {
+    "time": 1170.0,
+    "distance": 5551.7998046875,
+    "heartRate": null,
+    "latitude": 53.90570322051644,
+    "longitude": 27.688665110617876
+  },
+  {
+    "time": 1176.0,
+    "distance": 5576.66015625,
+    "heartRate": null,
+    "latitude": 53.905924670398235,
+    "longitude": 27.688618758693337
+  },
+  {
+    "time": 1181.0,
+    "distance": 5601.7001953125,
+    "heartRate": null,
+    "latitude": 53.906147042289376,
+    "longitude": 27.68856511451304
+  },
+  {
+    "time": 1187.0,
+    "distance": 5630.85009765625,
+    "heartRate": null,
+    "latitude": 53.9064066298306,
+    "longitude": 27.688507698476315
+  },
+  {
+    "time": 1193.0,
+    "distance": 5655.39013671875,
+    "heartRate": null,
+    "latitude": 53.906604861840606,
+    "longitude": 27.688355315476656
+  },
+  {
+    "time": 1198.0,
+    "distance": 5673.39990234375,
+    "heartRate": null,
+    "latitude": 53.90670955181122,
+    "longitude": 27.688146270811558
+  },
+  {
+    "time": 1204.0,
+    "distance": 5698.9599609375,
+    "heartRate": null,
+    "latitude": 53.9068812970072,
+    "longitude": 27.687889533117414
+  },
+  {
+    "time": 1209.0,
+    "distance": 5722.2900390625,
+    "heartRate": null,
+    "latitude": 53.90701197087765,
+    "longitude": 27.687635980546474
+  },
+  {
+    "time": 1214.0,
+    "distance": 5743.330078125,
+    "heartRate": null,
+    "latitude": 53.907196624204516,
+    "longitude": 27.68765131942928
+  },
+  {
+    "time": 1219.0,
+    "distance": 5762.72998046875,
+    "heartRate": null,
+    "latitude": 53.90735445544124,
+    "longitude": 27.687776209786534
+  },
+  {
+    "time": 1224.0,
+    "distance": 5779.02978515625,
+    "heartRate": null,
+    "latitude": 53.907493678852916,
+    "longitude": 27.687849467620254
+  },
+  {
+    "time": 1230.0,
+    "distance": 5807.60986328125,
+    "heartRate": null,
+    "latitude": 53.907748656347394,
+    "longitude": 27.68788601271808
+  },
+  {
+    "time": 1232.0,
+    "distance": 5819.8701171875,
+    "heartRate": null,
+    "latitude": 53.90785745345056,
+    "longitude": 27.687917361035943
+  },
+  {
+    "time": 1235.0,
+    "distance": 5837.8798828125,
+    "heartRate": null,
+    "latitude": 53.90801922418177,
+    "longitude": 27.68792356364429
+  },
+  {
+    "time": 1241.0,
+    "distance": 5875.52001953125,
+    "heartRate": null,
+    "latitude": 53.908357098698616,
+    "longitude": 27.687921300530434
+  },
+  {
+    "time": 1243.0,
+    "distance": 5888.31982421875,
+    "heartRate": null,
+    "latitude": 53.908468997105956,
+    "longitude": 27.68796605989337
+  },
+  {
+    "time": 1245.0,
+    "distance": 5897.2099609375,
+    "heartRate": null,
+    "latitude": 53.90854585915804,
+    "longitude": 27.68800268881023
+  },
+  {
+    "time": 1250.0,
+    "distance": 5911.72021484375,
+    "heartRate": null,
+    "latitude": 53.908670246601105,
+    "longitude": 27.68806672655046
+  },
+  {
+    "time": 1256.0,
+    "distance": 5932.06005859375,
+    "heartRate": null,
+    "latitude": 53.90883528627455,
+    "longitude": 27.688198992982507
+  },
+  {
+    "time": 1260.0,
+    "distance": 5944.3798828125,
+    "heartRate": null,
+    "latitude": 53.90893578529358,
+    "longitude": 27.68827250227332
+  },
+  {
+    "time": 1263.0,
+    "distance": 5956.77978515625,
+    "heartRate": null,
+    "latitude": 53.90903804451227,
+    "longitude": 27.688343580812216
+  },
+  {
+    "time": 1264.0,
+    "distance": 5961.7099609375,
+    "heartRate": null,
+    "latitude": 53.909078277647495,
+    "longitude": 27.688374929130077
+  },
+  {
+    "time": 1269.0,
+    "distance": 5986.35009765625,
+    "heartRate": null,
+    "latitude": 53.90928313136101,
+    "longitude": 27.688517337664962
+  },
+  {
+    "time": 1274.0,
+    "distance": 6004.18994140625,
+    "heartRate": null,
+    "latitude": 53.90942696481943,
+    "longitude": 27.688636109232903
+  },
+  {
+    "time": 1280.0,
+    "distance": 6025.60986328125,
+    "heartRate": null,
+    "latitude": 53.909600554034114,
+    "longitude": 27.688774410635233
+  },
+  {
+    "time": 1282.0,
+    "distance": 6034.740234375,
+    "heartRate": null,
+    "latitude": 53.909673895686865,
+    "longitude": 27.688829731196165
+  },
+  {
+    "time": 1284.0,
+    "distance": 6046.33984375,
+    "heartRate": null,
+    "latitude": 53.909772047773004,
+    "longitude": 27.688888739794493
+  },
+  {
+    "time": 1289.0,
+    "distance": 6079.89990234375,
+    "heartRate": null,
+    "latitude": 53.9100450463593,
+    "longitude": 27.689106836915016
+  },
+  {
+    "time": 1295.0,
+    "distance": 6116.3798828125,
+    "heartRate": null,
+    "latitude": 53.910334473475814,
+    "longitude": 27.689369609579444
+  },
+  {
+    "time": 1297.0,
+    "distance": 6127.8701171875,
+    "heartRate": null,
+    "latitude": 53.91042726114392,
+    "longitude": 27.68944571726024
+  },
+  {
+    "time": 1300.0,
+    "distance": 6140.9501953125,
+    "heartRate": null,
+    "latitude": 53.910539243370295,
+    "longitude": 27.689504893496633
+  },
+  {
+    "time": 1306.0,
+    "distance": 6169.02001953125,
+    "heartRate": null,
+    "latitude": 53.9107771217823,
+    "longitude": 27.689642775803804
+  },
+  {
+    "time": 1311.0,
+    "distance": 6193.56982421875,
+    "heartRate": null,
+    "latitude": 53.91097535379231,
+    "longitude": 27.689805971458554
+  },
+  {
+    "time": 1312.0,
+    "distance": 6198.89990234375,
+    "heartRate": null,
+    "latitude": 53.91101868823171,
+    "longitude": 27.689840169623494
+  },
+  {
+    "time": 1316.0,
+    "distance": 6219.91015625,
+    "heartRate": null,
+    "latitude": 53.91119278036058,
+    "longitude": 27.689960282295942
+  },
+  {
+    "time": 1317.0,
+    "distance": 6225.31982421875,
+    "heartRate": null,
+    "latitude": 53.91123921610415,
+    "longitude": 27.689984338358045
+  },
+  {
+    "time": 1323.0,
+    "distance": 6247.66015625,
+    "heartRate": null,
+    "latitude": 53.911423617973924,
+    "longitude": 27.690104953944683
+  },
+  {
+    "time": 1329.0,
+    "distance": 6274.2998046875,
+    "heartRate": null,
+    "latitude": 53.9116439782083,
+    "longitude": 27.6902611926198
+  },
+  {
+    "time": 1330.0,
+    "distance": 6278.5400390625,
+    "heartRate": null,
+    "latitude": 53.91167834401131,
+    "longitude": 27.690289271995425
+  },
+  {
+    "time": 1335.0,
+    "distance": 6302.56982421875,
+    "heartRate": null,
+    "latitude": 53.91187791712582,
+    "longitude": 27.690426651388407
+  },
+  {
+    "time": 1339.0,
+    "distance": 6318.02001953125,
+    "heartRate": null,
+    "latitude": 53.91200976446271,
+    "longitude": 27.69049806520343
+  },
+  {
+    "time": 1344.0,
+    "distance": 6336.27001953125,
+    "heartRate": null,
+    "latitude": 53.91215946525335,
+    "longitude": 27.690611723810434
+  },
+  {
+    "time": 1350.0,
+    "distance": 6361.89013671875,
+    "heartRate": null,
+    "latitude": 53.91236884519458,
+    "longitude": 27.690772907808423
+  },
+  {
+    "time": 1355.0,
+    "distance": 6383.8701171875,
+    "heartRate": null,
+    "latitude": 53.91255802474916,
+    "longitude": 27.690865695476532
+  },
+  {
+    "time": 1357.0,
+    "distance": 6390.27978515625,
+    "heartRate": null,
+    "latitude": 53.91261024400592,
+    "longitude": 27.690906766802073
+  },
+  {
+    "time": 1359.0,
+    "distance": 6396.740234375,
+    "heartRate": null,
+    "latitude": 53.91265466809273,
+    "longitude": 27.69097013399005
+  },
+  {
+    "time": 1364.0,
+    "distance": 6408.7900390625,
+    "heartRate": null,
+    "latitude": 53.91274485737085,
+    "longitude": 27.69107029773295
+  },
+  {
+    "time": 1367.0,
+    "distance": 6417.0400390625,
+    "heartRate": null,
+    "latitude": 53.912805039435625,
+    "longitude": 27.69114263355732
+  },
+  {
+    "time": 1369.0,
+    "distance": 6419.66015625,
+    "heartRate": null,
+    "latitude": 53.91281442716718,
+    "longitude": 27.69118077121675
+  },
+  {
+    "time": 1375.0,
+    "distance": 6427.080078125,
+    "heartRate": null,
+    "latitude": 53.91283605247736,
+    "longitude": 27.691287472844124
+  },
+  {
+    "time": 1376.0,
+    "distance": 6428.2001953125,
+    "heartRate": null,
+    "latitude": 53.91283890232444,
+    "longitude": 27.69130381755531
+  },
+  {
+    "time": 1377.0,
+    "distance": 6429.3701171875,
+    "heartRate": null,
+    "latitude": 53.91284292563796,
+    "longitude": 27.691320413723588
+  },
+  {
+    "time": 1378.0,
+    "distance": 6431.56005859375,
+    "heartRate": null,
+    "latitude": 53.912861784920096,
+    "longitude": 27.691337009891868
+  },
+  {
+    "time": 1383.0,
+    "distance": 6441.6201171875,
+    "heartRate": null,
+    "latitude": 53.91291777603328,
+    "longitude": 27.691452680155635
+  },
+  {
+    "time": 1384.0,
+    "distance": 6442.60009765625,
+    "heartRate": null,
+    "latitude": 53.912917943671346,
+    "longitude": 27.69146759994328
+  },
+  {
+    "time": 1388.0,
+    "distance": 6445.240234375,
+    "heartRate": null,
+    "latitude": 53.912918446585536,
+    "longitude": 27.69150087609887
+  },
+  {
+    "time": 1388.0,
+    "distance": 6445.240234375,
+    "heartRate": null,
+    "latitude": 53.91305792145431,
+    "longitude": 27.691557370126247
+  },
+  {
+    "time": 1392.0,
+    "distance": 6451.14013671875,
+    "heartRate": null,
+    "latitude": 53.91310234554112,
+    "longitude": 27.69160590134561
+  },
+  {
+    "time": 1393.0,
+    "distance": 6452.41015625,
+    "heartRate": null,
+    "latitude": 53.9131136611104,
+    "longitude": 27.691609170287848
+  },
+  {
+    "time": 1394.0,
+    "distance": 6453.580078125,
+    "heartRate": null,
+    "latitude": 53.913124138489366,
+    "longitude": 27.69160975702107
+  },
+  {
+    "time": 1395.0,
+    "distance": 6455.68994140625,
+    "heartRate": null,
+    "latitude": 53.91314291395247,
+    "longitude": 27.691605482250452
+  },
+  {
+    "time": 1398.0,
+    "distance": 6462.56005859375,
+    "heartRate": null,
+    "latitude": 53.913204185664654,
+    "longitude": 27.691594334319234
+  },
+  {
+    "time": 1399.0,
+    "distance": 6466.2998046875,
+    "heartRate": null,
+    "latitude": 53.91323712654412,
+    "longitude": 27.6916048116982
+  },
+  {
+    "time": 1404.0,
+    "distance": 6476.68017578125,
+    "heartRate": null,
+    "latitude": 53.91332630999386,
+    "longitude": 27.691647307947278
+  },
+  {
+    "time": 1407.0,
+    "distance": 6478.85009765625,
+    "heartRate": null,
+    "latitude": 53.91334366053343,
+    "longitude": 27.691657030954957
+  },
+  {
+    "time": 1407.0,
+    "distance": 6478.85009765625,
+    "heartRate": null,
+    "latitude": 53.9135108795017,
+    "longitude": 27.69155560992658
+  },
+  {
+    "time": 1408.0,
+    "distance": 6481.3701171875,
+    "heartRate": null,
+    "latitude": 53.91353040933609,
+    "longitude": 27.691574804484844
+  },
+  {
+    "time": 1413.0,
+    "distance": 6499.10009765625,
+    "heartRate": null,
+    "latitude": 53.91367709264159,
+    "longitude": 27.6916806679219
+  },
+  {
+    "time": 1418.0,
+    "distance": 6512.7998046875,
+    "heartRate": null,
+    "latitude": 53.91378848813474,
+    "longitude": 27.691767504438758
+  },
+  {
+    "time": 1422.0,
+    "distance": 6528.75,
+    "heartRate": null,
+    "latitude": 53.913920084014535,
+    "longitude": 27.691863477230072
+  },
+  {
+    "time": 1423.0,
+    "distance": 6532.97998046875,
+    "heartRate": null,
+    "latitude": 53.913955204188824,
+    "longitude": 27.691888539120555
+  },
+  {
+    "time": 1427.0,
+    "distance": 6543.669921875,
+    "heartRate": null,
+    "latitude": 53.91404849477112,
+    "longitude": 27.69193086773157
+  },
+  {
+    "time": 1430.0,
+    "distance": 6550.56982421875,
+    "heartRate": null,
+    "latitude": 53.91410892829299,
+    "longitude": 27.691957354545593
+  },
+  {
+    "time": 1431.0,
+    "distance": 6552.7001953125,
+    "heartRate": null,
+    "latitude": 53.91412669792771,
+    "longitude": 27.69196934066713
+  },
+  {
+    "time": 1432.0,
+    "distance": 6554.27978515625,
+    "heartRate": null,
+    "latitude": 53.91413977369666,
+    "longitude": 27.691979063674808
+  },
+  {
+    "time": 1436.0,
+    "distance": 6559.93994140625,
+    "heartRate": null,
+    "latitude": 53.91422099433839,
+    "longitude": 27.69198107533157
+  },
+  {
+    "time": 1441.0,
+    "distance": 6569.93017578125,
+    "heartRate": null,
+    "latitude": 53.914140444248915,
+    "longitude": 27.691941261291504
+  },
+  {
+    "time": 1446.0,
+    "distance": 6589.5400390625,
+    "heartRate": null,
+    "latitude": 53.91396534629166,
+    "longitude": 27.691898178309202
+  },
+  {
+    "time": 1447.0,
+    "distance": 6593.22021484375,
+    "heartRate": null,
+    "latitude": 53.91393500380218,
+    "longitude": 27.69187563098967
+  },
+  {
+    "time": 1452.0,
+    "distance": 6601.06005859375,
+    "heartRate": null,
+    "latitude": 53.91386107541621,
+    "longitude": 27.691864063963294
+  },
+  {
+    "time": 1452.0,
+    "distance": 6601.06005859375,
+    "heartRate": null,
+    "latitude": 53.91382738016546,
+    "longitude": 27.691738670691848
+  },
+  {
+    "time": 1454.0,
+    "distance": 6608.81005859375,
+    "heartRate": null,
+    "latitude": 53.91388454474509,
+    "longitude": 27.691807486116886
+  },
+  {
+    "time": 1455.0,
+    "distance": 6613.64013671875,
+    "heartRate": null,
+    "latitude": 53.913924526423216,
+    "longitude": 27.69183690659702
+  },
+  {
+    "time": 1458.0,
+    "distance": 6622.22998046875,
+    "heartRate": null,
+    "latitude": 53.91398831270635,
+    "longitude": 27.691791728138924
+  },
+  {
+    "time": 1459.0,
+    "distance": 6623.6201171875,
+    "heartRate": null,
+    "latitude": 53.91399057582021,
+    "longitude": 27.691768677905202
+  },
+  {
+    "time": 1462.0,
+    "distance": 6626.35986328125,
+    "heartRate": null,
+    "latitude": 53.914013961330056,
+    "longitude": 27.691750237718225
+  },
+  {
+    "time": 1463.0,
+    "distance": 6627.0,
+    "heartRate": null,
+    "latitude": 53.914015805348754,
+    "longitude": 27.69173883832991
+  },
+  {
+    "time": 1463.0,
+    "distance": 6627.0,
+    "heartRate": null,
+    "latitude": 53.914040280506015,
+    "longitude": 27.691628113389015
+  },
+  {
+    "time": 1465.0,
+    "distance": 6631.52978515625,
+    "heartRate": null,
+    "latitude": 53.914031060412526,
+    "longitude": 27.69155401736498
+  },
+  {
+    "time": 1469.0,
+    "distance": 6639.81005859375,
+    "heartRate": null,
+    "latitude": 53.914102306589484,
+    "longitude": 27.691519567742944
+  },
+  {
+    "time": 1474.0,
+    "distance": 6655.6201171875,
+    "heartRate": null,
+    "latitude": 53.91422610729933,
+    "longitude": 27.691412614658475
+  },
+  {
+    "time": 1479.0,
+    "distance": 6675.830078125,
+    "heartRate": null,
+    "latitude": 53.91437924467027,
+    "longitude": 27.691248413175344
+  },
+  {
+    "time": 1484.0,
+    "distance": 6693.93017578125,
+    "heartRate": null,
+    "latitude": 53.9145246706903,
+    "longitude": 27.691128384321928
+  },
+  {
+    "time": 1488.0,
+    "distance": 6702.5400390625,
+    "heartRate": null,
+    "latitude": 53.91459675505757,
+    "longitude": 27.691081278026104
+  },
+  {
+    "time": 1491.0,
+    "distance": 6707.9599609375,
+    "heartRate": null,
+    "latitude": 53.91464788466692,
+    "longitude": 27.691078344359994
+  },
+  {
+    "time": 1491.0,
+    "distance": 6707.9599609375,
+    "heartRate": null,
+    "latitude": 53.9147144369781,
+    "longitude": 27.69089352339506
+  },
+  {
+    "time": 1492.0,
+    "distance": 6709.85009765625,
+    "heartRate": null,
+    "latitude": 53.91472617164254,
+    "longitude": 27.690872652456164
+  },
+  {
+    "time": 1496.0,
+    "distance": 6713.990234375,
+    "heartRate": null,
+    "latitude": 53.91475441865623,
+    "longitude": 27.690825629979372
+  },
+  {
+    "time": 1496.0,
+    "distance": 6713.990234375,
+    "heartRate": null,
+    "latitude": 53.91487520188093,
+    "longitude": 27.690782882273197
+  },
+  {
+    "time": 1499.0,
+    "distance": 6723.14990234375,
+    "heartRate": null,
+    "latitude": 53.91496161930263,
+    "longitude": 27.69075270742178
+  },
+  {
+    "time": 1504.0,
+    "distance": 6732.27001953125,
+    "heartRate": null,
+    "latitude": 53.91502230428159,
+    "longitude": 27.690658746287227
+  },
+  {
+    "time": 1506.0,
+    "distance": 6736.16015625,
+    "heartRate": null,
+    "latitude": 53.91505507752299,
+    "longitude": 27.690635193139315
+  },
+  {
+    "time": 1509.0,
+    "distance": 6737.27978515625,
+    "heartRate": null,
+    "latitude": 53.915064465254545,
+    "longitude": 27.690631672739983
+  },
+  {
+    "time": 1509.0,
+    "distance": 6737.27978515625,
+    "heartRate": null,
+    "latitude": 53.9151098113507,
+    "longitude": 27.690574675798416
+  },
+  {
+    "time": 1512.0,
+    "distance": 6741.7998046875,
+    "heartRate": null,
+    "latitude": 53.91514711081982,
+    "longitude": 27.690531676635146
+  },
+  {
+    "time": 1517.0,
+    "distance": 6747.27001953125,
+    "heartRate": null,
+    "latitude": 53.91519773751497,
+    "longitude": 27.690503764897585
+  },
+  {
+    "time": 1518.0,
+    "distance": 6747.56982421875,
+    "heartRate": null,
+    "latitude": 53.91520234756172,
+    "longitude": 27.69050443544984
+  },
+  {
+    "time": 1518.0,
+    "distance": 6747.56982421875,
+    "heartRate": null,
+    "latitude": 53.91527476720512,
+    "longitude": 27.69033838994801
+  },
+  {
+    "time": 1521.0,
+    "distance": 6755.27001953125,
+    "heartRate": null,
+    "latitude": 53.91534274443984,
+    "longitude": 27.690318021923304
+  },
+  {
+    "time": 1524.0,
+    "distance": 6766.2998046875,
+    "heartRate": null,
+    "latitude": 53.915437208488584,
+    "longitude": 27.690268652513623
+  },
+  {
+    "time": 1526.0,
+    "distance": 6775.66015625,
+    "heartRate": null,
+    "latitude": 53.91551624983549,
+    "longitude": 27.690223809331656
+  },
+  {
+    "time": 1531.0,
+    "distance": 6792.60986328125,
+    "heartRate": null,
+    "latitude": 53.915662597864866,
+    "longitude": 27.69015809521079
+  },
+  {
+    "time": 1536.0,
+    "distance": 6805.66015625,
+    "heartRate": null,
+    "latitude": 53.91577332280576,
+    "longitude": 27.690104953944683
+  },
+  {
+    "time": 1541.0,
+    "distance": 6819.2001953125,
+    "heartRate": null,
+    "latitude": 53.91587843187153,
+    "longitude": 27.690006298944354
+  },
+  {
+    "time": 1545.0,
+    "distance": 6834.06982421875,
+    "heartRate": null,
+    "latitude": 53.91599653288722,
+    "longitude": 27.689900184050202
+  },
+  {
+    "time": 1550.0,
+    "distance": 6855.4599609375,
+    "heartRate": null,
+    "latitude": 53.91617003828287,
+    "longitude": 27.68976171500981
+  },
+  {
+    "time": 1555.0,
+    "distance": 6884.18994140625,
+    "heartRate": null,
+    "latitude": 53.916379837319255,
+    "longitude": 27.68950958736241
+  },
+  {
+    "time": 1560.0,
+    "distance": 6910.56005859375,
+    "heartRate": null,
+    "latitude": 53.91658142209053,
+    "longitude": 27.689299704506993
+  },
+  {
+    "time": 1565.0,
+    "distance": 6929.25,
+    "heartRate": null,
+    "latitude": 53.916733302176,
+    "longitude": 27.68918084912002
+  },
+  {
+    "time": 1571.0,
+    "distance": 6954.41015625,
+    "heartRate": null,
+    "latitude": 53.916918793693185,
+    "longitude": 27.689001308754086
+  },
+  {
+    "time": 1574.0,
+    "distance": 6966.93017578125,
+    "heartRate": null,
+    "latitude": 53.91703144647181,
+    "longitude": 27.688990579918027
+  },
+  {
+    "time": 1575.0,
+    "distance": 6969.77978515625,
+    "heartRate": null,
+    "latitude": 53.91705684363842,
+    "longitude": 27.688979767262936
+  },
+  {
+    "time": 1576.0,
+    "distance": 6972.419921875,
+    "heartRate": null,
+    "latitude": 53.917075116187334,
+    "longitude": 27.688952442258596
+  },
+  {
+    "time": 1579.0,
+    "distance": 6982.22998046875,
+    "heartRate": null,
+    "latitude": 53.91710654832423,
+    "longitude": 27.688811207190156
+  },
+  {
+    "time": 1583.0,
+    "distance": 7000.740234375,
+    "heartRate": null,
+    "latitude": 53.91716237179935,
+    "longitude": 27.68854063935578
+  },
+  {
+    "time": 1588.0,
+    "distance": 7027.81005859375,
+    "heartRate": null,
+    "latitude": 53.91717217862606,
+    "longitude": 27.688128920271993
+  },
+  {
+    "time": 1589.0,
+    "distance": 7033.0,
+    "heartRate": null,
+    "latitude": 53.91718282364309,
+    "longitude": 27.688051974400878
+  },
+  {
+    "time": 1590.0,
+    "distance": 7038.6201171875,
+    "heartRate": null,
+    "latitude": 53.917210483923554,
+    "longitude": 27.687980141490698
+  },
+  {
+    "time": 1592.0,
+    "distance": 7050.22021484375,
+    "heartRate": null,
+    "latitude": 53.917290614917874,
+    "longitude": 27.687866985797882
+  },
+  {
+    "time": 1596.0,
+    "distance": 7075.56982421875,
+    "heartRate": null,
+    "latitude": 53.91751332208514,
+    "longitude": 27.68779364414513
+  },
+  {
+    "time": 1602.0,
+    "distance": 7117.35009765625,
+    "heartRate": null,
+    "latitude": 53.91788564622402,
+    "longitude": 27.687718961387873
+  },
+  {
+    "time": 1608.0,
+    "distance": 7161.91015625,
+    "heartRate": null,
+    "latitude": 53.9182838704437,
+    "longitude": 27.687659114599228
+  },
+  {
+    "time": 1614.0,
+    "distance": 7203.39990234375,
+    "heartRate": null,
+    "latitude": 53.91865569166839,
+    "longitude": 27.687636651098728
+  },
+  {
+    "time": 1620.0,
+    "distance": 7255.4501953125,
+    "heartRate": null,
+    "latitude": 53.919122982770205,
+    "longitude": 27.687612427398562
+  },
+  {
+    "time": 1625.0,
+    "distance": 7308.77978515625,
+    "heartRate": null,
+    "latitude": 53.919601421803236,
+    "longitude": 27.687597926706076
+  },
+  {
+    "time": 1629.0,
+    "distance": 7346.9501953125,
+    "heartRate": null,
+    "latitude": 53.919942900538445,
+    "longitude": 27.687648218125105
+  },
+  {
+    "time": 1630.0,
+    "distance": 7355.419921875,
+    "heartRate": null,
+    "latitude": 53.92001699656248,
+    "longitude": 27.687678560614586
+  },
+  {
+    "time": 1636.0,
+    "distance": 7400.9501953125,
+    "heartRate": null,
+    "latitude": 53.92041798681021,
+    "longitude": 27.68781451508403
+  },
+  {
+    "time": 1642.0,
+    "distance": 7443.2900390625,
+    "heartRate": null,
+    "latitude": 53.920793160796165,
+    "longitude": 27.687921887263656
+  },
+  {
+    "time": 1648.0,
+    "distance": 7483.35009765625,
+    "heartRate": null,
+    "latitude": 53.92115115188062,
+    "longitude": 27.687969245016575
+  },
+  {
+    "time": 1653.0,
+    "distance": 7516.3701171875,
+    "heartRate": null,
+    "latitude": 53.921439154073596,
+    "longitude": 27.688088435679674
+  },
+  {
+    "time": 1659.0,
+    "distance": 7554.43017578125,
+    "heartRate": null,
+    "latitude": 53.92176101915538,
+    "longitude": 27.688284320756793
+  },
+  {
+    "time": 1661.0,
+    "distance": 7565.830078125,
+    "heartRate": null,
+    "latitude": 53.921856405213475,
+    "longitude": 27.68834626302123
+  },
+  {
+    "time": 1663.0,
+    "distance": 7575.35009765625,
+    "heartRate": null,
+    "latitude": 53.921941900625825,
+    "longitude": 27.68835020251572
+  },
+  {
+    "time": 1667.0,
+    "distance": 7592.0,
+    "heartRate": null,
+    "latitude": 53.92209109850228,
+    "longitude": 27.688342910259962
+  },
+  {
+    "time": 1669.0,
+    "distance": 7599.2001953125,
+    "heartRate": null,
+    "latitude": 53.92212781123817,
+    "longitude": 27.68843033351004
+  },
+  {
+    "time": 1670.0,
+    "distance": 7602.91015625,
+    "heartRate": null,
+    "latitude": 53.9221278950572,
+    "longitude": 27.688486743718386
+  },
+  {
+    "time": 1675.0,
+    "distance": 7623.56982421875,
+    "heartRate": null,
+    "latitude": 53.92213074490428,
+    "longitude": 27.688800394535065
+  },
+  {
+    "time": 1676.0,
+    "distance": 7627.5400390625,
+    "heartRate": null,
+    "latitude": 53.922146586701274,
+    "longitude": 27.688854793086648
+  },
+  {
+    "time": 1679.0,
+    "distance": 7639.2001953125,
+    "heartRate": null,
+    "latitude": 53.92222403548658,
+    "longitude": 27.688973397016525
+  },
+  {
+    "time": 1683.0,
+    "distance": 7646.2001953125,
+    "heartRate": null,
+    "latitude": 53.92227474600077,
+    "longitude": 27.689033914357424
+  },
+  {
+    "time": 1687.0,
+    "distance": 7649.91015625,
+    "heartRate": null,
+    "latitude": 53.92230617813766,
+    "longitude": 27.689054030925035
+  },
+  {
+    "time": 1687.0,
+    "distance": 7649.91015625,
+    "heartRate": null,
+    "latitude": 53.922414472326636,
+    "longitude": 27.689064759761095
+  },
+  {
+    "time": 1688.0,
+    "distance": 7652.66015625,
+    "heartRate": null,
+    "latitude": 53.92243819311261,
+    "longitude": 27.68907532095909
+  },
+  {
+    "time": 1694.0,
+    "distance": 7666.830078125,
+    "heartRate": null,
+    "latitude": 53.922562999650836,
+    "longitude": 27.68911723047495
+  },
+  {
+    "time": 1700.0,
+    "distance": 7688.259765625,
+    "heartRate": null,
+    "latitude": 53.92275041900575,
+    "longitude": 27.68918219022453
+  },
+  {
+    "time": 1705.0,
+    "distance": 7707.330078125,
+    "heartRate": null,
+    "latitude": 53.9229138661176,
+    "longitude": 27.689099544659257
+  },
+  {
+    "time": 1708.0,
+    "distance": 7723.02978515625,
+    "heartRate": null,
+    "latitude": 53.92305484972894,
+    "longitude": 27.689109435305
+  },
+  {
+    "time": 1710.0,
+    "distance": 7733.669921875,
+    "heartRate": null,
+    "latitude": 53.92315006814897,
+    "longitude": 27.689093928784132
+  },
+  {
+    "time": 1715.0,
+    "distance": 7759.81982421875,
+    "heartRate": null,
+    "latitude": 53.92338249832392,
+    "longitude": 27.68903768621385
+  },
+  {
+    "time": 1717.0,
+    "distance": 7769.35986328125,
+    "heartRate": null,
+    "latitude": 53.92346824519336,
+    "longitude": 27.689033076167107
+  },
+  {
+    "time": 1720.0,
+    "distance": 7782.419921875,
+    "heartRate": null,
+    "latitude": 53.92358500510454,
+    "longitude": 27.689013881608844
+  },
+  {
+    "time": 1726.0,
+    "distance": 7810.22998046875,
+    "heartRate": null,
+    "latitude": 53.92383369617164,
+    "longitude": 27.688973313197494
+  },
+  {
+    "time": 1728.0,
+    "distance": 7819.419921875,
+    "heartRate": null,
+    "latitude": 53.923916006460786,
+    "longitude": 27.68896132707596
+  },
+  {
+    "time": 1734.0,
+    "distance": 7849.3798828125,
+    "heartRate": null,
+    "latitude": 53.924183221533895,
+    "longitude": 27.68890709616244
+  },
+  {
+    "time": 1736.0,
+    "distance": 7860.06005859375,
+    "heartRate": null,
+    "latitude": 53.92427869141102,
+    "longitude": 27.688891254365444
+  },
+  {
+    "time": 1738.0,
+    "distance": 7869.919921875,
+    "heartRate": null,
+    "latitude": 53.92436435446143,
+    "longitude": 27.688854709267616
+  },
+  {
+    "time": 1740.0,
+    "distance": 7879.68017578125,
+    "heartRate": null,
+    "latitude": 53.92441959120333,
+    "longitude": 27.68874096684158
+  },
+  {
+    "time": 1743.0,
+    "distance": 7894.85986328125,
+    "heartRate": null,
+    "latitude": 53.92447415739298,
+    "longitude": 27.688529659062624
+  },
+  {
+    "time": 1745.0,
+    "distance": 7899.8798828125,
+    "heartRate": null,
+    "latitude": 53.92450449988246,
+    "longitude": 27.68847324885428
+  },
+  {
+    "time": 1747.0,
+    "distance": 7904.56982421875,
+    "heartRate": null,
+    "latitude": 53.92452344298363,
+    "longitude": 27.688410384580493
+  },
+  {
+    "time": 1749.0,
+    "distance": 7911.68017578125,
+    "heartRate": null,
+    "latitude": 53.92451933585107,
+    "longitude": 27.688302928581834
+  },
+  {
+    "time": 1751.0,
+    "distance": 7921.60986328125,
+    "heartRate": null,
+    "latitude": 53.92449578270316,
+    "longitude": 27.68815758638084
+  },
+  {
+    "time": 1754.0,
+    "distance": 7938.10986328125,
+    "heartRate": null,
+    "latitude": 53.9244781807065,
+    "longitude": 27.687908308580518
+  },
+  {
+    "time": 1760.0,
+    "distance": 7973.1201171875,
+    "heartRate": null,
+    "latitude": 53.92444523982704,
+    "longitude": 27.687379494309425
+  },
+  {
+    "time": 1763.0,
+    "distance": 7989.60009765625,
+    "heartRate": null,
+    "latitude": 53.924434343352914,
+    "longitude": 27.68712954595685
+  },
+  {
+    "time": 1764.0,
+    "distance": 7995.56005859375,
+    "heartRate": null,
+    "latitude": 53.92443652264774,
+    "longitude": 27.687038853764534
+  },
+  {
+    "time": 1768.0,
+    "distance": 8023.759765625,
+    "heartRate": null,
+    "latitude": 53.924417328089476,
+    "longitude": 27.686610873788595
+  },
+  {
+    "time": 1770.0,
+    "distance": 8037.509765625,
+    "heartRate": null,
+    "latitude": 53.92440492287278,
+    "longitude": 27.686403170228004
+  },
+  {
+    "time": 1771.0,
+    "distance": 8044.8701171875,
+    "heartRate": null,
+    "latitude": 53.92439126037061,
+    "longitude": 27.686293618753552
+  },
+  {
+    "time": 1773.0,
+    "distance": 8057.14013671875,
+    "heartRate": null,
+    "latitude": 53.92437851987779,
+    "longitude": 27.686107959598303
+  },
+  {
+    "time": 1779.0,
+    "distance": 8093.64990234375,
+    "heartRate": null,
+    "latitude": 53.92435940913856,
+    "longitude": 27.685554083436728
+  },
+  {
+    "time": 1781.0,
+    "distance": 8105.56005859375,
+    "heartRate": null,
+    "latitude": 53.92435681074858,
+    "longitude": 27.68537286669016
+  },
+  {
+    "time": 1784.0,
+    "distance": 8125.25,
+    "heartRate": null,
+    "latitude": 53.92435781657696,
+    "longitude": 27.685073046013713
+  },
+  {
+    "time": 1790.0,
+    "distance": 8169.75,
+    "heartRate": null,
+    "latitude": 53.9242984727025,
+    "longitude": 27.68440299667418
+  },
+  {
+    "time": 1791.0,
+    "distance": 8176.39013671875,
+    "heartRate": null,
+    "latitude": 53.92429143190384,
+    "longitude": 27.684302665293217
+  },
+  {
+    "time": 1797.0,
+    "distance": 8218.330078125,
+    "heartRate": null,
+    "latitude": 53.924252204596996,
+    "longitude": 27.683667484670877
+  },
+  {
+    "time": 1800.0,
+    "distance": 8241.5498046875,
+    "heartRate": null,
+    "latitude": 53.92423334531486,
+    "longitude": 27.68331670202315
+  },
+  {
+    "time": 1802.0,
+    "distance": 8254.400390625,
+    "heartRate": null,
+    "latitude": 53.92424709163606,
+    "longitude": 27.68312224186957
+  },
+  {
+    "time": 1805.0,
+    "distance": 8274.099609375,
+    "heartRate": null,
+    "latitude": 53.92427491955459,
+    "longitude": 27.682827282696962
+  },
+  {
+    "time": 1807.0,
+    "distance": 8287.33984375,
+    "heartRate": null,
+    "latitude": 53.92431674525142,
+    "longitude": 27.682638689875603
+  },
+  {
+    "time": 1808.0,
+    "distance": 8293.240234375,
+    "heartRate": null,
+    "latitude": 53.924329401925206,
+    "longitude": 27.682551182806492
+  },
+  {
+    "time": 1809.0,
+    "distance": 8298.9697265625,
+    "heartRate": null,
+    "latitude": 53.92435094341636,
+    "longitude": 27.682471722364426
+  },
+  {
+    "time": 1811.0,
+    "distance": 8309.990234375,
+    "heartRate": null,
+    "latitude": 53.92440140247345,
+    "longitude": 27.68232738599181
+  },
+  {
+    "time": 1814.0,
+    "distance": 8324.1298828125,
+    "heartRate": null,
+    "latitude": 53.924471559002995,
+    "longitude": 27.682148180902004
+  },
+  {
+    "time": 1816.0,
+    "distance": 8333.5703125,
+    "heartRate": null,
+    "latitude": 53.924524364992976,
+    "longitude": 27.68203552812338
+  },
+  {
+    "time": 1820.0,
+    "distance": 8345.7099609375,
+    "heartRate": null,
+    "latitude": 53.92460281960666,
+    "longitude": 27.68190611153841
+  },
+  {
+    "time": 1824.0,
+    "distance": 8361.599609375,
+    "heartRate": null,
+    "latitude": 53.92470046877861,
+    "longitude": 27.681729588657618
+  },
+  {
+    "time": 1826.0,
+    "distance": 8371.7099609375,
+    "heartRate": null,
+    "latitude": 53.92477087676525,
+    "longitude": 27.681632610037923
+  },
+  {
+    "time": 1828.0,
+    "distance": 8380.0595703125,
+    "heartRate": null,
+    "latitude": 53.924844805151224,
+    "longitude": 27.681609895080328
+  },
+  {
+    "time": 1830.0,
+    "distance": 8388.919921875,
+    "heartRate": null,
+    "latitude": 53.924917643889785,
+    "longitude": 27.68155868165195
+  },
+  {
+    "time": 1832.0,
+    "distance": 8397.5400390625,
+    "heartRate": null,
+    "latitude": 53.92497841268778,
+    "longitude": 27.681477293372154
+  },
+  {
+    "time": 1837.0,
+    "distance": 8419.8603515625,
+    "heartRate": null,
+    "latitude": 53.92513037659228,
+    "longitude": 27.681258441880345
+  },
+  {
+    "time": 1839.0,
+    "distance": 8430.5498046875,
+    "heartRate": null,
+    "latitude": 53.9252102561295,
+    "longitude": 27.681168587878346
+  },
+  {
+    "time": 1842.0,
+    "distance": 8444.2900390625,
+    "heartRate": null,
+    "latitude": 53.925283681601286,
+    "longitude": 27.68100120127201
+  },
+  {
+    "time": 1843.0,
+    "distance": 8447.080078125,
+    "heartRate": null,
+    "latitude": 53.925306145101786,
+    "longitude": 27.68097915686667
+  },
+  {
+    "time": 1845.0,
+    "distance": 8453.849609375,
+    "heartRate": null,
+    "latitude": 53.92536490224302,
+    "longitude": 27.681004973128438
+  },
+  {
+    "time": 1849.0,
+    "distance": 8456.259765625,
+    "heartRate": null,
+    "latitude": 53.9253968372941,
+    "longitude": 27.681020479649305
+  },
+  {
+    "time": 1849.0,
+    "distance": 8456.259765625,
+    "heartRate": null,
+    "latitude": 53.925479063764215,
+    "longitude": 27.68102559261024
+  },
+  {
+    "time": 1851.0,
+    "distance": 8462.2001953125,
+    "heartRate": null,
+    "latitude": 53.92551636323333,
+    "longitude": 27.681090384721756
+  },
+  {
+    "time": 1855.0,
+    "distance": 8483.6103515625,
+    "heartRate": null,
+    "latitude": 53.925613006576896,
+    "longitude": 27.681371346116066
+  },
+  {
+    "time": 1858.0,
+    "distance": 8502.3798828125,
+    "heartRate": null,
+    "latitude": 53.925685258582234,
+    "longitude": 27.6816285867244
+  },
+  {
+    "time": 1860.0,
+    "distance": 8515.7998046875,
+    "heartRate": null,
+    "latitude": 53.92575684003532,
+    "longitude": 27.681792955845594
+  },
+  {
+    "time": 1865.0,
+    "distance": 8550.8798828125,
+    "heartRate": null,
+    "latitude": 53.92594291828573,
+    "longitude": 27.68222319893539
+  },
+  {
+    "time": 1870.0,
+    "distance": 8584.6298828125,
+    "heartRate": null,
+    "latitude": 53.92612790688872,
+    "longitude": 27.682630391791463
+  },
+  {
+    "time": 1873.0,
+    "distance": 8605.3203125,
+    "heartRate": null,
+    "latitude": 53.92623561434448,
+    "longitude": 27.68288721330464
+  },
+  {
+    "time": 1874.0,
+    "distance": 8612.4404296875,
+    "heartRate": null,
+    "latitude": 53.926274087280035,
+    "longitude": 27.6829737983644
+  },
+  {
+    "time": 1877.0,
+    "distance": 8634.9599609375,
+    "heartRate": null,
+    "latitude": 53.926406018435955,
+    "longitude": 27.6832327991724
+  },
+  {
+    "time": 1879.0,
+    "distance": 8649.259765625,
+    "heartRate": null,
+    "latitude": 53.92649411223829,
+    "longitude": 27.683391384780407
+  },
+  {
+    "time": 1880.0,
+    "distance": 8656.1201171875,
+    "heartRate": null,
+    "latitude": 53.926530070602894,
+    "longitude": 27.683476209640503
+  },
+  {
+    "time": 1881.0,
+    "distance": 8662.9501953125,
+    "heartRate": null,
+    "latitude": 53.926560916006565,
+    "longitude": 27.683566063642502
+  },
+  {
+    "time": 1884.0,
+    "distance": 8684.2099609375,
+    "heartRate": null,
+    "latitude": 53.92665638588369,
+    "longitude": 27.683846186846495
+  },
+  {
+    "time": 1890.0,
+    "distance": 8727.9697265625,
+    "heartRate": null,
+    "latitude": 53.926840871572495,
+    "longitude": 27.684434177353978
+  },
+  {
+    "time": 1891.0,
+    "distance": 8735.2197265625,
+    "heartRate": null,
+    "latitude": 53.92686014994979,
+    "longitude": 27.684539621695876
+  },
+  {
+    "time": 1894.0,
+    "distance": 8756.650390625,
+    "heartRate": null,
+    "latitude": 53.92690029926598,
+    "longitude": 27.684857128188014
+  },
+  {
+    "time": 1895.0,
+    "distance": 8763.5302734375,
+    "heartRate": null,
+    "latitude": 53.92691630870104,
+    "longitude": 27.684958213940263
+  },
+  {
+    "time": 1897.0,
+    "distance": 8777.990234375,
+    "heartRate": null,
+    "latitude": 53.926955703645945,
+    "longitude": 27.685168096795678
+  },
+  {
+    "time": 1901.0,
+    "distance": 8807.16015625,
+    "heartRate": null,
+    "latitude": 53.927026027813554,
+    "longitude": 27.685595909133554
+  },
+  {
+    "time": 1907.0,
+    "distance": 8851.4404296875,
+    "heartRate": null,
+    "latitude": 53.927083276212215,
+    "longitude": 27.686262102797627
+  },
+  {
+    "time": 1908.0,
+    "distance": 8858.91015625,
+    "heartRate": null,
+    "latitude": 53.92708646133542,
+    "longitude": 27.686375677585602
+  },
+  {
+    "time": 1910.0,
+    "distance": 8873.6201171875,
+    "heartRate": null,
+    "latitude": 53.92710900865495,
+    "longitude": 27.68659595400095
+  },
+  {
+    "time": 1912.0,
+    "distance": 8887.6796875,
+    "heartRate": null,
+    "latitude": 53.92716248519719,
+    "longitude": 27.68678991124034
+  },
+  {
+    "time": 1915.0,
+    "distance": 8898.26953125,
+    "heartRate": null,
+    "latitude": 53.927164832130075,
+    "longitude": 27.686950005590916
+  },
+  {
+    "time": 1917.0,
+    "distance": 8906.3701171875,
+    "heartRate": null,
+    "latitude": 53.92714857123792,
+    "longitude": 27.6870699506253
+  },
+  {
+    "time": 1919.0,
+    "distance": 8917.2998046875,
+    "heartRate": null,
+    "latitude": 53.92714815214276,
+    "longitude": 27.687236415222287
+  },
+  {
+    "time": 1925.0,
+    "distance": 8959.3701171875,
+    "heartRate": null,
+    "latitude": 53.92718377523124,
+    "longitude": 27.68787377513945
+  },
+  {
+    "time": 1926.0,
+    "distance": 8966.9296875,
+    "heartRate": null,
+    "latitude": 53.927190229296684,
+    "longitude": 27.687988439574838
+  },
+  {
+    "time": 1932.0,
+    "distance": 9012.3701171875,
+    "heartRate": null,
+    "latitude": 53.9272188115865,
+    "longitude": 27.68867843784392
+  },
+  {
+    "time": 1934.0,
+    "distance": 9027.7197265625,
+    "heartRate": null,
+    "latitude": 53.92723792232573,
+    "longitude": 27.688909862190485
+  },
+  {
+    "time": 1940.0,
+    "distance": 9073.6298828125,
+    "heartRate": null,
+    "latitude": 53.92729299142957,
+    "longitude": 27.68960245884955
+  },
+  {
+    "time": 1943.0,
+    "distance": 9096.6201171875,
+    "heartRate": null,
+    "latitude": 53.92731998115778,
+    "longitude": 27.68994938582182
+  },
+  {
+    "time": 1948.0,
+    "distance": 9136.150390625,
+    "heartRate": null,
+    "latitude": 53.927356358617544,
+    "longitude": 27.690547602251172
+  },
+  {
+    "time": 1952.0,
+    "distance": 9168.8798828125,
+    "heartRate": null,
+    "latitude": 53.92738644964993,
+    "longitude": 27.691043140366673
+  },
+  {
+    "time": 1954.0,
+    "distance": 9185.3603515625,
+    "heartRate": null,
+    "latitude": 53.92740656621754,
+    "longitude": 27.69129174761474
+  },
+  {
+    "time": 1959.0,
+    "distance": 9221.3203125,
+    "heartRate": null,
+    "latitude": 53.92744034528732,
+    "longitude": 27.691835649311543
+  },
+  {
+    "time": 1960.0,
+    "distance": 9228.7998046875,
+    "heartRate": null,
+    "latitude": 53.927456019446254,
+    "longitude": 27.69194637425244
+  },
+  {
+    "time": 1961.0,
+    "distance": 9236.23046875,
+    "heartRate": null,
+    "latitude": 53.92748183570802,
+    "longitude": 27.692050728946924
+  },
+  {
+    "time": 1964.0,
+    "distance": 9261.1103515625,
+    "heartRate": null,
+    "latitude": 53.927591387182474,
+    "longitude": 27.692380473017693
+  },
+  {
+    "time": 1966.0,
+    "distance": 9278.990234375,
+    "heartRate": null,
+    "latitude": 53.92767512239516,
+    "longitude": 27.692612819373608
+  },
+  {
+    "time": 1968.0,
+    "distance": 9298.33984375,
+    "heartRate": null,
+    "latitude": 53.92777604050934,
+    "longitude": 27.692852541804314
+  },
+  {
+    "time": 1970.0,
+    "distance": 9318.240234375,
+    "heartRate": null,
+    "latitude": 53.92788919620216,
+    "longitude": 27.693087067455053
+  },
+  {
+    "time": 1972.0,
+    "distance": 9337.1904296875,
+    "heartRate": null,
+    "latitude": 53.927996987476945,
+    "longitude": 27.693310445174575
+  },
+  {
+    "time": 1974.0,
+    "distance": 9357.330078125,
+    "heartRate": null,
+    "latitude": 53.928116261959076,
+    "longitude": 27.693540947511792
+  },
+  {
+    "time": 1976.0,
+    "distance": 9378.2900390625,
+    "heartRate": null,
+    "latitude": 53.92824877984822,
+    "longitude": 27.693767677992582
+  },
+  {
+    "time": 1977.0,
+    "distance": 9388.66015625,
+    "heartRate": null,
+    "latitude": 53.928320948034525,
+    "longitude": 27.69386767409742
+  },
+  {
+    "time": 1978.0,
+    "distance": 9398.9697265625,
+    "heartRate": null,
+    "latitude": 53.92839588224888,
+    "longitude": 27.693959958851337
+  },
+  {
+    "time": 1980.0,
+    "distance": 9418.4697265625,
+    "heartRate": null,
+    "latitude": 53.928541559726,
+    "longitude": 27.69412474706769
+  },
+  {
+    "time": 1983.0,
+    "distance": 9448.83984375,
+    "heartRate": null,
+    "latitude": 53.928771475329995,
+    "longitude": 27.694372851401567
+  },
+  {
+    "time": 1984.0,
+    "distance": 9459.76953125,
+    "heartRate": null,
+    "latitude": 53.928856970742345,
+    "longitude": 27.69445499405265
+  },
+  {
+    "time": 1989.0,
+    "distance": 9514.91015625,
+    "heartRate": null,
+    "latitude": 53.929309928789735,
+    "longitude": 27.69478926435113
+  },
+  {
+    "time": 1991.0,
+    "distance": 9536.6103515625,
+    "heartRate": null,
+    "latitude": 53.929499527439475,
+    "longitude": 27.694866126403213
+  },
+  {
+    "time": 1993.0,
+    "distance": 9557.2001953125,
+    "heartRate": null,
+    "latitude": 53.92968099564314,
+    "longitude": 27.69492706283927
+  },
+  {
+    "time": 1994.0,
+    "distance": 9566.76953125,
+    "heartRate": null,
+    "latitude": 53.92976556904614,
+    "longitude": 27.69495354965329
+  },
+  {
+    "time": 1995.0,
+    "distance": 9575.75,
+    "heartRate": null,
+    "latitude": 53.929844945669174,
+    "longitude": 27.69497785717249
+  },
+  {
+    "time": 1997.0,
+    "distance": 9592.98046875,
+    "heartRate": null,
+    "latitude": 53.92999825067818,
+    "longitude": 27.695013899356127
+  },
+  {
+    "time": 1998.0,
+    "distance": 9600.8603515625,
+    "heartRate": null,
+    "latitude": 53.93006891012192,
+    "longitude": 27.695021023973823
+  },
+  {
+    "time": 2003.0,
+    "distance": 9638.9296875,
+    "heartRate": null,
+    "latitude": 53.93040896393359,
+    "longitude": 27.694990346208215
+  },
+  {
+    "time": 2005.0,
+    "distance": 9654.099609375,
+    "heartRate": null,
+    "latitude": 53.93054449930787,
+    "longitude": 27.69496318884194
+  },
+  {
+    "time": 2007.0,
+    "distance": 9669.9501953125,
+    "heartRate": null,
+    "latitude": 53.93068615347147,
+    "longitude": 27.69494424574077
+  },
+  {
+    "time": 2010.0,
+    "distance": 9694.4296875,
+    "heartRate": null,
+    "latitude": 53.93090299330652,
+    "longitude": 27.694880291819572
+  },
+  {
+    "time": 2011.0,
+    "distance": 9702.23046875,
+    "heartRate": null,
+    "latitude": 53.93097155727446,
+    "longitude": 27.694855984300375
+  },
+  {
+    "time": 2014.0,
+    "distance": 9727.509765625,
+    "heartRate": null,
+    "latitude": 53.93119225278497,
+    "longitude": 27.694766130298376
+  },
+  {
+    "time": 2018.0,
+    "distance": 9756.759765625,
+    "heartRate": null,
+    "latitude": 53.931442787870765,
+    "longitude": 27.694632103666663
+  },
+  {
+    "time": 2019.0,
+    "distance": 9762.6904296875,
+    "heartRate": null,
+    "latitude": 53.93149349838495,
+    "longitude": 27.694604862481356
+  },
+  {
+    "time": 2020.0,
+    "distance": 9769.5595703125,
+    "heartRate": null,
+    "latitude": 53.931550243869424,
+    "longitude": 27.694563204422593
+  },
+  {
+    "time": 2022.0,
+    "distance": 9781.2197265625,
+    "heartRate": null,
+    "latitude": 53.93164336681366,
+    "longitude": 27.694482570514083
+  },
+  {
+    "time": 2023.0,
+    "distance": 9787.8203125,
+    "heartRate": null,
+    "latitude": 53.93169374205172,
+    "longitude": 27.69442959688604
+  },
+  {
+    "time": 2024.0,
+    "distance": 9794.3701171875,
+    "heartRate": null,
+    "latitude": 53.93174537457526,
+    "longitude": 27.694381568580866
+  },
+  {
+    "time": 2029.0,
+    "distance": 9825.3798828125,
+    "heartRate": null,
+    "latitude": 53.93199222162366,
+    "longitude": 27.694162968546152
+  },
+  {
+    "time": 2031.0,
+    "distance": 9837.58984375,
+    "heartRate": null,
+    "latitude": 53.93208274617791,
+    "longitude": 27.694057943299413
+  },
+  {
+    "time": 2033.0,
+    "distance": 9848.990234375,
+    "heartRate": null,
+    "latitude": 53.93216899596155,
+    "longitude": 27.693964652717113
+  },
+  {
+    "time": 2034.0,
+    "distance": 9854.91015625,
+    "heartRate": null,
+    "latitude": 53.932214844971895,
+    "longitude": 27.693918887525797
+  },
+  {
+    "time": 2040.0,
+    "distance": 9891.2197265625,
+    "heartRate": null,
+    "latitude": 53.93246923573315,
+    "longitude": 27.69357464276254
+  },
+  {
+    "time": 2041.0,
+    "distance": 9897.6298828125,
+    "heartRate": null,
+    "latitude": 53.93251030705869,
+    "longitude": 27.693506330251694
+  },
+  {
+    "time": 2042.0,
+    "distance": 9904.0400390625,
+    "heartRate": null,
+    "latitude": 53.93255171366036,
+    "longitude": 27.693438353016973
+  },
+  {
+    "time": 2048.0,
+    "distance": 9941.5302734375,
+    "heartRate": null,
+    "latitude": 53.93278791569173,
+    "longitude": 27.69303166307509
+  },
+  {
+    "time": 2050.0,
+    "distance": 9954.1298828125,
+    "heartRate": null,
+    "latitude": 53.93286058679223,
+    "longitude": 27.692884812131524
+  },
+  {
+    "time": 2055.0,
+    "distance": 9984.3603515625,
+    "heartRate": null,
+    "latitude": 53.93302336335182,
+    "longitude": 27.692516511306167
+  },
+  {
+    "time": 2057.0,
+    "distance": 9996.330078125,
+    "heartRate": null,
+    "latitude": 53.933078767731786,
+    "longitude": 27.69236035645008
+  },
+  {
+    "time": 2061.0,
+    "distance": 10019.1201171875,
+    "heartRate": null,
+    "latitude": 53.93319175578654,
+    "longitude": 27.692071348428726
+  },
+  {
+    "time": 2064.0,
+    "distance": 10034.91015625,
+    "heartRate": null,
+    "latitude": 53.933250177651644,
+    "longitude": 27.69185258075595
+  },
+  {
+    "time": 2069.0,
+    "distance": 10055.9599609375,
+    "heartRate": null,
+    "latitude": 53.93332075327635,
+    "longitude": 27.691555861383677
+  },
+  {
+    "time": 2075.0,
+    "distance": 10079.3095703125,
+    "heartRate": null,
+    "latitude": 53.933460395783186,
+    "longitude": 27.691290574148297
+  },
+  {
+    "time": 2081.0,
+    "distance": 10103.5400390625,
+    "heartRate": null,
+    "latitude": 53.93359065055847,
+    "longitude": 27.690995363518596
+  },
+  {
+    "time": 2082.0,
+    "distance": 10108.150390625,
+    "heartRate": null,
+    "latitude": 53.933611772954464,
+    "longitude": 27.690935181453824
+  },
+  {
+    "time": 2083.0,
+    "distance": 10112.8203125,
+    "heartRate": null,
+    "latitude": 53.93362962640822,
+    "longitude": 27.690870640799403
+  },
+  {
+    "time": 2086.0,
+    "distance": 10125.490234375,
+    "heartRate": null,
+    "latitude": 53.93367941491306,
+    "longitude": 27.690697135403752
+  },
+  {
+    "time": 2089.0,
+    "distance": 10138.0703125,
+    "heartRate": null,
+    "latitude": 53.933718809857965,
+    "longitude": 27.690517511218786
+  },
+  {
+    "time": 2090.0,
+    "distance": 10142.5400390625,
+    "heartRate": null,
+    "latitude": 53.93373138271272,
+    "longitude": 27.69045263528824
+  },
+  {
+    "time": 2095.0,
+    "distance": 10163.3203125,
+    "heartRate": null,
+    "latitude": 53.933789720758796,
+    "longitude": 27.690154910087585
+  },
+  {
+    "time": 2099.0,
+    "distance": 10180.650390625,
+    "heartRate": null,
+    "latitude": 53.93385141156614,
+    "longitude": 27.689912505447865
+  },
+  {
+    "time": 2100.0,
+    "distance": 10184.419921875,
+    "heartRate": null,
+    "latitude": 53.93386750482023,
+    "longitude": 27.689861794933677
+  },
+  {
+    "time": 2101.0,
+    "distance": 10186.9599609375,
+    "heartRate": null,
+    "latitude": 53.93387186340988,
+    "longitude": 27.689823657274246
+  },
+  {
+    "time": 2103.0,
+    "distance": 10192.7900390625,
+    "heartRate": null,
+    "latitude": 53.93384420312941,
+    "longitude": 27.689749225974083
+  },
+  {
+    "time": 2107.0,
+    "distance": 10209.41015625,
+    "heartRate": null,
+    "latitude": 53.93371939659119,
+    "longitude": 27.68961125984788
+  },
+  {
+    "time": 2108.0,
+    "distance": 10212.33984375,
+    "heartRate": null,
+    "latitude": 53.93369995057583,
+    "longitude": 27.689580246806145
+  },
+  {
+    "time": 2110.0,
+    "distance": 10217.98046875,
+    "heartRate": null,
+    "latitude": 53.933691484853625,
+    "longitude": 27.689499612897635
+  },
+  {
+    "time": 2114.0,
+    "distance": 10233.8701171875,
+    "heartRate": null,
+    "latitude": 53.933784272521734,
+    "longitude": 27.689316300675273
+  },
+  {
+    "time": 2116.0,
+    "distance": 10243.3603515625,
+    "heartRate": null,
+    "latitude": 53.93384512513876,
+    "longitude": 27.689215131103992
+  },
+  {
+    "time": 2121.0,
+    "distance": 10267.4296875,
+    "heartRate": null,
+    "latitude": 53.933984097093344,
+    "longitude": 27.68893408589065
+  },
+  {
+    "time": 2125.0,
+    "distance": 10285.6201171875,
+    "heartRate": null,
+    "latitude": 53.93409054726362,
+    "longitude": 27.68872395157814
+  },
+  {
+    "time": 2126.0,
+    "distance": 10289.9697265625,
+    "heartRate": null,
+    "latitude": 53.93411644734442,
+    "longitude": 27.688674414530396
+  },
+  {
+    "time": 2132.0,
+    "distance": 10315.9296875,
+    "heartRate": null,
+    "latitude": 53.934295903891325,
+    "longitude": 27.68842287361622
+  },
+  {
+    "time": 2133.0,
+    "distance": 10320.7197265625,
+    "heartRate": null,
+    "latitude": 53.934333957731724,
+    "longitude": 27.68838875927031
+  },
+  {
+    "time": 2135.0,
+    "distance": 10330.58984375,
+    "heartRate": null,
+    "latitude": 53.93440755084157,
+    "longitude": 27.688305024057627
+  },
+  {
+    "time": 2136.0,
+    "distance": 10335.3095703125,
+    "heartRate": null,
+    "latitude": 53.93444082699716,
+    "longitude": 27.688260348513722
+  },
+  {
+    "time": 2142.0,
+    "distance": 10361.73046875,
+    "heartRate": null,
+    "latitude": 53.93463763408363,
+    "longitude": 27.688036132603884
+  },
+  {
+    "time": 2143.0,
+    "distance": 10366.7197265625,
+    "heartRate": null,
+    "latitude": 53.934676609933376,
+    "longitude": 27.68799824640155
+  },
+  {
+    "time": 2148.0,
+    "distance": 10396.990234375,
+    "heartRate": null,
+    "latitude": 53.934921864420176,
+    "longitude": 27.687799343839288
+  },
+  {
+    "time": 2154.0,
+    "distance": 10432.48046875,
+    "heartRate": null,
+    "latitude": 53.935222355648875,
+    "longitude": 27.68762215040624
+  },
+  {
+    "time": 2155.0,
+    "distance": 10437.6904296875,
+    "heartRate": null,
+    "latitude": 53.935268288478255,
+    "longitude": 27.687607146799564
+  },
+  {
+    "time": 2156.0,
+    "distance": 10444.2099609375,
+    "heartRate": null,
+    "latitude": 53.93532603979111,
+    "longitude": 27.687590634450316
+  },
+  {
+    "time": 2159.0,
+    "distance": 10462.7001953125,
+    "heartRate": null,
+    "latitude": 53.935489654541016,
+    "longitude": 27.68754193559289
+  },
+  {
+    "time": 2161.0,
+    "distance": 10474.580078125,
+    "heartRate": null,
+    "latitude": 53.93559535034001,
+    "longitude": 27.687516370788217
+  },
+  {
+    "time": 2164.0,
+    "distance": 10492.759765625,
+    "heartRate": null,
+    "latitude": 53.93575678579509,
+    "longitude": 27.687475718557835
+  },
+  {
+    "time": 2166.0,
+    "distance": 10506.16015625,
+    "heartRate": null,
+    "latitude": 53.935875641182065,
+    "longitude": 27.6874412689358
+  },
+  {
+    "time": 2168.0,
+    "distance": 10518.650390625,
+    "heartRate": null,
+    "latitude": 53.93598494119942,
+    "longitude": 27.687400029972196
+  },
+  {
+    "time": 2171.0,
+    "distance": 10537.8798828125,
+    "heartRate": null,
+    "latitude": 53.93615450710058,
+    "longitude": 27.68734412267804
+  },
+  {
+    "time": 2173.0,
+    "distance": 10550.8798828125,
+    "heartRate": null,
+    "latitude": 53.93627101555467,
+    "longitude": 27.68733138218522
+  },
+  {
+    "time": 2177.0,
+    "distance": 10572.650390625,
+    "heartRate": null,
+    "latitude": 53.93646648153663,
+    "longitude": 27.687317300587893
+  },
+  {
+    "time": 2182.0,
+    "distance": 10600.7998046875,
+    "heartRate": null,
+    "latitude": 53.93671793863177,
+    "longitude": 27.687273463234305
+  },
+  {
+    "time": 2184.0,
+    "distance": 10612.509765625,
+    "heartRate": null,
+    "latitude": 53.9368218742311,
+    "longitude": 27.68724680878222
+  },
+  {
+    "time": 2185.0,
+    "distance": 10619.0400390625,
+    "heartRate": null,
+    "latitude": 53.93687987700105,
+    "longitude": 27.68723172135651
+  },
+  {
+    "time": 2187.0,
+    "distance": 10631.7802734375,
+    "heartRate": null,
+    "latitude": 53.93699294887483,
+    "longitude": 27.687202133238316
+  },
+  {
+    "time": 2192.0,
+    "distance": 10662.1396484375,
+    "heartRate": null,
+    "latitude": 53.93726368434727,
+    "longitude": 27.6871476508677
+  },
+  {
+    "time": 2193.0,
+    "distance": 10668.8896484375,
+    "heartRate": null,
+    "latitude": 53.93732403405011,
+    "longitude": 27.687138095498085
+  },
+  {
+    "time": 2199.0,
+    "distance": 10709.1396484375,
+    "heartRate": null,
+    "latitude": 53.937684120610356,
+    "longitude": 27.687081014737487
+  },
+  {
+    "time": 2201.0,
+    "distance": 10723.26953125,
+    "heartRate": null,
+    "latitude": 53.93781035207212,
+    "longitude": 27.687059473246336
+  },
+  {
+    "time": 2203.0,
+    "distance": 10736.8203125,
+    "heartRate": null,
+    "latitude": 53.937931805849075,
+    "longitude": 27.68704446963966
+  },
+  {
+    "time": 2204.0,
+    "distance": 10743.830078125,
+    "heartRate": null,
+    "latitude": 53.93799458630383,
+    "longitude": 27.687036003917456
+  },
+  {
+    "time": 2207.0,
+    "distance": 10764.7900390625,
+    "heartRate": null,
+    "latitude": 53.93818276003003,
+    "longitude": 27.68702309578657
+  },
+  {
+    "time": 2210.0,
+    "distance": 10785.3798828125,
+    "heartRate": null,
+    "latitude": 53.93836640752852,
+    "longitude": 27.686985796317458
+  },
+  {
+    "time": 2212.0,
+    "distance": 10799.8095703125,
+    "heartRate": null,
+    "latitude": 53.938495656475425,
+    "longitude": 27.68696878105402
+  },
+  {
+    "time": 2217.0,
+    "distance": 10831.150390625,
+    "heartRate": null,
+    "latitude": 53.93877594731748,
+    "longitude": 27.686930894851685
+  },
+  {
+    "time": 2223.0,
+    "distance": 10869.849609375,
+    "heartRate": null,
+    "latitude": 53.93912103027105,
+    "longitude": 27.68685881048441
+  },
+  {
+    "time": 2224.0,
+    "distance": 10876.6396484375,
+    "heartRate": null,
+    "latitude": 53.93918163143098,
+    "longitude": 27.68684615381062
+  },
+  {
+    "time": 2226.0,
+    "distance": 10891.5,
+    "heartRate": null,
+    "latitude": 53.93931532278657,
+    "longitude": 27.686854619532824
+  },
+  {
+    "time": 2231.0,
+    "distance": 10928.98046875,
+    "heartRate": null,
+    "latitude": 53.939649257808924,
+    "longitude": 27.686781948432326
+  },
+  {
+    "time": 2237.0,
+    "distance": 10975.650390625,
+    "heartRate": null,
+    "latitude": 53.94006248563528,
+    "longitude": 27.686662757769227
+  },
+  {
+    "time": 2241.0,
+    "distance": 11000.8896484375,
+    "heartRate": null,
+    "latitude": 53.94028477370739,
+    "longitude": 27.686587488278747
+  },
+  {
+    "time": 2242.0,
+    "distance": 11005.8095703125,
+    "heartRate": null,
+    "latitude": 53.94032819196582,
+    "longitude": 27.68657340668142
+  },
+  {
+    "time": 2247.0,
+    "distance": 11036.1396484375,
+    "heartRate": null,
+    "latitude": 53.94058719277382,
+    "longitude": 27.686431584879756
+  },
+  {
+    "time": 2248.0,
+    "distance": 11043.3203125,
+    "heartRate": null,
+    "latitude": 53.94064670428634,
+    "longitude": 27.6863896753639
+  },
+  {
+    "time": 2253.0,
+    "distance": 11073.6396484375,
+    "heartRate": null,
+    "latitude": 53.94088977947831,
+    "longitude": 27.686181217432022
+  },
+  {
+    "time": 2255.0,
+    "distance": 11086.7900390625,
+    "heartRate": null,
+    "latitude": 53.94099639728665,
+    "longitude": 27.68609463237226
+  },
+  {
+    "time": 2258.0,
+    "distance": 11108.1396484375,
+    "heartRate": null,
+    "latitude": 53.94116437062621,
+    "longitude": 27.68593780696392
+  },
+  {
+    "time": 2264.0,
+    "distance": 11154.490234375,
+    "heartRate": null,
+    "latitude": 53.94154448993504,
+    "longitude": 27.68566271290183
+  },
+  {
+    "time": 2266.0,
+    "distance": 11170.1796875,
+    "heartRate": null,
+    "latitude": 53.94166510552168,
+    "longitude": 27.68553899601102
+  },
+  {
+    "time": 2269.0,
+    "distance": 11191.6298828125,
+    "heartRate": null,
+    "latitude": 53.94182746298611,
+    "longitude": 27.68536264076829
+  },
+  {
+    "time": 2273.0,
+    "distance": 11218.900390625,
+    "heartRate": null,
+    "latitude": 53.942052433267236,
+    "longitude": 27.685199109837413
+  },
+  {
+    "time": 2275.0,
+    "distance": 11229.099609375,
+    "heartRate": null,
+    "latitude": 53.942133570089936,
+    "longitude": 27.685128450393677
+  },
+  {
+    "time": 2279.0,
+    "distance": 11256.009765625,
+    "heartRate": null,
+    "latitude": 53.94234035164118,
+    "longitude": 27.684917142614722
+  },
+  {
+    "time": 2280.0,
+    "distance": 11263.4501953125,
+    "heartRate": null,
+    "latitude": 53.94240112043917,
+    "longitude": 27.684869784861803
+  },
+  {
+    "time": 2281.0,
+    "distance": 11270.8701171875,
+    "heartRate": null,
+    "latitude": 53.94246205687523,
+    "longitude": 27.684823516756296
+  },
+  {
+    "time": 2282.0,
+    "distance": 11277.9697265625,
+    "heartRate": null,
+    "latitude": 53.942517125979066,
+    "longitude": 27.684769118204713
+  },
+  {
+    "time": 2284.0,
+    "distance": 11292.48046875,
+    "heartRate": null,
+    "latitude": 53.9426292758435,
+    "longitude": 27.684656297788024
+  },
+  {
+    "time": 2285.0,
+    "distance": 11299.599609375,
+    "heartRate": null,
+    "latitude": 53.942679315805435,
+    "longitude": 27.684588572010398
+  },
+  {
+    "time": 2287.0,
+    "distance": 11310.76953125,
+    "heartRate": null,
+    "latitude": 53.942721392959356,
+    "longitude": 27.684434596449137
+  },
+  {
+    "time": 2289.0,
+    "distance": 11315.7998046875,
+    "heartRate": null,
+    "latitude": 53.942738911136985,
+    "longitude": 27.684363517910242
+  },
+  {
+    "time": 2290.0,
+    "distance": 11317.509765625,
+    "heartRate": null,
+    "latitude": 53.94274905323982,
+    "longitude": 27.684343652799726
+  },
+  {
+    "time": 2293.0,
+    "distance": 11321.169921875,
+    "heartRate": null,
+    "latitude": 53.94277445040643,
+    "longitude": 27.684307862073183
+  },
+  {
+    "time": 2296.0,
+    "distance": 11323.9296875,
+    "heartRate": null,
+    "latitude": 53.942787274718285,
+    "longitude": 27.684322698041797
+  },
+  {
+    "time": 2296.0,
+    "distance": 11323.9296875,
+    "heartRate": null,
+    "latitude": 53.94284276291728,
+    "longitude": 27.684282213449478
+  },
+  {
+    "time": 2297.0,
+    "distance": 11327.58984375,
+    "heartRate": null,
+    "latitude": 53.94287536852062,
+    "longitude": 27.68427500501275
+  },
+  {
+    "time": 2299.0,
+    "distance": 11336.5,
+    "heartRate": null,
+    "latitude": 53.94295508041978,
+    "longitude": 27.684280453249812
+  },
+  {
+    "time": 2301.0,
+    "distance": 11348.1298828125,
+    "heartRate": null,
+    "latitude": 53.94305884838104,
+    "longitude": 27.684278609231114
+  },
+  {
+    "time": 2304.0,
+    "distance": 11366.4501953125,
+    "heartRate": null,
+    "latitude": 53.94319052807987,
+    "longitude": 27.68411122262478
+  },
+  {
+    "time": 2305.0,
+    "distance": 11373.98046875,
+    "heartRate": null,
+    "latitude": 53.94324358552694,
+    "longitude": 27.68403989262879
+  },
+  {
+    "time": 2307.0,
+    "distance": 11389.759765625,
+    "heartRate": null,
+    "latitude": 53.94335858523846,
+    "longitude": 27.683899328112602
+  },
+  {
+    "time": 2309.0,
+    "distance": 11405.1298828125,
+    "heartRate": null,
+    "latitude": 53.94346293993294,
+    "longitude": 27.68374627456069
+  },
+  {
+    "time": 2311.0,
+    "distance": 11419.509765625,
+    "heartRate": null,
+    "latitude": 53.94356478005648,
+    "longitude": 27.683611577376723
+  },
+  {
+    "time": 2316.0,
+    "distance": 11449.7099609375,
+    "heartRate": null,
+    "latitude": 53.94381313584745,
+    "longitude": 27.68342725932598
+  },
+  {
+    "time": 2318.0,
+    "distance": 11459.9296875,
+    "heartRate": null,
+    "latitude": 53.943900391459465,
+    "longitude": 27.68337889574468
+  },
+  {
+    "time": 2319.0,
+    "distance": 11466.0302734375,
+    "heartRate": null,
+    "latitude": 53.943947833031416,
+    "longitude": 27.683332292363048
+  },
+  {
+    "time": 2321.0,
+    "distance": 11482.2998046875,
+    "heartRate": null,
+    "latitude": 53.94405805505812,
+    "longitude": 27.683176305145025
+  },
+  {
+    "time": 2322.0,
+    "distance": 11490.73046875,
+    "heartRate": null,
+    "latitude": 53.94412695430219,
+    "longitude": 27.683121487498283
+  },
+  {
+    "time": 2323.0,
+    "distance": 11498.900390625,
+    "heartRate": null,
+    "latitude": 53.94419074058533,
+    "longitude": 27.6830583717674
+  },
+  {
+    "time": 2325.0,
+    "distance": 11507.849609375,
+    "heartRate": null,
+    "latitude": 53.94425335340202,
+    "longitude": 27.68297279253602
+  },
+  {
+    "time": 2327.0,
+    "distance": 11509.66015625,
+    "heartRate": null,
+    "latitude": 53.94426366314292,
+    "longitude": 27.682954519987106
+  },
+  {
+    "time": 2328.0,
+    "distance": 11509.66015625,
+    "heartRate": null,
+    "latitude": 53.944263495504856,
+    "longitude": 27.682952592149377
+  },
+  {
+    "time": 2328.0,
+    "distance": 11509.66015625,
+    "heartRate": null,
+    "latitude": 53.944287383928895,
+    "longitude": 27.682916969060898
+  },
+  {
+    "time": 2331.0,
+    "distance": 11522.6298828125,
+    "heartRate": null,
+    "latitude": 53.94439852796495,
+    "longitude": 27.682863073423505
+  },
+  {
+    "time": 2332.0,
+    "distance": 11527.8896484375,
+    "heartRate": null,
+    "latitude": 53.94444555044174,
+    "longitude": 27.68285452388227
+  },
+  {
+    "time": 2333.0,
+    "distance": 11533.58984375,
+    "heartRate": null,
+    "latitude": 53.944496512413025,
+    "longitude": 27.68284530378878
+  },
+  {
+    "time": 2335.0,
+    "distance": 11546.8701171875,
+    "heartRate": null,
+    "latitude": 53.94461251795292,
+    "longitude": 27.68279987387359
+  },
+  {
+    "time": 2336.0,
+    "distance": 11554.099609375,
+    "heartRate": null,
+    "latitude": 53.94467127509415,
+    "longitude": 27.682753019034863
+  },
+  {
+    "time": 2342.0,
+    "distance": 11595.2802734375,
+    "heartRate": null,
+    "latitude": 53.944997917860746,
+    "longitude": 27.682458898052573
+  },
+  {
+    "time": 2343.0,
+    "distance": 11601.5703125,
+    "heartRate": null,
+    "latitude": 53.94504779018462,
+    "longitude": 27.682413971051574
+  },
+  {
+    "time": 2345.0,
+    "distance": 11614.3203125,
+    "heartRate": null,
+    "latitude": 53.94514770247042,
+    "longitude": 27.682319255545735
+  },
+  {
+    "time": 2351.0,
+    "distance": 11652.9404296875,
+    "heartRate": null,
+    "latitude": 53.9454560726881,
+    "longitude": 27.682049861177802
+  },
+  {
+    "time": 2357.0,
+    "distance": 11692.650390625,
+    "heartRate": null,
+    "latitude": 53.94577458500862,
+    "longitude": 27.681777784600854
+  },
+  {
+    "time": 2359.0,
+    "distance": 11706.2802734375,
+    "heartRate": null,
+    "latitude": 53.94588145427406,
+    "longitude": 27.6816769503057
+  },
+  {
+    "time": 2361.0,
+    "distance": 11718.650390625,
+    "heartRate": null,
+    "latitude": 53.945979438722134,
+    "longitude": 27.681587683036923
+  },
+  {
+    "time": 2367.0,
+    "distance": 11756.349609375,
+    "heartRate": null,
+    "latitude": 53.9462800975889,
+    "longitude": 27.68132323399186
+  },
+  {
+    "time": 2371.0,
+    "distance": 11779.990234375,
+    "heartRate": null,
+    "latitude": 53.94647019915283,
+    "longitude": 27.681163474917412
+  },
+  {
+    "time": 2372.0,
+    "distance": 11785.8603515625,
+    "heartRate": null,
+    "latitude": 53.94651529379189,
+    "longitude": 27.681117122992873
+  },
+  {
+    "time": 2378.0,
+    "distance": 11824.8203125,
+    "heartRate": null,
+    "latitude": 53.94682802259922,
+    "longitude": 27.680852003395557
+  },
+  {
+    "time": 2382.0,
+    "distance": 11850.3603515625,
+    "heartRate": null,
+    "latitude": 53.94703404977918,
+    "longitude": 27.680683946236968
+  },
+  {
+    "time": 2384.0,
+    "distance": 11862.0595703125,
+    "heartRate": null,
+    "latitude": 53.94713287241757,
+    "longitude": 27.680622842162848
+  },
+  {
+    "time": 2387.0,
+    "distance": 11877.2802734375,
+    "heartRate": null,
+    "latitude": 53.947255834937096,
+    "longitude": 27.680521002039313
+  },
+  {
+    "time": 2388.0,
+    "distance": 11881.150390625,
+    "heartRate": null,
+    "latitude": 53.94727653823793,
+    "longitude": 27.680473644286394
+  },
+  {
+    "time": 2389.0,
+    "distance": 11886.990234375,
+    "heartRate": null,
+    "latitude": 53.94730444997549,
+    "longitude": 27.680398374795914
+  },
+  {
+    "time": 2392.0,
+    "distance": 11908.669921875,
+    "heartRate": null,
+    "latitude": 53.94742079079151,
+    "longitude": 27.680134009569883
+  },
+  {
+    "time": 2393.0,
+    "distance": 11916.080078125,
+    "heartRate": null,
+    "latitude": 53.947467394173145,
+    "longitude": 27.68005320802331
+  },
+  {
+    "time": 2395.0,
+    "distance": 11929.73046875,
+    "heartRate": null,
+    "latitude": 53.94757560454309,
+    "longitude": 27.679957151412964
+  },
+  {
+    "time": 2397.0,
+    "distance": 11941.990234375,
+    "heartRate": null,
+    "latitude": 53.94768540747464,
+    "longitude": 27.67995262518525
+  },
+  {
+    "time": 2398.0,
+    "distance": 11947.490234375,
+    "heartRate": null,
+    "latitude": 53.94773343577981,
+    "longitude": 27.67997207120061
+  },
+  {
+    "time": 2400.0,
+    "distance": 11957.1796875,
+    "heartRate": null,
+    "latitude": 53.94781985320151,
+    "longitude": 27.6799725741148
+  },
+  {
+    "time": 2402.0,
+    "distance": 11966.5703125,
+    "heartRate": null,
+    "latitude": 53.94789512269199,
+    "longitude": 27.679907949641347
+  },
+  {
+    "time": 2407.0,
+    "distance": 11996.0400390625,
+    "heartRate": null,
+    "latitude": 53.948128055781126,
+    "longitude": 27.679694965481758
+  },
+  {
+    "time": 2411.0,
+    "distance": 12017.58984375,
+    "heartRate": null,
+    "latitude": 53.94829493947327,
+    "longitude": 27.679530763998628
+  },
+  {
+    "time": 2414.0,
+    "distance": 12032.3603515625,
+    "heartRate": null,
+    "latitude": 53.9484041556716,
+    "longitude": 27.67940293997526
+  },
+  {
+    "time": 2420.0,
+    "distance": 12062.2197265625,
+    "heartRate": null,
+    "latitude": 53.94862870685756,
+    "longitude": 27.679155338555574
+  },
+  {
+    "time": 2425.0,
+    "distance": 12089.740234375,
+    "heartRate": null,
+    "latitude": 53.948830710723996,
+    "longitude": 27.678916957229376
+  },
+  {
+    "time": 2431.0,
+    "distance": 12121.599609375,
+    "heartRate": null,
+    "latitude": 53.94905911758542,
+    "longitude": 27.678624344989657
+  },
+  {
+    "time": 2432.0,
+    "distance": 12126.3701171875,
+    "heartRate": null,
+    "latitude": 53.94909767434001,
+    "longitude": 27.678592409938574
+  },
+  {
+    "time": 2434.0,
+    "distance": 12130.8203125,
+    "heartRate": null,
+    "latitude": 53.949129190295935,
+    "longitude": 27.678550500422716
+  },
+  {
+    "time": 2435.0,
+    "distance": 12132.349609375,
+    "heartRate": null,
+    "latitude": 53.94911527633667,
+    "longitude": 27.67854672856629
+  },
+  {
+    "time": 2438.0,
+    "distance": 12143.4599609375,
+    "heartRate": null,
+    "latitude": 53.949034390971065,
+    "longitude": 27.678645383566618
+  },
+  {
+    "time": 2439.0,
+    "distance": 12149.6396484375,
+    "heartRate": null,
+    "latitude": 53.94898979924619,
+    "longitude": 27.678701290860772
+  },
+  {
+    "time": 2442.0,
+    "distance": 12170.2099609375,
+    "heartRate": null,
+    "latitude": 53.94883641041815,
+    "longitude": 27.678875299170613
+  },
+  {
+    "time": 2445.0,
+    "distance": 12192.01953125,
+    "heartRate": null,
+    "latitude": 53.948679249733686,
+    "longitude": 27.67907353118062
+  },
+  {
+    "time": 2448.0,
+    "distance": 12211.169921875,
+    "heartRate": null,
+    "latitude": 53.94852954894304,
+    "longitude": 27.679217448458076
+  },
+  {
+    "time": 2453.0,
+    "distance": 12246.7001953125,
+    "heartRate": null,
+    "latitude": 53.948255963623524,
+    "longitude": 27.679495308548212
+  },
+  {
+    "time": 2459.0,
+    "distance": 12290.66015625,
+    "heartRate": null,
+    "latitude": 53.94790777936578,
+    "longitude": 27.679811222478747
+  },
+  {
+    "time": 2461.0,
+    "distance": 12305.1103515625,
+    "heartRate": null,
+    "latitude": 53.94779680296779,
+    "longitude": 27.679925383999944
+  },
+  {
+    "time": 2463.0,
+    "distance": 12317.9296875,
+    "heartRate": null,
+    "latitude": 53.947691610082984,
+    "longitude": 27.680006604641676
+  },
+  {
+    "time": 2464.0,
+    "distance": 12323.169921875,
+    "heartRate": null,
+    "latitude": 53.9476443361491,
+    "longitude": 27.680001743137836
+  },
+  {
+    "time": 2467.0,
+    "distance": 12335.759765625,
+    "heartRate": null,
+    "latitude": 53.947546100243926,
+    "longitude": 27.67991297878325
+  },
+  {
+    "time": 2468.0,
+    "distance": 12340.8203125,
+    "heartRate": null,
+    "latitude": 53.9475233014673,
+    "longitude": 27.679846175014973
+  },
+  {
+    "time": 2471.0,
+    "distance": 12359.91015625,
+    "heartRate": null,
+    "latitude": 53.947454234585166,
+    "longitude": 27.679580049589276
+  },
+  {
+    "time": 2473.0,
+    "distance": 12372.6298828125,
+    "heartRate": null,
+    "latitude": 53.947417521849275,
+    "longitude": 27.6793974917382
+  },
+  {
+    "time": 2475.0,
+    "distance": 12384.33984375,
+    "heartRate": null,
+    "latitude": 53.94740025512874,
+    "longitude": 27.679221304133534
+  },
+  {
+    "time": 2477.0,
+    "distance": 12396.009765625,
+    "heartRate": null,
+    "latitude": 53.94734686240554,
+    "longitude": 27.679069340229034
+  },
+  {
+    "time": 2482.0,
+    "distance": 12430.830078125,
+    "heartRate": null,
+    "latitude": 53.94718224182725,
+    "longitude": 27.678618812933564
+  },
+  {
+    "time": 2488.0,
+    "distance": 12471.7001953125,
+    "heartRate": null,
+    "latitude": 53.94697202369571,
+    "longitude": 27.678110282868147
+  },
+  {
+    "time": 2489.0,
+    "distance": 12478.73046875,
+    "heartRate": null,
+    "latitude": 53.94692852161825,
+    "longitude": 27.678032582625747
+  },
+  {
+    "time": 2494.0,
+    "distance": 12511.76953125,
+    "heartRate": null,
+    "latitude": 53.94670229405165,
+    "longitude": 27.67770736478269
+  },
+  {
+    "time": 2500.0,
+    "distance": 12550.1103515625,
+    "heartRate": null,
+    "latitude": 53.94641655497253,
+    "longitude": 27.67738332040608
+  },
+  {
+    "time": 2501.0,
+    "distance": 12556.73046875,
+    "heartRate": null,
+    "latitude": 53.94636416807771,
+    "longitude": 27.677335627377033
+  },
+  {
+    "time": 2507.0,
+    "distance": 12601.2802734375,
+    "heartRate": null,
+    "latitude": 53.94601196050644,
+    "longitude": 27.677012756466866
+  },
+  {
+    "time": 2513.0,
+    "distance": 12645.9404296875,
+    "heartRate": null,
+    "latitude": 53.94565447233617,
+    "longitude": 27.676704805344343
+  },
+  {
+    "time": 2514.0,
+    "distance": 12653.1904296875,
+    "heartRate": null,
+    "latitude": 53.94559512846172,
+    "longitude": 27.67665929161012
+  },
+  {
+    "time": 2520.0,
+    "distance": 12695.669921875,
+    "heartRate": null,
+    "latitude": 53.94526538439095,
+    "longitude": 27.676334157586098
+  },
+  {
+    "time": 2526.0,
+    "distance": 12736.259765625,
+    "heartRate": null,
+    "latitude": 53.94499137997627,
+    "longitude": 27.675928976386786
+  },
+  {
+    "time": 2529.0,
+    "distance": 12754.6904296875,
+    "heartRate": null,
+    "latitude": 53.9448865223676,
+    "longitude": 27.67571314238012
+  },
+  {
+    "time": 2531.0,
+    "distance": 12767.259765625,
+    "heartRate": null,
+    "latitude": 53.94483229145408,
+    "longitude": 27.67554516904056
+  },
+  {
+    "time": 2535.0,
+    "distance": 12793.3603515625,
+    "heartRate": null,
+    "latitude": 53.944727098569274,
+    "longitude": 27.675190111622214
+  },
+  {
+    "time": 2537.0,
+    "distance": 12806.8896484375,
+    "heartRate": null,
+    "latitude": 53.94468426704407,
+    "longitude": 27.674997244030237
+  },
+  {
+    "time": 2538.0,
+    "distance": 12812.9404296875,
+    "heartRate": null,
+    "latitude": 53.94466792233288,
+    "longitude": 27.67490948550403
+  },
+  {
+    "time": 2542.0,
+    "distance": 12835.98046875,
+    "heartRate": null,
+    "latitude": 53.94461603835225,
+    "longitude": 27.674569599330425
+  },
+  {
+    "time": 2548.0,
+    "distance": 12865.919921875,
+    "heartRate": null,
+    "latitude": 53.94458066672087,
+    "longitude": 27.674119658768177
+  },
+  {
+    "time": 2550.0,
+    "distance": 12875.259765625,
+    "heartRate": null,
+    "latitude": 53.94458469003439,
+    "longitude": 27.673977753147483
+  },
+  {
+    "time": 2556.0,
+    "distance": 12904.650390625,
+    "heartRate": null,
+    "latitude": 53.94462919794023,
+    "longitude": 27.673536278307438
+  },
+  {
+    "time": 2557.0,
+    "distance": 12910.0498046875,
+    "heartRate": null,
+    "latitude": 53.94463850185275,
+    "longitude": 27.673455560579896
+  },
+  {
+    "time": 2560.0,
+    "distance": 12926.4404296875,
+    "heartRate": null,
+    "latitude": 53.94465811550617,
+    "longitude": 27.673207791522145
+  },
+  {
+    "time": 2563.0,
+    "distance": 12942.990234375,
+    "heartRate": null,
+    "latitude": 53.94468342885375,
+    "longitude": 27.67295876517892
+  },
+  {
+    "time": 2565.0,
+    "distance": 12952.900390625,
+    "heartRate": null,
+    "latitude": 53.94471779465675,
+    "longitude": 27.672819793224335
+  },
+  {
+    "time": 2569.0,
+    "distance": 12972.8896484375,
+    "heartRate": null,
+    "latitude": 53.94482030533254,
+    "longitude": 27.672570263966918
+  },
+  {
+    "time": 2575.0,
+    "distance": 13003.4697265625,
+    "heartRate": null,
+    "latitude": 53.94497352652252,
+    "longitude": 27.672184025868773
+  },
+  {
+    "time": 2576.0,
+    "distance": 13008.26953125,
+    "heartRate": null,
+    "latitude": 53.94500210881233,
+    "longitude": 27.67212920822203
+  },
+  {
+    "time": 2577.0,
+    "distance": 13013.6103515625,
+    "heartRate": null,
+    "latitude": 53.94501535221934,
+    "longitude": 27.672050585970283
+  },
+  {
+    "time": 2579.0,
+    "distance": 13023.9501953125,
+    "heartRate": null,
+    "latitude": 53.94504787400365,
+    "longitude": 27.671902310103178
+  },
+  {
+    "time": 2581.0,
+    "distance": 13033.759765625,
+    "heartRate": null,
+    "latitude": 53.945096489042044,
+    "longitude": 27.671777671203017
+  },
+  {
+    "time": 2587.0,
+    "distance": 13062.5498046875,
+    "heartRate": null,
+    "latitude": 53.94521760754287,
+    "longitude": 27.671390594914556
+  },
+  {
+    "time": 2588.0,
+    "distance": 13067.5703125,
+    "heartRate": null,
+    "latitude": 53.94524476490915,
+    "longitude": 27.671329407021403
+  },
+  {
+    "time": 2594.0,
+    "distance": 13098.98046875,
+    "heartRate": null,
+    "latitude": 53.94539991393685,
+    "longitude": 27.670930344611406
+  },
+  {
+    "time": 2596.0,
+    "distance": 13108.650390625,
+    "heartRate": null,
+    "latitude": 53.94544810988009,
+    "longitude": 27.670807549729943
+  },
+  {
+    "time": 2597.0,
+    "distance": 13113.4697265625,
+    "heartRate": null,
+    "latitude": 53.945473255589604,
+    "longitude": 27.6707477029413
+  },
+  {
+    "time": 2599.0,
+    "distance": 13123.5400390625,
+    "heartRate": null,
+    "latitude": 53.945522122085094,
+    "longitude": 27.67061870545149
+  },
+  {
+    "time": 2601.0,
+    "distance": 13134.0302734375,
+    "heartRate": null,
+    "latitude": 53.94556570798159,
+    "longitude": 27.670477218925953
+  },
+  {
+    "time": 2607.0,
+    "distance": 13166.650390625,
+    "heartRate": null,
+    "latitude": 53.94572672434151,
+    "longitude": 27.67006466165185
+  },
+  {
+    "time": 2613.0,
+    "distance": 13199.66015625,
+    "heartRate": null,
+    "latitude": 53.945879358798265,
+    "longitude": 27.669633496552706
+  },
+  {
+    "time": 2614.0,
+    "distance": 13205.0703125,
+    "heartRate": null,
+    "latitude": 53.94590115174651,
+    "longitude": 27.669559819623828
+  },
+  {
+    "time": 2619.0,
+    "distance": 13233.009765625,
+    "heartRate": null,
+    "latitude": 53.946028891950846,
+    "longitude": 27.669193781912327
+  },
+  {
+    "time": 2620.0,
+    "distance": 13238.5,
+    "heartRate": null,
+    "latitude": 53.94605512730777,
+    "longitude": 27.669122871011496
+  },
+  {
+    "time": 2624.0,
+    "distance": 13261.3798828125,
+    "heartRate": null,
+    "latitude": 53.94617976620793,
+    "longitude": 27.6688464358449
+  },
+  {
+    "time": 2627.0,
+    "distance": 13277.83984375,
+    "heartRate": null,
+    "latitude": 53.94626375287771,
+    "longitude": 27.668640073388815
+  },
+  {
+    "time": 2629.0,
+    "distance": 13292.1201171875,
+    "heartRate": null,
+    "latitude": 53.946282444521785,
+    "longitude": 27.668424742296338
+  },
+  {
+    "time": 2635.0,
+    "distance": 13326.76953125,
+    "heartRate": null,
+    "latitude": 53.94643424078822,
+    "longitude": 27.66796457581222
+  },
+  {
+    "time": 2636.0,
+    "distance": 13332.6103515625,
+    "heartRate": null,
+    "latitude": 53.94646156579256,
+    "longitude": 27.667888468131423
+  },
+  {
+    "time": 2642.0,
+    "distance": 13367.1396484375,
+    "heartRate": null,
+    "latitude": 53.9466355741024,
+    "longitude": 27.667453698813915
+  },
+  {
+    "time": 2644.0,
+    "distance": 13377.759765625,
+    "heartRate": null,
+    "latitude": 53.94670229405165,
+    "longitude": 27.667343812063336
+  },
+  {
+    "time": 2648.0,
+    "distance": 13397.330078125,
+    "heartRate": null,
+    "latitude": 53.94687529653311,
+    "longitude": 27.667294861748815
+  },
+  {
+    "time": 2654.0,
+    "distance": 13432.6904296875,
+    "heartRate": null,
+    "latitude": 53.94719146192074,
+    "longitude": 27.66724482178688
+  },
+  {
+    "time": 2658.0,
+    "distance": 13456.080078125,
+    "heartRate": null,
+    "latitude": 53.947379887104034,
+    "longitude": 27.667089505121112
+  },
+  {
+    "time": 2660.0,
+    "distance": 13467.41015625,
+    "heartRate": null,
+    "latitude": 53.94747259095311,
+    "longitude": 27.66715287230909
+  },
+  {
+    "time": 2666.0,
+    "distance": 13503.5595703125,
+    "heartRate": null,
+    "latitude": 53.94771038554609,
+    "longitude": 27.667527375742793
+  },
+  {
+    "time": 2672.0,
+    "distance": 13540.759765625,
+    "heartRate": null,
+    "latitude": 53.947954047471285,
+    "longitude": 27.66791512258351
+  },
+  {
+    "time": 2674.0,
+    "distance": 13554.0703125,
+    "heartRate": null,
+    "latitude": 53.94804029725492,
+    "longitude": 27.66805593855679
+  },
+  {
+    "time": 2677.0,
+    "distance": 13573.41015625,
+    "heartRate": null,
+    "latitude": 53.94815320149064,
+    "longitude": 27.66827772371471
+  },
+  {
+    "time": 2680.0,
+    "distance": 13593.580078125,
+    "heartRate": null,
+    "latitude": 53.94825269468129,
+    "longitude": 27.668534461408854
+  },
+  {
+    "time": 2686.0,
+    "distance": 13633.51953125,
+    "heartRate": null,
+    "latitude": 53.94846148788929,
+    "longitude": 27.669028155505657
+  },
+  {
+    "time": 2689.0,
+    "distance": 13645.6796875,
+    "heartRate": null,
+    "latitude": 53.94851471297443,
+    "longitude": 27.66918959096074
+  },
+  {
+    "time": 2693.0,
+    "distance": 13659.9404296875,
+    "heartRate": null,
+    "latitude": 53.94857179373503,
+    "longitude": 27.66938447020948
+  },
+  {
+    "time": 2698.0,
+    "distance": 13689.5595703125,
+    "heartRate": null,
+    "latitude": 53.9486924931407,
+    "longitude": 27.669786550104618
+  },
+  {
+    "time": 2703.0,
+    "distance": 13723.4296875,
+    "heartRate": null,
+    "latitude": 53.948856610804796,
+    "longitude": 27.670219391584396
+  },
+  {
+    "time": 2704.0,
+    "distance": 13731.5595703125,
+    "heartRate": null,
+    "latitude": 53.94891788251698,
+    "longitude": 27.670294241979718
+  },
+  {
+    "time": 2710.0,
+    "distance": 13773.6396484375,
+    "heartRate": null,
+    "latitude": 53.94907462410629,
+    "longitude": 27.67087385058403
+  },
+  {
+    "time": 2712.0,
+    "distance": 13787.419921875,
+    "heartRate": null,
+    "latitude": 53.94912851974368,
+    "longitude": 27.671063113957644
+  },
+  {
+    "time": 2714.0,
+    "distance": 13800.2900390625,
+    "heartRate": null,
+    "latitude": 53.949177134782076,
+    "longitude": 27.671240139752626
+  },
+  {
+    "time": 2716.0,
+    "distance": 13812.91015625,
+    "heartRate": null,
+    "latitude": 53.949194150045514,
+    "longitude": 27.671430073678493
+  },
+  {
+    "time": 2717.0,
+    "distance": 13818.58984375,
+    "heartRate": null,
+    "latitude": 53.949193730950356,
+    "longitude": 27.671516574919224
+  },
+  {
+    "time": 2719.0,
+    "distance": 13827.5302734375,
+    "heartRate": null,
+    "latitude": 53.94915877841413,
+    "longitude": 27.671636352315545
+  },
+  {
+    "time": 2722.0,
+    "distance": 13833.6904296875,
+    "heartRate": null,
+    "latitude": 53.94910362549126,
+    "longitude": 27.671647667884827
+  },
+  {
+    "time": 2728.0,
+    "distance": 13840.7998046875,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2734.0,
+    "distance": 13840.7998046875,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2740.0,
+    "distance": 13840.7998046875,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2746.0,
+    "distance": 13840.7998046875,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2748.0,
+    "distance": 13859.1396484375,
+    "heartRate": null,
+    "latitude": 53.949194233864546,
+    "longitude": 27.67156234011054
+  },
+  {
+    "time": 2752.0,
+    "distance": 13899.73046875,
+    "heartRate": null,
+    "latitude": 53.949551805853844,
+    "longitude": 27.67143870703876
+  },
+  {
+    "time": 2758.0,
+    "distance": 13918.8896484375,
+    "heartRate": null,
+    "latitude": 53.949693627655506,
+    "longitude": 27.67136192880571
+  },
+  {
+    "time": 2760.0,
+    "distance": 13919.48046875,
+    "heartRate": null,
+    "latitude": 53.94969681277871,
+    "longitude": 27.671360671520233
+  },
+  {
+    "time": 2764.0,
+    "distance": 13921.080078125,
+    "heartRate": null,
+    "latitude": 53.94969966262579,
+    "longitude": 27.67136201262474
+  },
+  {
+    "time": 2769.0,
+    "distance": 13922.16015625,
+    "heartRate": null,
+    "latitude": 53.94962506368756,
+    "longitude": 27.67140199430287
+  },
+  {
+    "time": 2775.0,
+    "distance": 13922.16015625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2781.0,
+    "distance": 13922.16015625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2787.0,
+    "distance": 13922.16015625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2793.0,
+    "distance": 13922.16015625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2797.0,
+    "distance": 13924.6103515625,
+    "heartRate": null,
+    "latitude": 53.94948525354266,
+    "longitude": 27.671477179974318
+  },
+  {
+    "time": 2803.0,
+    "distance": 13924.6103515625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2809.0,
+    "distance": 13924.6103515625,
+    "heartRate": null,
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "time": 2815.0,
+    "distance": 13962.23046875,
+    "heartRate": null,
+    "latitude": 53.94911251030862,
+    "longitude": 27.67159360460937
+  },
+  {
+    "time": 2816.0,
+    "distance": 13962.23046875,
+    "heartRate": null,
+    "latitude": 53.94911427050829,
+    "longitude": 27.671589832752943
+  },
+  {
+    "time": 2816.0,
+    "distance": 13962.23046875,
+    "heartRate": null,
+    "latitude": 53.94898963160813,
+    "longitude": 27.671601064503193
+  },
+  {
+    "time": 2820.0,
+    "distance": 13967.0400390625,
+    "heartRate": null,
+    "latitude": 53.948951829224825,
+    "longitude": 27.671632831916213
+  },
+  {
+    "time": 2821.0,
+    "distance": 13969.0595703125,
+    "heartRate": null,
+    "latitude": 53.94893514923751,
+    "longitude": 27.67164984717965
+  },
+  {
+    "time": 2822.0,
+    "distance": 13970.6298828125,
+    "heartRate": null,
+    "latitude": 53.948921570554376,
+    "longitude": 27.67167658545077
+  },
+  {
+    "time": 2823.0,
+    "distance": 13970.6298828125,
+    "heartRate": null,
+    "latitude": 53.94893414340913,
+    "longitude": 27.67167172394693
+  },
+  {
+    "time": 2824.0,
+    "distance": 13970.6298828125,
+    "heartRate": null,
+    "latitude": 53.94895602017641,
+    "longitude": 27.67167281359434
+  },
+  {
+    "time": 2826.0,
+    "distance": 13970.6298828125,
+    "heartRate": null,
+    "latitude": 53.94898535683751,
+    "longitude": 27.671666024252772
+  },
+  {
+    "time": 2826.0,
+    "distance": 13970.6298828125,
+    "heartRate": null,
+    "latitude": 53.94917797297239,
+    "longitude": 27.671520933508873
+  },
+  {
+    "time": 2827.0,
+    "distance": 13973.759765625,
+    "heartRate": null,
+    "latitude": 53.94918652251363,
+    "longitude": 27.671475503593683
+  },
+  {
+    "time": 2828.0,
+    "distance": 13976.8095703125,
+    "heartRate": null,
+    "latitude": 53.94918903708458,
+    "longitude": 27.671429151669145
+  },
+  {
+    "time": 2830.0,
+    "distance": 13984.08984375,
+    "heartRate": null,
+    "latitude": 53.94918065518141,
+    "longitude": 27.67132052220404
+  },
+  {
+    "time": 2833.0,
+    "distance": 13999.580078125,
+    "heartRate": null,
+    "latitude": 53.949144864454865,
+    "longitude": 27.671092534437776
+  },
+  {
+    "time": 2834.0,
+    "distance": 14005.6796875,
+    "heartRate": null,
+    "latitude": 53.94912097603083,
+    "longitude": 27.671008883044124
+  },
+  {
+    "time": 2838.0,
+    "distance": 14030.650390625,
+    "heartRate": null,
+    "latitude": 53.94901083782315,
+    "longitude": 27.670677630230784
+  },
+  {
+    "time": 2839.0,
+    "distance": 14037.0400390625,
+    "heartRate": null,
+    "latitude": 53.94898192025721,
+    "longitude": 27.670593475922942
+  },
+  {
+    "time": 2841.0,
+    "distance": 14049.7099609375,
+    "heartRate": null,
+    "latitude": 53.94892651587725,
+    "longitude": 27.6704247482121
+  },
+  {
+    "time": 2843.0,
+    "distance": 14062.169921875,
+    "heartRate": null,
+    "latitude": 53.94886943511665,
+    "longitude": 27.67026213929057
+  },
+  {
+    "time": 2845.0,
+    "distance": 14074.6103515625,
+    "heartRate": null,
+    "latitude": 53.94880732521415,
+    "longitude": 27.670104559510946
+  },
+  {
+    "time": 2848.0,
+    "distance": 14092.099609375,
+    "heartRate": null,
+    "latitude": 53.94870883785188,
+    "longitude": 27.6698980294168
+  },
+  {
+    "time": 2850.0,
+    "distance": 14103.25,
+    "heartRate": null,
+    "latitude": 53.948687044903636,
+    "longitude": 27.66973139718175
+  },
+  {
+    "time": 2853.0,
+    "distance": 14116.9697265625,
+    "heartRate": null,
+    "latitude": 53.948759296908975,
+    "longitude": 27.66956375911832
+  },
+  {
+    "time": 2857.0,
+    "distance": 14138.23046875,
+    "heartRate": null,
+    "latitude": 53.948920564725995,
+    "longitude": 27.6693903375417
+  },
+  {
+    "time": 2860.0,
+    "distance": 14151.6298828125,
+    "heartRate": null,
+    "latitude": 53.948948895558715,
+    "longitude": 27.669209456071258
+  },
+  {
+    "time": 2861.0,
+    "distance": 14157.98046875,
+    "heartRate": null,
+    "latitude": 53.94892618060112,
+    "longitude": 27.66912060789764
+  },
+  {
+    "time": 2864.0,
+    "distance": 14176.3798828125,
+    "heartRate": null,
+    "latitude": 53.94885049201548,
+    "longitude": 27.66887141391635
+  },
+  {
+    "time": 2867.0,
+    "distance": 14196.080078125,
+    "heartRate": null,
+    "latitude": 53.948756866157055,
+    "longitude": 27.66861693933606
+  },
+  {
+    "time": 2873.0,
+    "distance": 14236.66015625,
+    "heartRate": null,
+    "latitude": 53.94855419173837,
+    "longitude": 27.668103631585836
+  },
+  {
+    "time": 2875.0,
+    "distance": 14249.990234375,
+    "heartRate": null,
+    "latitude": 53.94848193973303,
+    "longitude": 27.66794160939753
+  },
+  {
+    "time": 2880.0,
+    "distance": 14285.330078125,
+    "heartRate": null,
+    "latitude": 53.9482728112489,
+    "longitude": 27.667537182569504
+  },
+  {
+    "time": 2886.0,
+    "distance": 14329.080078125,
+    "heartRate": null,
+    "latitude": 53.947982378304005,
+    "longitude": 27.667089756578207
+  },
+  {
+    "time": 2887.0,
+    "distance": 14336.58984375,
+    "heartRate": null,
+    "latitude": 53.94792948849499,
+    "longitude": 27.667018678039312
+  },
+  {
+    "time": 2893.0,
+    "distance": 14383.4296875,
+    "heartRate": null,
+    "latitude": 53.947591027244925,
+    "longitude": 27.666595224291086
+  },
+  {
+    "time": 2897.0,
+    "distance": 14412.5703125,
+    "heartRate": null,
+    "latitude": 53.947367733344436,
+    "longitude": 27.66636329703033
+  },
+  {
+    "time": 2898.0,
+    "distance": 14419.83984375,
+    "heartRate": null,
+    "latitude": 53.9473092276603,
+    "longitude": 27.666314262896776
+  },
+  {
+    "time": 2899.0,
+    "distance": 14427.1796875,
+    "heartRate": null,
+    "latitude": 53.94724661484361,
+    "longitude": 27.66627830453217
+  },
+  {
+    "time": 2902.0,
+    "distance": 14450.919921875,
+    "heartRate": null,
+    "latitude": 53.9470483828336,
+    "longitude": 27.66614595428109
+  },
+  {
+    "time": 2903.0,
+    "distance": 14458.9697265625,
+    "heartRate": null,
+    "latitude": 53.94698794931173,
+    "longitude": 27.66607839614153
+  },
+  {
+    "time": 2905.0,
+    "distance": 14474.4404296875,
+    "heartRate": null,
+    "latitude": 53.94687504507601,
+    "longitude": 27.665940849110484
+  },
+  {
+    "time": 2907.0,
+    "distance": 14485.91015625,
+    "heartRate": null,
+    "latitude": 53.946825843304396,
+    "longitude": 27.66579114831984
+  },
+  {
+    "time": 2909.0,
+    "distance": 14496.6201171875,
+    "heartRate": null,
+    "latitude": 53.94684160128236,
+    "longitude": 27.665631975978613
+  },
+  {
+    "time": 2910.0,
+    "distance": 14502.2998046875,
+    "heartRate": null,
+    "latitude": 53.94686280749738,
+    "longitude": 27.665553018450737
+  },
+  {
+    "time": 2913.0,
+    "distance": 14520.5498046875,
+    "heartRate": null,
+    "latitude": 53.946941597387195,
+    "longitude": 27.665309691801667
+  },
+  {
+    "time": 2916.0,
+    "distance": 14540.2802734375,
+    "heartRate": null,
+    "latitude": 53.9470396656543,
+    "longitude": 27.665061336010695
+  },
+  {
+    "time": 2917.0,
+    "distance": 14546.98046875,
+    "heartRate": null,
+    "latitude": 53.94708291627467,
+    "longitude": 27.664990089833736
+  },
+  {
+    "time": 2920.0,
+    "distance": 14567.009765625,
+    "heartRate": null,
+    "latitude": 53.947227001190186,
+    "longitude": 27.664806777611375
+  },
+  {
+    "time": 2926.0,
+    "distance": 14604.099609375,
+    "heartRate": null,
+    "latitude": 53.94749010913074,
+    "longitude": 27.664459515362978
+  },
+  {
+    "time": 2928.0,
+    "distance": 14616.1396484375,
+    "heartRate": null,
+    "latitude": 53.9475751016289,
+    "longitude": 27.664346108213067
+  },
+  {
+    "time": 2929.0,
+    "distance": 14622.1904296875,
+    "heartRate": null,
+    "latitude": 53.947620280086994,
+    "longitude": 27.66429489478469
+  },
+  {
+    "time": 2934.0,
+    "distance": 14651.6796875,
+    "heartRate": null,
+    "latitude": 53.94784634001553,
+    "longitude": 27.66406045295298
+  },
+  {
+    "time": 2940.0,
+    "distance": 14688.3798828125,
+    "heartRate": null,
+    "latitude": 53.94812964834273,
+    "longitude": 27.663774378597736
+  },
+  {
+    "time": 2944.0,
+    "distance": 14713.9404296875,
+    "heartRate": null,
+    "latitude": 53.94833282567561,
+    "longitude": 27.66359332948923
+  },
+  {
+    "time": 2950.0,
+    "distance": 14752.2900390625,
+    "heartRate": null,
+    "latitude": 53.948640022426844,
+    "longitude": 27.6633289642632
+  },
+  {
+    "time": 2952.0,
+    "distance": 14765.2099609375,
+    "heartRate": null,
+    "latitude": 53.948743622750044,
+    "longitude": 27.663240116089582
+  },
+  {
+    "time": 2955.0,
+    "distance": 14783.4404296875,
+    "heartRate": null,
+    "latitude": 53.948880499228835,
+    "longitude": 27.663087397813797
+  },
+  {
+    "time": 2959.0,
+    "distance": 14809.0498046875,
+    "heartRate": null,
+    "latitude": 53.949079401791096,
+    "longitude": 27.662891428917646
+  },
+  {
+    "time": 2963.0,
+    "distance": 14827.0,
+    "heartRate": null,
+    "latitude": 53.949208399280906,
+    "longitude": 27.662735609337687
+  },
+  {
+    "time": 2965.0,
+    "distance": 14834.580078125,
+    "heartRate": null,
+    "latitude": 53.949158024042845,
+    "longitude": 27.66266335733235
+  },
+  {
+    "time": 2966.0,
+    "distance": 14839.080078125,
+    "heartRate": null,
+    "latitude": 53.94912080839276,
+    "longitude": 27.66263611614704
+  }
+]

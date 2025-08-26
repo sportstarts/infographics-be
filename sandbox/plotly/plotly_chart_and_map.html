@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Athlete Tracker with Animation</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    #container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #chart,
+    #map {
+      flex: 1;
+    }
+
+    #slider-container,
+    #controls {
+      text-align: center;
+      padding: 10px;
+    }
+
+    input[type="range"] {
+      width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="chart"></div>
+    <div id="map"></div>
+    <div id="slider-container">
+      <input type="range" id="timeSlider" min="0" max="0" value="0" step="1">
+      <div id="timeLabel">Time: 0s</div>
+    </div>
+    <div id="controls">
+      <button id="playBtn">▶ Play</button>
+      <button id="pauseBtn">⏸ Pause</button>
+    </div>
+  </div>
+
+  <script>
+    let activity = [];
+    let lats = [], lons = [], distances = [], heartRates = [];
+    let autoplayInterval = null;
+    let currentIndex = 0;
+
+    const slider = document.getElementById("timeSlider");
+    const timeLabel = document.getElementById("timeLabel");
+    const playBtn = document.getElementById("playBtn");
+    const pauseBtn = document.getElementById("pauseBtn");
+
+    // Load the data
+    fetch('euroservice.json')
+      .then(response => response.json())
+      .then(data => {
+        activity = data;
+
+        lats = activity.map(d => d.latitude);
+        lons = activity.map(d => d.longitude);
+        distances = activity.map(d => d.distance);
+        heartRates = activity.map(d => d.heartRate);
+
+        slider.max = activity.length - 1;
+
+        // === CHART ===
+        Plotly.newPlot("chart", [
+          {
+            x: distances,
+            y: activity.map(d => d.time), // duration
+            mode: "lines+markers",
+            name: "Duration",
+            line: { color: "green" },
+            yaxis: "y" // left axis
+          },
+          {
+            x: distances,
+            y: heartRates,
+            mode: "lines+markers",
+            name: "Heart Rate",
+            line: { color: "red" },
+            yaxis: "y2" // right axis
+          }
+        ], {
+          xaxis: { title: "Distance (km)" },
+          yaxis: {
+            title: "Duration (s)",
+            side: "left"
+          },
+          yaxis2: {
+            title: "Heart Rate (bpm)",
+            overlaying: "y",
+            side: "right"
+          }
+        });
+
+        // === MAP ===
+        const pathTrace = {
+          type: "scattermapbox",
+          lat: lats,
+          lon: lons,
+          mode: "lines+markers",
+          marker: { size: 4, color: "blue" },
+          line: { width: 2, color: "blue" },
+          name: "Path"
+        };
+
+        const movingPoint = {
+          type: "scattermapbox",
+          lat: [lats[0]],
+          lon: [lons[0]],
+          mode: "markers",
+          marker: { size: 14, color: "red" },
+          name: "Current Position"
+        };
+
+        Plotly.newPlot("map", [pathTrace, movingPoint], {
+          mapbox: {
+            style: "open-street-map",
+            center: { lat: lats[0], lon: lons[0] },
+            zoom: 15
+          },
+          margin: { t: 0, b: 0, l: 0, r: 0 }
+        });
+
+        // === SLIDER ===
+        slider.addEventListener("input", () => {
+          currentIndex = parseInt(slider.value);
+          update(currentIndex);
+        });
+
+        // === CHART HOVER SYNC ===
+        document.getElementById("chart").on('plotly_hover', function (eventData) {
+          const pointIndex = eventData.points[0].pointIndex;
+          currentIndex = pointIndex;
+          update(currentIndex);
+        });
+
+        // === AUTOPLAY ===
+        playBtn.addEventListener("click", () => {
+          if (autoplayInterval) return;
+          autoplayInterval = setInterval(() => {
+            if (currentIndex < activity.length - 1) {
+              currentIndex++;
+              update(currentIndex);
+            } else {
+              clearInterval(autoplayInterval);
+              autoplayInterval = null;
+            }
+          }, 200);
+        });
+
+        pauseBtn.addEventListener("click", () => {
+          clearInterval(autoplayInterval);
+          autoplayInterval = null;
+        });
+
+        update(0); // Initial position
+      });
+
+    function update(index) {
+      if (!activity[index]) return;
+
+      slider.value = index;
+      timeLabel.textContent = `Time: ${activity[index].time}s`;
+
+      Plotly.restyle("map", {
+        lat: [[lats[index]]],
+        lon: [[lons[index]]]
+      }, [1]); // 1 is the red marker
+
+      Plotly.Fx.hover('chart', [
+        { curveNumber: 0, pointNumber: index }
+      ]);
+    }
+  </script>
+</body>
+
+</html>

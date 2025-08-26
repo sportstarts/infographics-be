@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2025-06-30T13:41:19.009Z</time>
+	</metadata>
+	<trk>
+		<name>SwimmingKemer</name>
+		<trkseg>
+			<trkpt lat="36.661624" lon="30.561824"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.661280" lon="30.562854"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.658380" lon="30.560494"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.658414" lon="30.560344"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.660273" lon="30.561900"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.660592" lon="30.561181"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.660342" lon="30.561975"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.661220" lon="30.562715"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="36.661556" lon="30.561782"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
