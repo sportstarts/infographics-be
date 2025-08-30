@@ -1,4 +1,4 @@
-curl -X GET "https://connect.garmin.com/activity-service/activity/20075051433/details?maxChartSize=200000" \
+curl -X GET "https://connect.garmin.com/activity-service/activity/20211716928/details?maxChartSize=200000" \
   -H "Host: connect.garmin.com" \
   -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0" \
   -H "Accept: application/json" \
@@ -22,9 +22,10 @@ curl -X GET "https://connect.garmin.com/activity-service/activity/20075051433/de
 
 jq '[.activityDetailMetrics[] | {
   time: .metrics[1],
-  distance: .metrics[3],
-  heartRate: null,
-  latitude: .metrics[8],
-  longitude: .metrics[2],
-  timestamp: .metrics[7]
+  distance: .metrics[20],
+  heartRate: .metrics[8],
+  latitude: .metrics[4],
+  longitude: .metrics[9],
+  timestamp: .metrics[5],
+  elevation: .metrics[18]
 }]' response.json

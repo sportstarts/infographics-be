@@ -55,7 +55,7 @@
     const pauseBtn = document.getElementById("pauseBtn");
 
     // Load the data
-    fetch('euroservice.json')
+    fetch('zaryadka.json')
       .then(response => response.json())
       .then(data => {
         activity = data;
@@ -64,6 +64,7 @@
         lons = activity.map(d => d.longitude);
         distances = activity.map(d => d.distance);
         heartRates = activity.map(d => d.heartRate);
+        elevations = activity.map(d => d.elevation);
 
         slider.max = activity.length - 1;
 
@@ -71,28 +72,28 @@
         Plotly.newPlot("chart", [
           {
             x: distances,
-            y: activity.map(d => d.time), // duration
-            mode: "lines+markers",
-            name: "Duration",
-            line: { color: "green" },
-            yaxis: "y" // left axis
-          },
-          {
-            x: distances,
             y: heartRates,
             mode: "lines+markers",
             name: "Heart Rate",
             line: { color: "red" },
+            yaxis: "y" // right axis
+          },
+          {
+            x: distances,
+            y: elevations,
+            mode: "lines+markers",
+            name: "Elevation",
+            line: { color: "green" },
             yaxis: "y2" // right axis
           }
         ], {
           xaxis: { title: "Distance (km)" },
           yaxis: {
-            title: "Duration (s)",
+            title: "Heart rate",
             side: "left"
           },
           yaxis2: {
-            title: "Heart Rate (bpm)",
+            title: "Elevation",
             overlaying: "y",
             side: "right"
           }
