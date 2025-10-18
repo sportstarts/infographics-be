@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package mapmatcher;
+
+// Define the request message
+message MatchRequest {
+  repeated Point recorded_route = 1;
+  repeated Point predefined_route = 2;
+}
+
+// Define the response message
+message MatchResponse {
+  oneof result {
+    Success success = 1; // Success details
+    Error error = 2;     // Error details
+  }
+}
+
+// Define a Point message
+message Point {
+  double latitude = 1;
+  double longitude = 2;
+}
+
+// Define a Success message
+message Success {
+  repeated Point matched_points = 1; // Matched points
+  repeated double distances = 2;     // Distances for matched points
+}
+
+// Define an Error message
+message Error {
+  ErrorCode code = 1;       // Error code
+  string details = 2;   // Detailed error description
+}
+
+// Define an ErrorCode enum
+enum ErrorCode {
+  NO_MATCH = 0;          // No match found
+}
+
+// Define the service
+service MapMatcher {
+  rpc MatchRoutes (MatchRequest) returns (MatchResponse);
+}
