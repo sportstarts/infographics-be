@@ -17,16 +17,20 @@ lazy val server2 = project
   .settings(Compile / run / fork := true)
   .settings(
     libraryDependencies ++= List(
-      "com.softwaremill.sttp.tapir" %% "tapir-core" % "1.11.50",
-      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-sync" % "1.11.50",
-      "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.11.50",
+      "com.softwaremill.sttp.tapir" %% "tapir-core" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-sync" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-json-circe" % "1.12.2",
+      "io.circe" %% "circe-core" % "0.14.15",
+      "io.circe" %% "circe-generic" % "0.14.15",
+      "io.circe" %% "circe-parser" % "0.14.15"
     )
   )
 
 lazy val commonSettings = Seq(
   scalacOptions ++= Seq(
     "-deprecation",
-    //"-feature",
+    // "-feature",
     "-language:implicitConversions"
   ),
 )
