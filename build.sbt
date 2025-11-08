@@ -18,12 +18,14 @@ lazy val server2 = project
   .settings(
     libraryDependencies ++= List(
       "com.softwaremill.sttp.tapir" %% "tapir-core" % "1.12.2",
-      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-sync" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-cats" % "1.12.2",
       "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.12.2",
       "com.softwaremill.sttp.tapir" %% "tapir-json-circe" % "1.12.2",
       "io.circe" %% "circe-core" % "0.14.15",
       "io.circe" %% "circe-generic" % "0.14.15",
-      "io.circe" %% "circe-parser" % "0.14.15"
+      "io.circe" %% "circe-parser" % "0.14.15",
+      "org.legogroup" %% "woof-core" % "0.7.0",
+      "org.legogroup" %% "woof-slf4j-2" % "0.7.0",
     )
   )
 

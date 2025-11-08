@@ -10,7 +10,7 @@ object CompetitionEndpoints {
     endpoint
       .get
       .in("api" / "v1" / "competition" / path[CompetitionId].name("competitionId"))
-      .out(stringBody)
+      .out(jsonBody[Competition])
       .tag("Competition")
 
   val createCompetition =
