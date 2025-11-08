@@ -26,5 +26,9 @@ js
 jvm
 server
 shared
-project
+project/*
+!project/
+!project/build.properties
+!project/plugins.sbt
+!project/Versions.scala
 Dockerfile

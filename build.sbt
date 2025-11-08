@@ -1,8 +1,12 @@
 import com.raquo.buildkit.SourceDownloader
+import org.typelevel.scalacoptions.ScalacOptions
+import org.typelevel.sbt.tpolecat.DevMode
 
 ThisBuild / version := "0.1.0"
 
 ThisBuild / scalaVersion := Versions.Scala_3
+
+ThisBuild / tpolecatOptionsMode := DevMode
 
 lazy val root = project.in(file("."))
   .aggregate(server2)
@@ -30,10 +34,9 @@ lazy val server2 = project
   )
 
 lazy val commonSettings = Seq(
-  scalacOptions ++= Seq(
-    "-deprecation",
-    // "-feature",
-    "-language:implicitConversions"
+  tpolecatScalacOptions ++= Set(
+    ScalacOptions.deprecation,
+    ScalacOptions.languageImplicitConversions,
   ),
 )
 

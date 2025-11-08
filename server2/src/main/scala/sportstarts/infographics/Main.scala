@@ -10,8 +10,6 @@ import sportstarts.infographics.CompetitionEndpoints
 import sportstarts.infographics.CompetitionId
 import sportstarts.infographics.CompetitionName
 import sportstarts.infographics.CompetitionPlace
-import sttp.shared.Identity
-import sttp.tapir.*
 import sttp.tapir.server.netty.cats.NettyCatsServer
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 

@@ -1,9 +1,7 @@
 package sportstarts.infographics
 
-import sttp.shared.Identity
 import sttp.tapir.*
 import sttp.tapir.json.circe.*
-import sttp.tapir.server.ServerEndpoint
 
 object CompetitionEndpoints {
   val getCompetition =
