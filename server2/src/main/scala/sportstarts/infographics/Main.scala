@@ -1,61 +1,59 @@
 package sportsparts.infographics
 
 import cats.effect.{IO, IOApp}
+import cats.effect.Resource
 import cats.effect.std.Dispatcher
-import cats.implicits.*
+import doobie.hikari.HikariTransactor
+import doobie.util.ExecutionContexts
 import org.legogroup.woof.{*, given}
 import org.legogroup.woof.slf4j2.*
-import sportstarts.infographics.Competition
-import sportstarts.infographics.CompetitionEndpoints
-import sportstarts.infographics.CompetitionId
-import sportstarts.infographics.CompetitionName
-import sportstarts.infographics.CompetitionPlace
+import sportstarts.infographics.competition.*
 import sttp.tapir.server.netty.cats.NettyCatsServer
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 
-import java.time.LocalDate
-
 object Main extends IOApp.Simple:
-  val swaggerEndpoints = SwaggerInterpreter()
-    .fromEndpoints[IO](
-      List(
-        CompetitionEndpoints.getCompetition,
-        CompetitionEndpoints.createCompetition
-      ),
-      "Sportstarts Infographics", "1.0"
-    )
-
   given Filter = Filter.atLeastLevel(LogLevel.Info)
   given Printer = ColorPrinter()
 
-  val getCompetitionLogic = CompetitionEndpoints.getCompetition.serverLogic[IO] { cid =>
+  val swaggerEndpoints = SwaggerInterpreter()
+    .fromEndpoints[IO](CompetitionEndpoints.all, "Sportstarts Infographics", "1.0")
+
+  case class Resources(woofSlf4jDispatcher: Dispatcher[IO], nettyServer: NettyCatsServer[IO], transactor: HikariTransactor[IO])
+
+  val resources: Resource[IO, Resources] =
     for
-      log <- DefaultLogger.makeIo(Output.fromConsole)
-      _ <- log.info(s"Received request for competition with id: $cid")
-    yield Competition(CompetitionId(123), CompetitionName("Sample Competition"), LocalDate.now(), CompetitionPlace("Sample Place")).asRight
-  }
+      connectEC <- ExecutionContexts.fixedThreadPool[IO](32) // for JDBC operations
+      xa <- HikariTransactor.newHikariTransactor[IO](
+        "org.postgresql.Driver",
+        url = "jdbc:postgresql://localhost:5432/infographics",
+        user = "user",
+        pass = "password",
+        connectEC
+      )
+      woofSlf4jDispatcher <- Dispatcher.sequential[IO]
+      nettyServer <- NettyCatsServer.io()
+    yield Resources(woofSlf4jDispatcher, nettyServer, xa)
 
-  def withWoofSlf4jRegistered(f: IO[Unit]): IO[Unit] =
-    Dispatcher.sequential[IO].use { implicit dispatcher =>
-      for
-        woofLogger <- DefaultLogger.makeIo(Output.fromConsole)
-        _ <- woofLogger.registerSlf4j
-        _ <- f
-      yield ()
-    }
+  val run: IO[Unit] = resources.use { res =>
+    for {
+      woofLogger <- DefaultLogger.makeIo(Output.fromConsole)
+      _ <- IO.delay { // same as org.legogroup.woof.slf4j2.registerSlf4j, but passing dispatcher explicitly
+        WoofLogger.logger = Some(woofLogger)
+        WoofLogger.dispatcher = Some(res.woofSlf4jDispatcher)
+      }
 
-  val run: IO[Unit] = withWoofSlf4jRegistered {
-    NettyCatsServer.io().use { server =>
-      for
-        logger <- DefaultLogger.makeIo(Output.fromConsole)
-        binding <- server
-          .port(8080)
-          .addEndpoint(getCompetitionLogic)
-          .addEndpoints(swaggerEndpoints)
-          .start()
-        _ <- logger.info(s"Netty server started at ${binding.localSocket}")
-        _ <- IO.never
-      yield ()
-    }
+      logger <- DefaultLogger.makeIo(Output.fromConsole)
 
+      competitionRepo = CompetitionRepo(res.transactor)
+      competitionHandlers = CompetitionHandlers(competitionRepo)
+      competitionServerEndpoints = CompetitionServerEndpoints(competitionHandlers)
+
+      binding <- res.nettyServer
+        .port(8080)
+        .addEndpoints(competitionServerEndpoints.endpoints)
+        .addEndpoints(swaggerEndpoints)
+        .start()
+      _ <- logger.info(s"Netty server started at ${binding.localSocket}")
+      _ <- IO.never
+    } yield ()
   }

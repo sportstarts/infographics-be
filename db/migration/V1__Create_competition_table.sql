@@ -1,0 +1,6 @@
+CREATE TABLE competitions (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+		place VARCHAR(255) NOT NULL
+);

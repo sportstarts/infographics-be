@@ -1,6 +1,6 @@
 import com.raquo.buildkit.SourceDownloader
-import org.typelevel.scalacoptions.ScalacOptions
 import org.typelevel.sbt.tpolecat.DevMode
+import org.typelevel.scalacoptions.ScalacOptions
 
 ThisBuild / version := "0.1.0"
 
@@ -30,6 +30,9 @@ lazy val server2 = project
       "io.circe" %% "circe-parser" % "0.14.15",
       "org.legogroup" %% "woof-core" % "0.7.0",
       "org.legogroup" %% "woof-slf4j-2" % "0.7.0",
+      "org.tpolecat" %% "doobie-core" % "1.0.0-RC11",
+      "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC11",
+      "org.tpolecat" %% "doobie-hikari" % "1.0.0-RC11",
     )
   )
 
