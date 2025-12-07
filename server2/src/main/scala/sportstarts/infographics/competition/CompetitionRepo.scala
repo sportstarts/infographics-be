@@ -25,6 +25,7 @@ object CompetitionRepo:
     def getCompetitionById(id: CompetitionId) = sql"SELECT id, name, date, place FROM competitions WHERE id = $id".query[Competition]
     def storeCompetition(competition: CreateCompetition) =
       sql"INSERT INTO competitions (name, date, place) VALUES (${competition.name}, ${competition.date}, ${competition.place})".update.withUniqueGeneratedKeys[Competition]("id", "name", "date", "place")
+
     def updateCompetition(id: CompetitionId, competition: CreateCompetition) =
       sql"""
         UPDATE competitions
@@ -32,8 +33,10 @@ object CompetitionRepo:
         WHERE id = $id
         RETURNING id, name, date, place
       """.query[Competition]
+
     def deleteCompetition(id: CompetitionId) =
       sql"DELETE FROM competitions WHERE id = $id".update
+
     def list(
       name: Option[CompetitionName],
       dateFrom: Option[LocalDate],
@@ -44,7 +47,7 @@ object CompetitionRepo:
     ) = {
       val baseQuery = fr"SELECT id, name, date, place FROM competitions"
       val filters = List(
-        name.map(n => fr"name = $n"),
+        name.map(n => fr"name ILIKE '%$n%'"),
         dateFrom.map(df => fr"date >= $df"),
         dateTo.map(dt => fr"date <= $dt"),
         place.map(p => fr"place = $p")
