@@ -21,7 +21,7 @@ object CompetitionEndpoints {
           )
         )
       )
-      .tag("Competition")
+      .tag("Competitions")
 
   val createCompetition =
     endpoint
@@ -29,7 +29,7 @@ object CompetitionEndpoints {
       .in("api" / "v1" / "competition")
       .in(jsonBody[CreateCompetition])
       .out(jsonBody[Competition])
-      .tag("Competition")
+      .tag("Competitions")
 
   val editCompetition =
     endpoint
@@ -45,14 +45,14 @@ object CompetitionEndpoints {
           )
         )
       )
-      .tag("Competition")
+      .tag("Competitions")
 
   val deleteCompetition =
     endpoint
       .delete
       .in("api" / "v1" / "competition" / path[CompetitionId].name("competitionId"))
       .out(statusCode(StatusCode.NoContent))
-      .tag("Competition")
+      .tag("Competitions")
 
   val listCompetitions =
     endpoint
@@ -67,7 +67,7 @@ object CompetitionEndpoints {
           .and(query[Limit]("limit").default(Limit(10)))
       )
       .out(jsonBody[List[Competition]])
-      .tag("Competition")
+      .tag("Competitions")
 
   val all = List(
     CompetitionEndpoints.getCompetition,
