@@ -47,7 +47,7 @@ object CompetitionRepo:
     ) = {
       val baseQuery = fr"SELECT id, name, date, place FROM competitions"
       val filters = List(
-        name.map(n => fr"name ILIKE '%$n%'"),
+        name.map(n => fr"name ilike ${"%" + n + "%"}"),
         dateFrom.map(df => fr"date >= $df"),
         dateTo.map(dt => fr"date <= $dt"),
         place.map(p => fr"place = $p")
@@ -55,7 +55,8 @@ object CompetitionRepo:
       val whereClause = if (filters.nonEmpty) fr"WHERE" ++ filters.reduce(_ ++ fr"AND" ++ _) else fr""
       val orderClause = fr"ORDER BY date DESC"
       val pagination = fr"OFFSET $offset LIMIT $limit"
-      (baseQuery ++ whereClause ++ orderClause ++ pagination).query[Competition]
+      val query = (baseQuery ++ whereClause ++ orderClause ++ pagination)
+      query.query[Competition]
     }
 
   class Impl(tx: Transactor[IO]) extends CompetitionRepo:
