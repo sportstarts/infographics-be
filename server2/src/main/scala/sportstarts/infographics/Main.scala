@@ -4,13 +4,16 @@ import cats.effect.{IO, IOApp}
 import cats.effect.Resource
 import cats.effect.std.Dispatcher
 import cats.syntax.option.*
+import com.comcast.ip4s.*
 import doobie.hikari.HikariTransactor
 import doobie.util.ExecutionContexts
-import org.legogroup.woof.{*, given}
+import org.http4s.ember.server.EmberServerBuilder
+import org.legogroup.woof.*
 import org.legogroup.woof.slf4j2.*
 import sportstarts.infographics.competition.*
+import sportstarts.infographics.lap.*
 import sportstarts.infographics.logHandler
-import sttp.tapir.server.netty.cats.NettyCatsServer
+import sttp.tapir.server.http4s.Http4sServerInterpreter
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 
 object Main extends IOApp.Simple:
@@ -18,9 +21,9 @@ object Main extends IOApp.Simple:
   given Printer = ColorPrinter()
 
   val swaggerEndpoints = SwaggerInterpreter()
-    .fromEndpoints[IO](CompetitionEndpoints.all, "Sportstarts Infographics", "1.0")
+    .fromEndpoints[IO](CompetitionEndpoints.all ++ LapEndpoints.all, "Sportstarts Infographics", "1.0")
 
-  case class Resources(nettyServer: NettyCatsServer[IO], transactor: HikariTransactor[IO], logger: Logger[IO])
+  case class Resources(transactor: HikariTransactor[IO], logger: Logger[IO])
 
   val resources: Resource[IO, Resources] =
     for
@@ -41,22 +44,30 @@ object Main extends IOApp.Simple:
         connectEC,
         logHandler = logHandler(logger).some
       )
-      nettyServer <- NettyCatsServer.io()
-    yield Resources(nettyServer, xa, logger)
+    yield Resources(xa, logger)
 
   val run: IO[Unit] = resources.use { res =>
+    given Logger[IO] = res.logger
+
     val competitionRepo = CompetitionRepo(res.transactor)
     val competitionHandlers = CompetitionHandlers(competitionRepo)
     val competitionServerEndpoints = CompetitionServerEndpoints(competitionHandlers)
 
-    for {
+    val lapRepo = LapRepo(res.transactor)
+    val lapHandlers = LapHandlers(lapRepo)
+    val lapServerEndpoints = LapServerEndpoints(lapHandlers)
 
-      binding <- res.nettyServer
-        .port(8080)
-        .addEndpoints(competitionServerEndpoints.endpoints)
-        .addEndpoints(swaggerEndpoints)
-        .start()
-      _ <- res.logger.info(s"Netty server started at ${binding.localSocket}")
-      _ <- IO.never
-    } yield ()
+    val routes = Http4sServerInterpreter[IO]().toRoutes(
+      lapServerEndpoints.endpoints ++
+        competitionServerEndpoints.endpoints ++
+        swaggerEndpoints
+    )
+
+    EmberServerBuilder
+      .default[IO]
+      .withHost(host"0.0.0.0")
+      .withPort(port"8080")
+      .withHttpApp(routes.orNotFound)
+      .build
+      .useForever
   }

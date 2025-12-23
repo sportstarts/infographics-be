@@ -22,17 +22,25 @@ lazy val server2 = project
   .settings(
     libraryDependencies ++= List(
       "com.softwaremill.sttp.tapir" %% "tapir-core" % "1.12.2",
-      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-cats" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-testing" % "1.12.2",
       "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.12.2",
       "com.softwaremill.sttp.tapir" %% "tapir-json-circe" % "1.12.2",
+      "com.softwaremill.sttp.tapir" %% "tapir-http4s-server" % "1.12.2",
+
+      "org.http4s" %% "http4s-ember-server" % "0.23.33",
+
       "io.circe" %% "circe-core" % "0.14.15",
       "io.circe" %% "circe-generic" % "0.14.15",
       "io.circe" %% "circe-parser" % "0.14.15",
+
       "org.legogroup" %% "woof-core" % "0.7.0",
       "org.legogroup" %% "woof-slf4j-2" % "0.7.0",
+
       "org.tpolecat" %% "doobie-core" % "1.0.0-RC11",
       "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC11",
       "org.tpolecat" %% "doobie-hikari" % "1.0.0-RC11",
+
+      "io.jenetics" % "jpx" % "3.2.1"
     )
   )
 

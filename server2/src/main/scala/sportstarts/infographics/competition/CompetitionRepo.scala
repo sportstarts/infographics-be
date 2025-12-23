@@ -27,12 +27,11 @@ object CompetitionRepo:
       sql"INSERT INTO competitions (name, date, place) VALUES (${competition.name}, ${competition.date}, ${competition.place})".update.withUniqueGeneratedKeys[Competition]("id", "name", "date", "place")
 
     def updateCompetition(id: CompetitionId, competition: CreateCompetition) =
-      sql"""
-        UPDATE competitions
-        SET name = ${competition.name}, date = ${competition.date}, place = ${competition.place}
-        WHERE id = $id
-        RETURNING id, name, date, place
-      """.query[Competition]
+      sql"""| UPDATE competitions
+            | SET name = ${competition.name}, date = ${competition.date}, place = ${competition.place}
+            | WHERE id = $id
+            | RETURNING id, name, date, place
+      """.stripMargin.query[Competition]
 
     def deleteCompetition(id: CompetitionId) =
       sql"DELETE FROM competitions WHERE id = $id".update

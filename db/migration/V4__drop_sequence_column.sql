@@ -1,0 +1,2 @@
+ALTER TABLE laps
+	DROP COLUMN sequence;
