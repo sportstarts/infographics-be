@@ -24,25 +24,45 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11map_matcher.proto\x12\nmapmatcher\"f\n\x0cMatchRequest\x12)\n\x0erecorded_route\x18\x01 \x03(\x0b\x32\x11.mapmatcher.Point\x12+\n\x10predefined_route\x18\x02 \x03(\x0b\x32\x11.mapmatcher.Point\"e\n\rMatchResponse\x12&\n\x07success\x18\x01 \x01(\x0b\x32\x13.mapmatcher.SuccessH\x00\x12\"\n\x05\x65rror\x18\x02 \x01(\x0b\x32\x11.mapmatcher.ErrorH\x00\x42\x08\n\x06result\",\n\x05Point\x12\x10\n\x08latitude\x18\x01 \x01(\x01\x12\x11\n\tlongitude\x18\x02 \x01(\x01\"G\n\x07Success\x12)\n\x0ematched_points\x18\x01 \x03(\x0b\x32\x11.mapmatcher.Point\x12\x11\n\tdistances\x18\x02 \x03(\x01\"=\n\x05\x45rror\x12#\n\x04\x63ode\x18\x01 \x01(\x0e\x32\x15.mapmatcher.ErrorCode\x12\x0f\n\x07\x64\x65tails\x18\x02 \x01(\t*\x19\n\tErrorCode\x12\x0c\n\x08NO_MATCH\x10\x00\x32P\n\nMapMatcher\x12\x42\n\x0bMatchRoutes\x12\x18.mapmatcher.MatchRequest\x1a\x19.mapmatcher.MatchResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11map_matcher.proto\x12\nmapmatcher\"\x14\n\x03Lat\x12\r\n\x05value\x18\x01 \x01(\x01\"\x14\n\x03Lon\x12\r\n\x05value\x18\x01 \x01(\x01\"Q\n\x08GpsPoint\x12!\n\x08latitude\x18\x01 \x01(\x0b\x32\x0f.mapmatcher.Lat\x12\"\n\tlongitude\x18\x02 \x01(\x0b\x32\x0f.mapmatcher.Lon\"l\n\x0cMatchRequest\x12,\n\x0erecorded_route\x18\x01 \x03(\x0b\x32\x14.mapmatcher.GpsPoint\x12.\n\x10predefined_route\x18\x02 \x03(\x0b\x32\x14.mapmatcher.GpsPoint\"o\n\rMatchResponse\x12+\n\x07success\x18\x01 \x01(\x0b\x32\x18.mapmatcher.MatchSuccessH\x00\x12\'\n\x05\x65rror\x18\x02 \x01(\x0b\x32\x16.mapmatcher.MatchErrorH\x00\x42\x08\n\x06result\"$\n\x12\x43umulativeDistance\x12\x0e\n\x06meters\x18\x01 \x01(\x01\"o\n\x0cMatchSuccess\x12,\n\x0ematched_points\x18\x01 \x03(\x0b\x32\x14.mapmatcher.GpsPoint\x12\x31\n\tdistances\x18\x02 \x03(\x0b\x32\x1e.mapmatcher.CumulativeDistance\"B\n\nMatchError\x12#\n\x04\x63ode\x18\x01 \x01(\x0e\x32\x15.mapmatcher.ErrorCode\x12\x0f\n\x07\x64\x65tails\x18\x02 \x01(\t\"+\n\x03Lap\x12$\n\x06points\x18\x01 \x03(\x0b\x32\x14.mapmatcher.GpsPoint\"2\n\x12LapDistanceRequest\x12\x1c\n\x03lap\x18\x01 \x01(\x0b\x32\x0f.mapmatcher.Lap\"H\n\x13LapDistanceResponse\x12\x31\n\tdistances\x18\x01 \x03(\x0b\x32\x1e.mapmatcher.CumulativeDistance\"Q\n\tTimeSplit\x12\"\n\x04\x66rom\x18\x01 \x01(\x0b\x32\x14.mapmatcher.GpsPoint\x12 \n\x02to\x18\x02 \x01(\x0b\x32\x14.mapmatcher.GpsPoint\"\x92\x01\n\x15TimesplitOnLapRequest\x12\x1c\n\x03lap\x18\x01 \x01(\x0b\x32\x0f.mapmatcher.Lap\x12\x31\n\tdistances\x18\x02 \x03(\x0b\x32\x1e.mapmatcher.CumulativeDistance\x12(\n\ttimesplit\x18\x03 \x01(\x0b\x32\x15.mapmatcher.TimeSplit\"{\n\x0eTimesplitOnLap\x12\x30\n\x12intersection_point\x18\x01 \x01(\x0b\x32\x14.mapmatcher.GpsPoint\x12\x37\n\x0f\x64istance_on_lap\x18\x02 \x01(\x0b\x32\x1e.mapmatcher.CumulativeDistance\"O\n\x16TimesplitOnLapResponse\x12\x35\n\x11timesplits_on_lap\x18\x01 \x03(\x0b\x32\x1a.mapmatcher.TimesplitOnLap*\x19\n\tErrorCode\x12\x0c\n\x08NO_MATCH\x10\x00\x32\x86\x02\n\nMapMatcher\x12\x42\n\x0bMatchRoutes\x12\x18.mapmatcher.MatchRequest\x1a\x19.mapmatcher.MatchResponse\x12W\n\x14\x43\x61lculateLapDistance\x12\x1e.mapmatcher.LapDistanceRequest\x1a\x1f.mapmatcher.LapDistanceResponse\x12[\n\x12\x46indTimesplitOnLap\x12!.mapmatcher.TimesplitOnLapRequest\x1a\".mapmatcher.TimesplitOnLapResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'map_matcher_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_ERRORCODE']._serialized_start=422
-  _globals['_ERRORCODE']._serialized_end=447
-  _globals['_MATCHREQUEST']._serialized_start=33
-  _globals['_MATCHREQUEST']._serialized_end=135
-  _globals['_MATCHRESPONSE']._serialized_start=137
-  _globals['_MATCHRESPONSE']._serialized_end=238
-  _globals['_POINT']._serialized_start=240
-  _globals['_POINT']._serialized_end=284
-  _globals['_SUCCESS']._serialized_start=286
-  _globals['_SUCCESS']._serialized_end=357
-  _globals['_ERROR']._serialized_start=359
-  _globals['_ERROR']._serialized_end=420
-  _globals['_MAPMATCHER']._serialized_start=449
-  _globals['_MAPMATCHER']._serialized_end=529
+  _globals['_ERRORCODE']._serialized_start=1211
+  _globals['_ERRORCODE']._serialized_end=1236
+  _globals['_LAT']._serialized_start=33
+  _globals['_LAT']._serialized_end=53
+  _globals['_LON']._serialized_start=55
+  _globals['_LON']._serialized_end=75
+  _globals['_GPSPOINT']._serialized_start=77
+  _globals['_GPSPOINT']._serialized_end=158
+  _globals['_MATCHREQUEST']._serialized_start=160
+  _globals['_MATCHREQUEST']._serialized_end=268
+  _globals['_MATCHRESPONSE']._serialized_start=270
+  _globals['_MATCHRESPONSE']._serialized_end=381
+  _globals['_CUMULATIVEDISTANCE']._serialized_start=383
+  _globals['_CUMULATIVEDISTANCE']._serialized_end=419
+  _globals['_MATCHSUCCESS']._serialized_start=421
+  _globals['_MATCHSUCCESS']._serialized_end=532
+  _globals['_MATCHERROR']._serialized_start=534
+  _globals['_MATCHERROR']._serialized_end=600
+  _globals['_LAP']._serialized_start=602
+  _globals['_LAP']._serialized_end=645
+  _globals['_LAPDISTANCEREQUEST']._serialized_start=647
+  _globals['_LAPDISTANCEREQUEST']._serialized_end=697
+  _globals['_LAPDISTANCERESPONSE']._serialized_start=699
+  _globals['_LAPDISTANCERESPONSE']._serialized_end=771
+  _globals['_TIMESPLIT']._serialized_start=773
+  _globals['_TIMESPLIT']._serialized_end=854
+  _globals['_TIMESPLITONLAPREQUEST']._serialized_start=857
+  _globals['_TIMESPLITONLAPREQUEST']._serialized_end=1003
+  _globals['_TIMESPLITONLAP']._serialized_start=1005
+  _globals['_TIMESPLITONLAP']._serialized_end=1128
+  _globals['_TIMESPLITONLAPRESPONSE']._serialized_start=1130
+  _globals['_TIMESPLITONLAPRESPONSE']._serialized_end=1209
+  _globals['_MAPMATCHER']._serialized_start=1239
+  _globals['_MAPMATCHER']._serialized_end=1501
 # @@protoc_insertion_point(module_scope)

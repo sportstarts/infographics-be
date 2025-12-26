@@ -2,44 +2,91 @@ syntax = "proto3";
 
 package mapmatcher;
 
-// Define the request message
-message MatchRequest {
-  repeated Point recorded_route = 1;
-  repeated Point predefined_route = 2;
+message Lat {
+  double value = 1;
 }
 
-// Define the response message
+message Lon {
+  double value = 1;
+}
+
+message GpsPoint {
+  Lat latitude = 1;
+  Lon longitude = 2;
+}
+
+message MatchRequest {
+  repeated GpsPoint recorded_route = 1;
+  repeated GpsPoint predefined_route = 2;
+}
+
 message MatchResponse {
   oneof result {
-    Success success = 1; // Success details
-    Error error = 2;     // Error details
+    MatchSuccess success = 1;
+    MatchError error = 2;
   }
 }
 
-// Define a Point message
-message Point {
-  double latitude = 1;
-  double longitude = 2;
+message CumulativeDistance {
+  double meters = 1;
 }
 
-// Define a Success message
-message Success {
-  repeated Point matched_points = 1; // Matched points
-  repeated double distances = 2;     // Distances for matched points
+message MatchSuccess {
+  repeated GpsPoint matched_points = 1;
+  repeated CumulativeDistance distances = 2;
 }
 
-// Define an Error message
-message Error {
-  ErrorCode code = 1;       // Error code
-  string details = 2;   // Detailed error description
+message MatchError {
+  ErrorCode code = 1;
+  string details = 2;
 }
 
-// Define an ErrorCode enum
 enum ErrorCode {
-  NO_MATCH = 0;          // No match found
+  NO_MATCH = 0;
 }
 
-// Define the service
+message Lap {
+  repeated GpsPoint points = 1;
+}
+
+message LapDistanceRequest {
+  Lap lap = 1;
+}
+
+message LapDistanceResponse {
+  repeated CumulativeDistance distances = 1;
+}
+
+message TimeSplit {
+  GpsPoint from = 1;
+  GpsPoint to = 2;
+}
+
+message TimesplitOnLapRequest {
+  Lap lap = 1;
+
+  // produced by LapDistanceResponse
+  repeated CumulativeDistance distances = 2;
+
+  TimeSplit timesplit = 3;
+}
+
+message TimesplitOnLap {
+  GpsPoint intersection_point = 1;
+  // Cumulative distance along the lap at the intersection point
+  CumulativeDistance distance_on_lap = 2;
+}
+
+message TimesplitOnLapResponse {
+  repeated TimesplitOnLap timesplits_on_lap = 1;
+}
+
 service MapMatcher {
   rpc MatchRoutes (MatchRequest) returns (MatchResponse);
+
+  rpc CalculateLapDistance (LapDistanceRequest) returns (LapDistanceResponse);
+
+  // Find intersections between a timesplit (line) and a lap polyline.
+  // Returns list of intersections with the GPS point and its cumulative distance on the lap.
+  rpc FindTimesplitOnLap (TimesplitOnLapRequest) returns (TimesplitOnLapResponse);
 }

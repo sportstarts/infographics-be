@@ -26,8 +26,7 @@ if _version_not_supported:
 
 
 class MapMatcherStub(object):
-    """Define the service
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
         """Constructor.
@@ -40,14 +39,37 @@ class MapMatcherStub(object):
                 request_serializer=map__matcher__pb2.MatchRequest.SerializeToString,
                 response_deserializer=map__matcher__pb2.MatchResponse.FromString,
                 _registered_method=True)
+        self.CalculateLapDistance = channel.unary_unary(
+                '/mapmatcher.MapMatcher/CalculateLapDistance',
+                request_serializer=map__matcher__pb2.LapDistanceRequest.SerializeToString,
+                response_deserializer=map__matcher__pb2.LapDistanceResponse.FromString,
+                _registered_method=True)
+        self.FindTimesplitOnLap = channel.unary_unary(
+                '/mapmatcher.MapMatcher/FindTimesplitOnLap',
+                request_serializer=map__matcher__pb2.TimesplitOnLapRequest.SerializeToString,
+                response_deserializer=map__matcher__pb2.TimesplitOnLapResponse.FromString,
+                _registered_method=True)
 
 
 class MapMatcherServicer(object):
-    """Define the service
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def MatchRoutes(self, request, context):
         """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def CalculateLapDistance(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def FindTimesplitOnLap(self, request, context):
+        """Find intersections between a timesplit (line) and a lap polyline.
+        Returns list of intersections with the GPS point and its cumulative distance on the lap.
+        """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
@@ -60,6 +82,16 @@ def add_MapMatcherServicer_to_server(servicer, server):
                     request_deserializer=map__matcher__pb2.MatchRequest.FromString,
                     response_serializer=map__matcher__pb2.MatchResponse.SerializeToString,
             ),
+            'CalculateLapDistance': grpc.unary_unary_rpc_method_handler(
+                    servicer.CalculateLapDistance,
+                    request_deserializer=map__matcher__pb2.LapDistanceRequest.FromString,
+                    response_serializer=map__matcher__pb2.LapDistanceResponse.SerializeToString,
+            ),
+            'FindTimesplitOnLap': grpc.unary_unary_rpc_method_handler(
+                    servicer.FindTimesplitOnLap,
+                    request_deserializer=map__matcher__pb2.TimesplitOnLapRequest.FromString,
+                    response_serializer=map__matcher__pb2.TimesplitOnLapResponse.SerializeToString,
+            ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
             'mapmatcher.MapMatcher', rpc_method_handlers)
@@ -69,8 +101,7 @@ def add_MapMatcherServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class MapMatcher(object):
-    """Define the service
-    """
+    """Missing associated documentation comment in .proto file."""
 
     @staticmethod
     def MatchRoutes(request,
@@ -89,6 +120,60 @@ class MapMatcher(object):
             '/mapmatcher.MapMatcher/MatchRoutes',
             map__matcher__pb2.MatchRequest.SerializeToString,
             map__matcher__pb2.MatchResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def CalculateLapDistance(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/mapmatcher.MapMatcher/CalculateLapDistance',
+            map__matcher__pb2.LapDistanceRequest.SerializeToString,
+            map__matcher__pb2.LapDistanceResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def FindTimesplitOnLap(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/mapmatcher.MapMatcher/FindTimesplitOnLap',
+            map__matcher__pb2.TimesplitOnLapRequest.SerializeToString,
+            map__matcher__pb2.TimesplitOnLapResponse.FromString,
             options,
             channel_credentials,
             insecure,
