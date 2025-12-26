@@ -1,0 +1,38 @@
+{
+  "predefined_route": [
+    {
+      "latitude": {
+        "value": 53.963193
+      },
+      "longitude": {
+        "value": 27.59168
+      }
+    },
+    {
+      "latitude": {
+        "value": 53.962852
+      },
+      "longitude": {
+        "value": 27.592109
+      }
+    }
+  ],
+  "recorded_route": [
+    {
+      "latitude": {
+        "value": 53.96314641460776
+      },
+      "longitude": {
+        "value": 27.591681042686105
+      }
+    },
+    {
+      "latitude": {
+        "value": 53.96314591169357
+      },
+      "longitude": {
+        "value": 27.591680707409978
+      }
+    }
+  ]
+}

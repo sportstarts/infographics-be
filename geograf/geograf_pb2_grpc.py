@@ -3,9 +3,9 @@
 import grpc
 import warnings
 
-import map_matcher_pb2 as map__matcher__pb2
+import geograf_pb2 as geograf__pb2
 
-GRPC_GENERATED_VERSION = '1.74.0'
+GRPC_GENERATED_VERSION = '1.76.0'
 GRPC_VERSION = grpc.__version__
 _version_not_supported = False
 
@@ -18,14 +18,14 @@ except ImportError:
 if _version_not_supported:
     raise RuntimeError(
         f'The grpc package installed is at version {GRPC_VERSION},'
-        + f' but the generated code in map_matcher_pb2_grpc.py depends on'
+        + ' but the generated code in geograf_pb2_grpc.py depends on'
         + f' grpcio>={GRPC_GENERATED_VERSION}.'
         + f' Please upgrade your grpc module to grpcio>={GRPC_GENERATED_VERSION}'
         + f' or downgrade your generated code using grpcio-tools<={GRPC_VERSION}.'
     )
 
 
-class MapMatcherStub(object):
+class GeografStub(object):
     """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
@@ -35,23 +35,23 @@ class MapMatcherStub(object):
             channel: A grpc.Channel.
         """
         self.MatchRoutes = channel.unary_unary(
-                '/mapmatcher.MapMatcher/MatchRoutes',
-                request_serializer=map__matcher__pb2.MatchRequest.SerializeToString,
-                response_deserializer=map__matcher__pb2.MatchResponse.FromString,
+                '/geograf.Geograf/MatchRoutes',
+                request_serializer=geograf__pb2.MatchRequest.SerializeToString,
+                response_deserializer=geograf__pb2.MatchResponse.FromString,
                 _registered_method=True)
         self.CalculateLapDistance = channel.unary_unary(
-                '/mapmatcher.MapMatcher/CalculateLapDistance',
-                request_serializer=map__matcher__pb2.LapDistanceRequest.SerializeToString,
-                response_deserializer=map__matcher__pb2.LapDistanceResponse.FromString,
+                '/geograf.Geograf/CalculateLapDistance',
+                request_serializer=geograf__pb2.LapDistanceRequest.SerializeToString,
+                response_deserializer=geograf__pb2.LapDistanceResponse.FromString,
                 _registered_method=True)
         self.FindTimesplitOnLap = channel.unary_unary(
-                '/mapmatcher.MapMatcher/FindTimesplitOnLap',
-                request_serializer=map__matcher__pb2.TimesplitOnLapRequest.SerializeToString,
-                response_deserializer=map__matcher__pb2.TimesplitOnLapResponse.FromString,
+                '/geograf.Geograf/FindTimesplitOnLap',
+                request_serializer=geograf__pb2.TimesplitOnLapRequest.SerializeToString,
+                response_deserializer=geograf__pb2.TimesplitOnLapResponse.FromString,
                 _registered_method=True)
 
 
-class MapMatcherServicer(object):
+class GeografServicer(object):
     """Missing associated documentation comment in .proto file."""
 
     def MatchRoutes(self, request, context):
@@ -75,32 +75,32 @@ class MapMatcherServicer(object):
         raise NotImplementedError('Method not implemented!')
 
 
-def add_MapMatcherServicer_to_server(servicer, server):
+def add_GeografServicer_to_server(servicer, server):
     rpc_method_handlers = {
             'MatchRoutes': grpc.unary_unary_rpc_method_handler(
                     servicer.MatchRoutes,
-                    request_deserializer=map__matcher__pb2.MatchRequest.FromString,
-                    response_serializer=map__matcher__pb2.MatchResponse.SerializeToString,
+                    request_deserializer=geograf__pb2.MatchRequest.FromString,
+                    response_serializer=geograf__pb2.MatchResponse.SerializeToString,
             ),
             'CalculateLapDistance': grpc.unary_unary_rpc_method_handler(
                     servicer.CalculateLapDistance,
-                    request_deserializer=map__matcher__pb2.LapDistanceRequest.FromString,
-                    response_serializer=map__matcher__pb2.LapDistanceResponse.SerializeToString,
+                    request_deserializer=geograf__pb2.LapDistanceRequest.FromString,
+                    response_serializer=geograf__pb2.LapDistanceResponse.SerializeToString,
             ),
             'FindTimesplitOnLap': grpc.unary_unary_rpc_method_handler(
                     servicer.FindTimesplitOnLap,
-                    request_deserializer=map__matcher__pb2.TimesplitOnLapRequest.FromString,
-                    response_serializer=map__matcher__pb2.TimesplitOnLapResponse.SerializeToString,
+                    request_deserializer=geograf__pb2.TimesplitOnLapRequest.FromString,
+                    response_serializer=geograf__pb2.TimesplitOnLapResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
-            'mapmatcher.MapMatcher', rpc_method_handlers)
+            'geograf.Geograf', rpc_method_handlers)
     server.add_generic_rpc_handlers((generic_handler,))
-    server.add_registered_method_handlers('mapmatcher.MapMatcher', rpc_method_handlers)
+    server.add_registered_method_handlers('geograf.Geograf', rpc_method_handlers)
 
 
  # This class is part of an EXPERIMENTAL API.
-class MapMatcher(object):
+class Geograf(object):
     """Missing associated documentation comment in .proto file."""
 
     @staticmethod
@@ -117,9 +117,9 @@ class MapMatcher(object):
         return grpc.experimental.unary_unary(
             request,
             target,
-            '/mapmatcher.MapMatcher/MatchRoutes',
-            map__matcher__pb2.MatchRequest.SerializeToString,
-            map__matcher__pb2.MatchResponse.FromString,
+            '/geograf.Geograf/MatchRoutes',
+            geograf__pb2.MatchRequest.SerializeToString,
+            geograf__pb2.MatchResponse.FromString,
             options,
             channel_credentials,
             insecure,
@@ -144,9 +144,9 @@ class MapMatcher(object):
         return grpc.experimental.unary_unary(
             request,
             target,
-            '/mapmatcher.MapMatcher/CalculateLapDistance',
-            map__matcher__pb2.LapDistanceRequest.SerializeToString,
-            map__matcher__pb2.LapDistanceResponse.FromString,
+            '/geograf.Geograf/CalculateLapDistance',
+            geograf__pb2.LapDistanceRequest.SerializeToString,
+            geograf__pb2.LapDistanceResponse.FromString,
             options,
             channel_credentials,
             insecure,
@@ -171,9 +171,9 @@ class MapMatcher(object):
         return grpc.experimental.unary_unary(
             request,
             target,
-            '/mapmatcher.MapMatcher/FindTimesplitOnLap',
-            map__matcher__pb2.TimesplitOnLapRequest.SerializeToString,
-            map__matcher__pb2.TimesplitOnLapResponse.FromString,
+            '/geograf.Geograf/FindTimesplitOnLap',
+            geograf__pb2.TimesplitOnLapRequest.SerializeToString,
+            geograf__pb2.TimesplitOnLapResponse.FromString,
             options,
             channel_credentials,
             insecure,

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package mapmatcher;
+package geograf;
 
 message Lat {
   double value = 1;
@@ -81,7 +81,7 @@ message TimesplitOnLapResponse {
   repeated TimesplitOnLap timesplits_on_lap = 1;
 }
 
-service MapMatcher {
+service Geograf {
   rpc MatchRoutes (MatchRequest) returns (MatchResponse);
 
   rpc CalculateLapDistance (LapDistanceRequest) returns (LapDistanceResponse);
