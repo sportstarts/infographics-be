@@ -1,0 +1,30 @@
+{
+  "lap": {
+    "points": [
+      {
+        "latitude": {
+          "value": 1.0
+        },
+        "longitude": {
+          "value": 1.0
+        }
+      },
+      {
+        "latitude": {
+          "value": 2.0
+        },
+        "longitude": {
+          "value": 2.0
+        }
+      },
+      {
+        "latitude": {
+          "value": 3.0
+        },
+        "longitude": {
+          "value": 3.0
+        }
+      }
+    ]
+  }
+}

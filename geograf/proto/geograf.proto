@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package geograf;
+package server.proto;
 
 message Lat {
   double value = 1;
