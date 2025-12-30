@@ -20,7 +20,8 @@ def load_gpx_points(file_path: str) -> list[GpsPoint]:
         for segment in track.segments:
             for point in segment.points:
                 gps_point = GpsPoint(
-                    latitude=Lat(value=point.latitude), longitude=Lon(value=point.longitude)
+                    latitude=Lat(value=point.latitude),
+                    longitude=Lon(value=point.longitude),
                 )
                 points.append(gps_point)
     return points
@@ -82,7 +83,9 @@ def test_real_route_1():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 13_460, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 13_460, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_2():
@@ -90,7 +93,9 @@ def test_real_route_2():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 26_900, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 26_900, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_3():
@@ -98,7 +103,9 @@ def test_real_route_3():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 32_990, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 32_990, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_4():
@@ -106,7 +113,9 @@ def test_real_route_4():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 62_260, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 62_260, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_5():
@@ -114,7 +123,9 @@ def test_real_route_5():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 15930, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 15930, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_6():
@@ -122,14 +133,19 @@ def test_real_route_6():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 100_910, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 100_910, rel_tol=0.1 / 100
+    )  # taken from garmin connect
+
 
 def test_real_route_7():
     points = load_gpx_points("./tests/data/Naliboki_2023.gpx")
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 101_470, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 101_470, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_8():
@@ -137,7 +153,9 @@ def test_real_route_8():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 67_490, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 67_490, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_9():
@@ -145,7 +163,9 @@ def test_real_route_9():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 99_410, rel_tol=0.1 / 100) # taken from garmin connect
+    assert isclose(
+        result[-1].meters, 99_410, rel_tol=0.1 / 100
+    )  # taken from garmin connect
 
 
 def test_real_route_10():
@@ -153,7 +173,10 @@ def test_real_route_10():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 8_230, rel_tol=0.7 / 100) # TODO why high tolerance? 
+    # taken from garmin connect
+    # interesting, that 8_280m is a value from importing gpx as a course,
+    # while garmin connect shows 8_230m on activity page
+    assert isclose(result[-1].meters, 8_280, rel_tol=0.1 / 100)
 
 
 def test_real_route_11():
@@ -161,7 +184,10 @@ def test_real_route_11():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 11_090, rel_tol=1.2 / 100) # TODO why high tolerance? 
+    # taken from garmin connect
+    # interesting, that 11_210m is a value from importing gpx as a course,
+    # while garmin connect shows 11_090m on activity page
+    assert isclose(result[-1].meters, 11_210, rel_tol=0.1 / 100)
 
 
 def test_real_route_12():
@@ -169,11 +195,7 @@ def test_real_route_12():
 
     result = g.calculate_cumulative_distances(points)
 
-    assert isclose(result[-1].meters, 20_900, rel_tol=1 / 100) # TODO why high tolerance? 
-
-
-
-
-
-
-
+    # taken from garmin connect
+    # interesting, that 21_090m is a value from importing gpx as a course,
+    # while garmin connect shows 20_900m on activity page
+    assert isclose(result[-1].meters, 21_090, rel_tol=0.1 / 100)
